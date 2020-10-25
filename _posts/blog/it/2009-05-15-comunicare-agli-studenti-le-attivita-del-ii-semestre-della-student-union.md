@@ -3,9 +3,9 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'Comunicare agli studenti: le attività del II semestre della Student Union'
+title: "Comunicare agli studenti: le attività del II semestre della Student Union"
 tag: Rappresentanza
-desc: 'Comunicare agli studenti: le attività del II semestre della Student Union'
+desc: "Comunicare agli studenti: le attività del II semestre della Student Union"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Antonio Mazzitelli
@@ -31,4 +31,4 @@ Anche questo BLOG vuole COMUNICARE: è quasi primavera, c'è sole, iniziamo dall
 
 Antonio Mazzitelli Rappresentante nel Senato Accademico antonio.mazzitelli@svoltastudenti.it qui il volantino delle attività del secondo semestre: http://www.svoltastudenti.it/sites/default/files/attivita_2_sem.pdf] dal nostro blog
 
-FILO DIRETTO CON LA STUDENT UNION su [http://www.studentipolitecnico.it](http://www.studentipolitecnico.it)
+FILO DIRETTO CON LA STUDENT UNION su [http://www.studentipolitecnico.it] (http://www.studentipolitecnico.it)d
