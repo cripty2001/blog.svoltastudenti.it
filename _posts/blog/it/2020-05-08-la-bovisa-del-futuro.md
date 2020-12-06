@@ -12,7 +12,7 @@ authors:
 published: true
 date: 2020-05-08T15:37:39.849Z
 ---
-Gli organi di Governo del Politecnico di Milano nelle riunioni di aprile hanno approvato un grande progetto: **“LA GOCCIA E IL DISTRETTO DI BOVISA – PROGETTO DI RIQUALIFICAZIONE de IL PARCO DEI GASOMETRI”, trovate in conclusione dell’articolo qualche immagine.**
+Gli organi di Governo del Politecnico di Milano nelle riunioni di aprile hanno approvato un grande progetto: **“LA GOCCIA E IL DISTRETTO DI BOVISA – PROGETTO DI RIQUALIFICAZIONE de IL PARCO DEI GASOMETRI”**, trovate in conclusione dell’articolo qualche immagine.
 
 Il recupero dei Gasometri rappresenta una straordinaria ed imperdibile opportunità per il Politecnico e per Milano.
 
@@ -32,7 +32,9 @@ Disposto su 4 livelli presenta al piano interrato -4,20 ml una vasca da 16×25 m
 
 Il quarto livello contiene due campi da paddle, con relativi spogliatoi, e una mensa per 150 coperti, mentre l’ultimo livello ospita un campo outdoor multifunzionale in una cornice disegnata da terrazze verdi ed uno spazio bistrot per 60 coperti.
 
-**Il secondo gasometro è un vero e proprio incubatore di imprese di circa 14.000 mq, che elegge la sua accattivante immagine ad elemento attrattivo di marketing territoriale strategico.** Costituito da sette livelli il nuovo edificio è organizzato attraverso quattro volumi per il collegamento verticale (al cui interno sono posti i vani scala con ascensori e blocco di servizi igienici) che suddividono in maniera simmetrica la superficie del gasometro.
+**Il secondo gasometro è un vero e proprio incubatore di imprese di circa 14.000 mq, che elegge la sua accattivante immagine ad elemento attrattivo di marketing territoriale strategico.**
+
+Costituito da sette livelli, il nuovo edificio è organizzato attraverso quattro volumi per il collegamento verticale (al cui interno sono posti i vani scala con ascensori e blocco di servizi igienici) che suddividono in maniera simmetrica la superficie del gasometro.
 
 I primi due livelli raggiungono la quota del basamento metallico opaco esistente ed accolgono le funzioni più pubbliche: Auditorium di 300 posti a doppia altezza, Spazio flessibile per eventi e mostre, Aule meeting, Aule per la formazione ed alcuni spazi di lavoro collettivo.\
 Il terzo livello del nuovo edificio è interamente dedicato agli impianti ed alle attrezzature tecniche, qui allocate per poter organizzare la copertura dell’edificio con spazi verdi e dotazioni a terrazzo per la sosta all’aria aperta.
@@ -61,30 +63,16 @@ Un caro saluto
 
 ![](/assets/img/uploads/8-768x432.png)
 
-
-
 ![](/assets/img/uploads/8-768x432.png)
-
-
 
 ![](/assets/img/uploads/9-768x432.png)
 
-
-
 ![](/assets/img/uploads/10-768x432.png)
-
-
 
 ![](/assets/img/uploads/11-768x434.png)
 
-
-
 ![](/assets/img/uploads/12-768x433.png)
 
-
-
 ![](/assets/img/uploads/13-768x431.png)
-
-
 
 ![](/assets/img/uploads/14-768x649.png)
