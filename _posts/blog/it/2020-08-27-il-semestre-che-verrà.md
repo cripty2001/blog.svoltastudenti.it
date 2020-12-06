@@ -17,7 +17,7 @@ date: 2020-08-27T16:02:46.862Z
 ---
 Si avvicina l’inizio del primo semestre del nuovo anno accademico e, dopo mesi di incertezza legata alla situazione emergenziale desideriamo in questo breve testo fare il punto della situazione su quanto definito fino ad ora.
 
-## Didattica a distanza garantita, per tutti
+# Didattica a distanza garantita, per tutti
 
 Partiamo da una prima certezza: nei mesi di giugno e luglio si è stabilito che la didattica a distanza sarà garantita a tutti gli studenti del Politecnico, senza necessità di istanze o richieste. Infatti, per permettere la fruizione delle lezioni da remoto, sono in fase di completamento gli allestimenti delle aule con nuove tecnologie digitali per lo streaming. Questo permetterà a chiunque non possa o non se la senta di recarsi in aula di seguire le lezioni da casa.
 
@@ -43,7 +43,7 @@ Le biblioteche riapriranno dal 31 agosto (la BBL è già aperta con 100 posti 
 
 Verranno riposizionati i distributori di acqua microfiltrata, per facilitare il distanziamento sociale. Saranno inoltre ripristinati tutti i distributori automatici e posizionate delle bottiglie di gel disinfettante
 
-Le attività sportive riprenderanno, come vi avevamo già raccontato [qui](https://svoltastudenti.it/it/centro-sportivo-giuriati-polimi-sport/) per Leonardo mentre per Bovisa docce e spogliatoi nel campus saranno disponibili dal 21 settembre. L’ultima settimana di Settembre si terrà un edizione speciale della PolimiRun (i PolimiRun Days) che includerà il distanziamento sociale, dove i rummer competeranno in autonomia sullo stesso percorso. Vi condividiamo anche una chicca, se ve la siete persa, riguardo lo stato dei lavori di rinnovo del Centro Sportivo Giuriati, dove tutte le attività dovrebbero partire per gennaio 2021
+Le attività sportive riprenderanno, come vi avevamo già raccontato [qui](https://svoltastudenti.it/it/centro-sportivo-giuriati-polimi-sport/) per Leonardo mentre per Bovisa docce e spogliatoi nel campus saranno disponibili dal 21 settembre. L’ultima settimana di Settembre si terrà un edizione speciale della PolimiRun (i PolimiRun Days) che includerà il distanziamento sociale, dove i rummer competeranno in autonomia sullo stesso percorso. Vi condividiamo anche una chicca, se ve la siete persa, riguardo lo stato dei lavori di rinnovo del Centro Sportivo Giuriati, dove tutte le attività dovrebbero partire per gennaio 2021.
 
 ![](/assets/img/uploads/118349909_3320279744697393_3491887774344523427_o-300x225.jpg)
 
