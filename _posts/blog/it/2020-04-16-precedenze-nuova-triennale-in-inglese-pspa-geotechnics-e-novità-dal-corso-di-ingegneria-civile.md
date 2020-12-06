@@ -3,8 +3,7 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: Precedenze, nuova triennale in inglese, PSPA Geotechnics e novità dal
-  corso di Ingegneria Civile
+title: Novità dal corso di Ingegneria Civile
 tag: Rappresentanza
 desc: Precedenze, nuova triennale in inglese, PSPA Geotechnics e novità dal
   corso di Ingegneria Civile
