@@ -3,7 +3,7 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: Dal Calendario Accademico 2019-2020 al Diritto allo Studio Universitario
+title: "Dal Calendario Accademico 2019-2020 al DSU "
 tag: Rappresentanza
 desc: "Tante novità: dal Calendario Accademico 2019-2020 al Diritto allo Studio
   Universitario"
