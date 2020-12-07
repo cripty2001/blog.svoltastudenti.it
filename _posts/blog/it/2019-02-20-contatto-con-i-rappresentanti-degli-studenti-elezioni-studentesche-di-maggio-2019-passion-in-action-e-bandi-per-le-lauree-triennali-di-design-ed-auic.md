@@ -3,13 +3,11 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title:  >-
-  Contatto con i rappresentanti degli studenti, elezioni studentesche di maggio
-  2019, Passion in Action e Bandi per le Lauree Triennali di Design ed AUIC
+title: Elezioni studentesche, Passion in Action e Bandi LT- Design e AUIC
 tag: Rappresentanza
-desc:  >-
-  Contatto con i rappresentanti degli studenti, elezioni studentesche di maggio
-  2019, Passion in Action e Bandi per le Lauree Triennali di Design ed AUIC
+desc: Contatto con i rappresentanti degli studenti, elezioni studentesche di
+  maggio 2019, Passion in Action e Bandi per le Lauree Triennali di Design ed
+  AUIC
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Carlo Giovani
