@@ -3,16 +3,16 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'SPORT @POLIMI: HOW TO?'
+title: "SPORT @POLIMI: HOW TO?"
 tag: Rappresentanza
-desc: 'SPORT @POLIMI: HOW TO?'
+desc: "SPORT @POLIMI: HOW TO?"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessandro De Iasio
 published: true
 date: 2019-02-09T22:11:46.792Z
 ---
-_Un’altra giornata al Poli. Lezione alle 9:00, male ma poteva andare peggio. Un’intera giornata tra i banchi. Alle fine ero stanchissimo e avevo voglia di sfogarmi. Ho portato la borsa della palestra stamattina, l’ho lasciata nell’armadietto. La prendo e scappo al Centro Sportivo PoliMi Sport. È molto comodo, è vicinissimo all’università. Mostro la tessera, entro, mi cambio velocemente e via ad allenarmi. Ci sono un sacco di scelte, basket, tennis, pallavolo e squash. C’è anche una palestra che costa pochissimo e dei muri da arrampicata. Ah, e poi una pista di atletica tutta nostra. È tutto gestito dall’università e mi ritrovo con molti compagni di corso, ma anche altri studenti mai conosciuti prima. È un bel servizio, non me lo aspettavo, mi fa vivere questo posto in modo molto più leggero. Mentre correvo già sognavo la doccia calda nello spogliatoio e la serie TV del dopo cena. Dovrebbero esserci le piadine in frigo. Perfetto, anche questa giornata è andata._
+*Un’altra giornata al Poli. Lezione alle 9:00, male ma poteva andare peggio. Un’intera giornata tra i banchi. Alle fine ero stanchissimo e avevo voglia di sfogarmi. Ho portato la borsa della palestra stamattina, l’ho lasciata nell’armadietto. La prendo e scappo al Centro Sportivo PoliMi Sport. È molto comodo, è vicinissimo all’università. Mostro la tessera, entro, mi cambio velocemente e via ad allenarmi. Ci sono un sacco di scelte, basket, tennis, pallavolo e squash. C’è anche una palestra che costa pochissimo e dei muri da arrampicata. Ah, e poi una pista di atletica tutta nostra. È tutto gestito dall’università e mi ritrovo con molti compagni di corso, ma anche altri studenti mai conosciuti prima. È un bel servizio, non me lo aspettavo, mi fa vivere questo posto in modo molto più leggero. Mentre correvo già sognavo la doccia calda nello spogliatoio e la serie TV del dopo cena. Dovrebbero esserci le piadine in frigo. Perfetto, anche questa giornata è andata.*
 
 Molti di noi vorrebbero raccontare la loro giornata in questo modo. La situazione attuale, purtroppo, non lo consente e ancora non possiamo dire che i servizi per lo sport-per-tutti siano quelli auspicabili.
 
@@ -40,7 +40,7 @@ E le squadre ufficiali? La mancanza di strutture adeguate e di tornei universita
 
 L’autore di queste righe vi testimonia quanto segue: qualcosa si sta muovendo con sempre più energia. È evidente oggi guardando ai Campionati PoliMi, alla PoliMi Run, alle borse di studio per meriti sportivi e ai nuovi allenamenti di running presso il Campo Giuriati. E le strutture? Abbiamo dei Playground sempre più attrezzati e uno sguardo più attento al campo giurati può notare un principio di restyling con due bandiere blue con la scritta “PoliMi Sport” all’ingresso, dei totem informativi brandizzati ed un ufficio interno appena ristrutturato.
 
-Ma è soprattutto la volontà dell’Ateneo che fa ben sperare. Il Rettore Ferruccio Resta non ha mai nascosto la sua volontà di inserire questo tema tra gli asset strategici del suo mandato. Abbiamo un delegato alle attività sportive, il prof. Francesco Calvetti, che è innamorato del suo ruolo e fa di tutto nel tentativo di creare una realtà che ancora fatica ad imporsi. Gli uffici amministrativi, invece, hanno dei dipendenti estremamente motivati e dei capi con una vision molto ampia, primi fra tutti il Dott. Federico Colombo e il Dott. Ivan Ciceri.
+Ma è soprattutto la volontà dell’Ateneo che fa ben sperare. Il Rettore Ferruccio Resta non ha mai nascosto la sua volontà di inserire questo tema tra gli asset strategici del suo mandato. Abbiamo un delegato alle attività sportive, il prof. Francesco Calvetti, che è innamorato del suo ruolo e fa di tutto nel tentativo di creare una realtà che ancora fatica ad imporsi. Gli uffici amministrativi, invece, hanno dei dipendenti estremamente motivati e dei capi con una visione molto ampia, primi fra tutti il Dott. Federico Colombo e il Dott. Ivan Ciceri.
 
 Sono solo parole? No. Vi abbiamo fatto notare alcuni segnali ma in ballo c’è una sorpresa. Qualcuno di voi sicuramente avrà notato una zona adiacente al Giuriati con un cantiere bloccato. La mostriamo nell’immagine sottostante, evidenziata sotto su una foto da satellite.
 
@@ -60,7 +60,7 @@ Questa è una misura volta a realizzare un centro sportivo e un centro servizi i
 
 Avrete sicuramente notato che nelle righe precedenti non abbiamo mai citato il campus di Bovisa. Questa zona purtroppo al momento non dispone di siti idonei alla realizzazione di strutture sportive e non beneficia di impianti esistenti, come è avvenuto nel caso dell’area Leonardo con il campo Giuriati.
 
-Tuttavia, la vision sul tema è chiara e quindi non sorprende che ci siano già idee in gioco. Nello specifico, vi è l’intenzione di realizzare un efficiente polo sportivo e spazi verdi presso l’area della Goccia, uno spazio in prossimità del Dipartimento di Ingegneria Gestionale, tra il “Boschetto” e l’area ex gasometri.
+Tuttavia, la visione sul tema è chiara e quindi non sorprende che ci siano già idee in gioco. Nello specifico, vi è l’intenzione di realizzare un efficiente polo sportivo e spazi verdi presso l’area della Goccia, uno spazio in prossimità del Dipartimento di Ingegneria Gestionale, tra il “Boschetto” e l’area ex gasometri.
 
 Se volete maggiori informazioni sui progetti di rivalutazione dell’area di Bovisa vi segnaliamo questi due articoli del blog Urbanlife.
 
@@ -86,6 +86,6 @@ Vuoi partecipare ai prossimi campionati Polimi ma non hai una squadra? Compila q
 
 <https://goo.gl/forms/pv1vhcjmQUGuL9M63?fbclid=IwAR2wXlKBfjFADT-9NY1xRn5ebLRwEK9XuiixjJyd59Ay_orWbuuEhF4C_EA>
 
-Carlo Giovani (<carlo.giovani@svoltastudenti.it>)
+Carlo Giovani ([carlo.giovani@svoltastudenti.it](mailto:carlo.giovani@svoltastudenti.it))
 
-Alessandro de Iasio (<alessandro.deiasio@svoltastudenti.it>)
+Alessandro de Iasio ([alessandro.deiasio@svoltastudenti.it](mailto:alessandro.deiasio@svoltastudenti.it))
