@@ -12,10 +12,9 @@ authors:
 published: true
 date: 2017-07-21T00:00:00.000Z
 ---
-
 Come ormai è noto il nuovo Calendario Accademico prevede una riduzione della finestra per gli esami in itinere, costringendo quindi i CCS ad una scelta fra i diversi insegnamenti presenti nel Manifesto degli Studi (tendenzialmente 2 per ogni semestre di ogni anno).
 
-Quello che forse tutti non sanno è invece che** i professori di Analisi** hanno espresso il loro parere sfavorevole nel continuare ad offrire la prova in itinere della loro materia.
+Quello che forse tutti non sanno è invece che **i professori di Analisi** hanno espresso il loro parere sfavorevole nel continuare ad offrire la prova in itinere della loro materia.
 
 Questo perché, secondo una loro analisi tecnica, il nuovo calendario non è progettato per una valutazione in itinere, inoltre la loro materia (specialmente Analisi 1) essendo di tipologia molto “verticale” (gli argomenti visti alla prima lezione sono essenziali e utilizzati anche nell’ultima) non gioverebbe dei vantaggi di una valutazione spezzata.
 
@@ -31,6 +30,6 @@ Le prove in itinere  sono considerate di immenso valore didattico per gli stude
 
 Questo aspetto peculiare delle prove in itinere, si è rivelato più che mai importante nei primi anni di studio, in cui lo studente fatica ad adattarsi ai ritmi universitari (si guardi il numero di studenti che supera i 100 crediti alla fine del secondo anno) e per gli esami ritenuti particolarmente ostici (le materie in oggetto ne costituiscono un perfetto esempio).
 
-Questo ragionamento vale però per tutti gli insegnamenti, perché quindi fra tutti gli insegnamenti scegliere proprio le materie “matematiche”? Perché gli argomenti affrontati in questi insegnamenti sono i più simili fra quelli studiati nel nostro percorso scolastico superiore, ciò permette allo studente di capire le diverse metriche di valutazione su temi già trattati. Inoltre avendo già affrontato molti degli argomenti in programma risulta più semplice per gli studenti prepare in breve tempo la prova e superarla, indipendentemente dal voto conseguito.
+Questo ragionamento vale però per tutti gli insegnamenti, perché quindi fra tutti gli insegnamenti scegliere proprio le materie “matematiche”? Perché gli argomenti affrontati in questi insegnamenti sono i più simili fra quelli studiati nel nostro percorso scolastico superiore, ciò permette allo studente di capire le diverse metriche di valutazione su temi già trattati. Inoltre avendo già affrontato molti degli argomenti in programma risulta più semplice per gli studenti preparare in breve tempo la prova e superarla, indipendentemente dal voto conseguito.
 
 Con questo nostro intervento non vogliamo sminuire l’analisi tecnica dei docenti delle materie in questione, che non possiamo che condividere visto la loro ampissima esperienza, ma secondo il nostro punto di vista **tutti gli insegnamenti dei primi anni sono fortemente di tipo “verticale”**, in quanto sono appunto insegnamenti di base. Se non dovessimo includere questi insegnamenti nelle prove in itinere ci ritroveremmo nella situazione di non utilizzarle del tutto, con conseguente spreco di uno spazio concesso nel calendario.
