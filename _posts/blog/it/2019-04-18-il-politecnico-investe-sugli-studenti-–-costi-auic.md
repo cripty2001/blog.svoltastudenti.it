@@ -12,26 +12,24 @@ authors:
 published: true
 date: 2019-04-18T21:41:19.811Z
 ---
-
 Lo scorso martedì 16 Aprile è stato approvato in Consiglio di amministrazione il  **Bilancio** Consuntivo del 2018 e il piano degli investimenti. L’analisi presentata dal Rettore Ferruccio Resta ha mostrato un risultato di esercizio di circa  **28 mln€**, un buon risultato per l’Ateneo.
 
-Il punto all’o.d.g. successivo ha trattato il piano degli investimenti che il Politecnico affronterà nel breve e nel medio termine.
+Il punto successivo all’o.d.g. ha trattato il piano degli investimenti che il Politecnico affronterà nel breve e nel medio termine.
 
 Il Piano strategico ha avuto le seguenti aggiunte su richiesta di rappresentanti degli studenti e dei docenti:
 
-1.  Misure dedicate alla strumentazione e ai laboratori
-2.  **Sostentamento alle spese che studenti di Architettura e Design affrontano per le revisioni  
-    **
-3.  Ulteriori borse di studio per Phd
-4.  Misure di consolidamento e nuove iniziative per la Didattica Innovativa
-5.  Processo di Data Analytics per analizzare i percorsi degli studenti internazionali
-6.  Maggiori risorse per la divulgazione scientifica
+1. Misure dedicate alla strumentazione e ai laboratori
+2. **Sostentamento alle spese che studenti di Architettura e Design affrontano per le revisioni**
+3. Ulteriori borse di studio per Phd
+4. Misure di consolidamento e nuove iniziative per la Didattica Innovativa
+5. Processo di Data Analytics per analizzare i percorsi degli studenti internazionali
+6. Maggiori risorse per la divulgazione scientifica
 
 Il punto 2 è quello che spicca di più,  **il più importante per gli studenti!** Siamo davvero fieri che questa nostra richiesta sia stata aggiunta. Nello specifico, si tratterà di buoni Poliprint dati alle fasce ISEE più basse per sostenere i costi di modellini e revisioni del valore di 50€ o 100€. Forse, già dal prossimo settembre sarà possibile utilizzarli!
 
-_Se vuoi saperne di più su tutti gli investimenti continua a leggere il report completo._
+*Se vuoi saperne di più su tutti gli investimenti continua a leggere il report completo.*
 
-----------
+- - -
 
 Le dichiarazioni del Rettore hanno confermato la volontà politica di cercare di essere efficienti nel funzionamento, di perseguire la qualità nei servizi e negli spazi e di essere lungimiranti negli investimenti garantendo gli obbiettivi del piano strategico dell’Ateneo.
 
@@ -47,8 +45,8 @@ Lo sport universitario prende piede e l’Ateneo ha pianificato la fine della ri
 
 Rientrano ancora negli investimenti interventi edilizi vari e la riqualificazione dell’area della Goccia. La tabella sottostante riassume tutto il quadro degli investimenti:
 
-| VOCE INVESTIMENTO                                                                                 | IMPORTO IN EURO |
-|-----------------------------------------------------------------------------------------------------|-----------------|
+| VOCE INVESTIMENTO                                                                                   | IMPORTO IN EURO |
+| --------------------------------------------------------------------------------------------------- | --------------- |
 | Laboratori del Dipartimento di Chimica, Materiali e Ingegneria Chimica —Piano Triennale             | 2.000.000       |
 | Nuovo edificio DEIB —PianoTriennale                                                                 | 2.000.000       |
 | Campus Sportivo Giuriati                                                                            | 1.000.000       |
@@ -64,5 +62,5 @@ Rientrano ancora negli investimenti interventi edilizi vari e la riqualificazion
 | Progetto Parco Gasometri Bovisa                                                                     | 3.000.000       |
 | Aula Magna al Trifoglio                                                                             | 800.000         |
 
-A presto!  
+A presto!\
 Alessandro De Iasio (alessandro.deiasio@svoltastudenti.it) e Carlo Giovani (carlo.giovani@svoltastudenti.it)
