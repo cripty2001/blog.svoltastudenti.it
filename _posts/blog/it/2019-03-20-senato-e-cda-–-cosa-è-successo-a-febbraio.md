@@ -12,7 +12,6 @@ authors:
 published: true
 date: 2019-03-20T22:34:20.900Z
 ---
-
 La riunione del senato accademico di Febbraio si è aperta con la presentazione dell’iniziativa  **Polisocial Award 2018**, un’iniziativa che ci vede tra le poche università italiane a sviluppare questo tipo di tematica.
 
 Si tratta di “un’iniziativa che favorisce lo sviluppo della ricerca scientifica ad alto impatto sociale, finanziata con il contributo del  [5 x mille IRPEF](http://sostieni.polimi.it/it/il-5-x-mille)  destinato al Politecnico di Milano.
@@ -23,15 +22,13 @@ Il prossimo anno il tema sarà:  **sport ed inclusione sociale**, abbiamo propos
 
 È stata inoltre approvata la proposta di  **Piano di Mitigazione e di obiettivi di riduzione delle emissioni di CO2 del Politecnico di Milano**, volto a lavorare sulla riduzione delle emissioni di CO2, a seguito anche di quanto stabilito con l’accordo di Parigi.
 
-Sono state analizzate le emissioni di chi frequenta il nostro Ateneo ed è emerso che la maggior parte di emissioni riguarda le modalità di trasporto e l’energia elettrica ad esempio.
+Sono state analizzate le emissioni di chi frequenta il nostro Ateneo ed è emerso che la maggior parte delle emissioni riguarda le modalità di trasporto e l’energia elettrica ad esempio.
 
 Sono state fatte delle proposte volte alla riduzione di emissioni: l’ottimizzazione del trigeneratore delle sedi Leonardo e Bovisa, la sostituzione del 90% apparecchi illuminanti entro il 2025 e del 100% entro il 2030.
 
 Arrivare a produrre 1MW nel 2025 e 2 MW nel 2030 tramite l’energia fotovoltaica, la sostituzione delle macchine frigorifere presenti in Ateneo, degli interventi sulle superfici opache e lucide degli edifici, una migliore regolazione della distribuzione freddo e caldo.
 
 Ci si muoverà inoltre verso una mobilità più sostenibile: tramite politiche sul costo trasporto pubblico, accordi con carsharing e parcheggi, per arrivare a ridurre le emissioni per l’accesso al campus.
-
-Si breve inoltre un miglioramento della quantità di carbon footprint a livello nazionale per quanto riguarda l’energia e il carburante per gli automezzi.
 
 Si stabiliscono quindi gli obiettivi del 25% di riduzione delle emissioni per il 2025 e di 35% di riduzione nel 2030 rispetto ai dati del 2015.
 
@@ -49,9 +46,9 @@ Il Politecnico sbarcherà anche in Abruzzo, tramite una convenzione scientifica 
 
 In prima attuazione vengono identificate le seguenti aree di interesse per la ricerca:
 
--   caratteri del paesaggio rurale e forestale
--   qualità dello spazio urbano e delle attività esistenti, residuali e di nuova concezione
--   economie per l’accoglienza e fruizione compatibile in contesti fragili
+* caratteri del paesaggio rurale e forestale
+* qualità dello spazio urbano e delle attività esistenti, residuali e di nuova concezione
+* economie per l’accoglienza e fruizione compatibile in contesti fragili
 
 Per Piacenza e Cremona, invece, è finalmente arrivato il momento di rinnovare le mense universitarie. Come ben sanno gli studenti dei due poli territoriali, da Giugno 2018 è stato chiuso il servizio di ristorazione a causa della insostenibilità economica delle attività.
 
@@ -59,7 +56,7 @@ Per tale ragione il Politecnico ha avviato le procedure di gara per i servizi di
 
 Si propone, inoltre, di ridurre l’orario minimo di apertura, per entrambe le strutture dalle ore 11.30 alle 14.30, in modo da ridurre i costi fissi di personale per il gestore durante orari di scarso utilizzo del servizio. In ogni caso il gestore avrà facoltà di effettuare orari di servizio maggiori, qualora se ne riscontrasse la sostenibilità economica.
 
-Riteniamo importantissimo che i Polo Territoriali di Piacenza e di Cremona abbiano dei propri servizi di ristorazione, al fine di garantire un servizio base ottimale per studenti, professori e PTA. La vita studentesca passa anche dalla  _mensa_  e noi rappresentanti continueremo a vigilare sulla buona riuscita di questo servizio, tenendo presente tutti i possibili margini di miglioramento.
+Riteniamo importantissimo che i Poli Territoriali di Piacenza e di Cremona abbiano dei propri servizi di ristorazione, al fine di garantire un servizio base ottimale per studenti, professori e PTA. La vita studentesca passa anche dalla  *mensa*  e noi rappresentanti continueremo a vigilare sulla buona riuscita di questo servizio, tenendo presente tutti i possibili margini di miglioramento.
 
 Un saluto
 
