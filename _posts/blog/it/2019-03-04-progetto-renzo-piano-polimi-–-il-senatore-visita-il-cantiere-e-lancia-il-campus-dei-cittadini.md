@@ -3,13 +3,9 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  PROGETTO RENZO PIANO @POLIMI – IL SENATORE VISITA IL CANTIERE E LANCIA IL
-  CAMPUS DEI CITTADINI
+title: PROGETTO RENZO PIANO @POLIMI – IL CAMPUS DEI CITTADINI
 tag: Rappresentanza
-desc: >-
-  PROGETTO RENZO PIANO @POLIMI – IL SENATORE VISITA IL CANTIERE E LANCIA IL
-  CAMPUS DEI CITTADINI
+desc: PROGETTO RENZO PIANO @POLIMI – IL CAMPUS DEI CITTADINI
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessandro De Iasio
@@ -20,7 +16,7 @@ date: 2019-03-04T22:24:10.573Z
 
 Il primo Marzo scorso il Senatore Renzo Piano ha visitato il cantiere del progetto che porta il suo nome che darà al nostro ateneo nuovi ed innovativi spazi entro (relativamente) pochi mesi. Il Senatore ha poi tenuto una conferenza stampa insieme con il Rettore Ferruccio Resta, il vicepresidente di Regione Lombardia Fabrizio Sala, l’assessore comunale Pierfrancesco Maran e altri tecnici impegnati nel progetto.
 
-## Renzo Piano, una visione d'insieme del Progetto
+## **Renzo Piano, una visione d'insieme del Progetto**
 
 Nel suo intervento l’archistar ha affermato che in questo progetto vi è forte attenzione verso la  **qualità**  delle opere e verso i tempi di costruzione, elemento spesso raro nei progetti pubblici.
 
@@ -30,7 +26,8 @@ Questa politica del campus vivibile vuole rendere l’individuo parte integrante
 
 Il Trifoglio potrà diventare uno degli edifici più belli di Milano e l’aula magna che ospiterà sarà fantastica.
 
-## Alcuni dettagli del progetto
+## **Alcuni dettagli del progetto**
+
 5000 mq di edifici più 800 posti studio per gli studenti, 6 aule da 120 posti moderne e flessibili. Più il laboratorio modelli, sia tradizionali fatti di legno e metallo, sia digitali con spazio per stampanti 3D e mock-up. Il lab modelli al centro del campus comunica l’idea di formare il futuro architetto nella cultura del fare, dove accanto alla teoria c’è la pratica.
 
 Ci saranno 100 nuovi alberi su 7000 metri quadri di parterre. Congiungerà i nuovi edifici e sarà un luogo per trovarsi e studiare, con panche cablate ed elettrificate.
@@ -42,14 +39,17 @@ Il progetto prevede un sistema costruttivo unico per tutti gli edifici, con fond
 L’ambizione urbanistica del progetto è di ricucitura, di  **“rammendo urbano”**, citando il Senatore Renzo Piano, dell’intero quartiere, ricongiungendo pezzi di verde: la piscina Romano e piazza Leonardo Da Vinci, realizzando inoltre un percorso verde lungo più di 1km.
 
 ## Intervento del Rettore
+
 Il **Prof. Ferruccio Resta**  ha voluto ricordare che il Politecnico sta disegnando cosa vuole essere domani, e che la competizione internazionale con altri atenei ci sta molto stimolando. Una delle politiche più efficaci è stata quella di ridurre i costi di funzionamento, trasformandoli in investimenti.
 
-L’intervento è continuato lanciando una grande campagna di  **foundraising**, per coinvolgere  _chi c’è a fianco_. Alumni e imprese, persone orgogliose di appartenere al Politenico di Milano, che vuole essere un luogo di tutti, un elemento della cittadinanza. Già la PoliMiRun partecipa a questa linea. Ma ci vogliono istituzioni robuste.
+L’intervento è continuato lanciando una grande campagna di  **foundraising**, per coinvolgere  *chi c’è a fianco*. Alumni e imprese, persone orgogliose di appartenere al Politenico di Milano, che vuole essere un luogo di tutti, un elemento della cittadinanza. Già la PoliMiRun partecipa a questa linea. Ma ci vogliono istituzioni robuste.
 
 ## Il commento dell'assessore Maran
-L’assessora ha affermato che va rivisto il  **rapporto tra università e città**  nelle politiche cittadine e che questo è un ottimo esempio di come un progetto intelligente riesce a togliere i confini tra parte residenziale e università. L’università deve entrare nella quotidianità della città di Milano.
+
+L’assessore ha affermato che va rivisto il  **rapporto tra università e città**  nelle politiche cittadine e che questo è un ottimo esempio di come un progetto intelligente riesce a togliere i confini tra parte residenziale e università. L’università deve entrare nella quotidianità della città di Milano.
 
 Inoltre auspica che questo sia un segno per la città: il  **verde**  che piantiamo deve essere un segnale di azione importante verso città ambientalmente sane.
 
 ## Regione Lombardia
-Il vice presidente Fabrizio Sala è apparso molto entusiasta del Politecnico di oggi, affermando che il clima che si respira è che siamo in un posto di  **eccellenza mondiale**. ‘’Siamo orgogliosi del Politecnico. Le opere si realizzano solo con una forte spinta. E noi, come Regione Lombardia, vogliamo continuare con la scia di investimenti che stiamo mettendo in atto per le università lombarde. In Regione Lombardia non vediamo l’ora di accompagnare qui istituzione estere, di fargli vedere di cosa siamo capaci’’.
+
+Il vice presidente Fabrizio Sala è apparso molto entusiasta del Politecnico di oggi, affermando che il clima che si respira è che siamo in un posto di  **eccellenza mondiale**. ‘’Siamo orgogliosi del Politecnico. Le opere si realizzano solo con una forte spinta. E noi, come Regione Lombardia, vogliamo continuare con la scia di investimenti che stiamo mettendo in atto per le università lombarde. In Regione Lombardia non vediamo l’ora di accompagnare qui istituzioni estere, di far vedere loro di cosa siamo capaci’’.
