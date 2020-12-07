@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Fund for Impact
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
-  - Priscilla Morbin
+  - Carlo Giovani
 published: true
 date: 2019-02-28T22:20:35.519Z
 ---
