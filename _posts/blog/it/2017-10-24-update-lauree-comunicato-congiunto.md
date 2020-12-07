@@ -3,19 +3,18 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'Update Lauree: Comunicato congiunto'
+title: "Update Lauree: Comunicato congiunto"
 tag: Associazione
-desc: 'Update Lauree: Comunicato congiunto'
+desc: "Update Lauree: Comunicato congiunto"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Ennio Visconti
 published: true
 date: 2017-10-24T00:00:00.000Z
 ---
-
 Con l’entrata in vigore del nuovo calendario accademico restava ancora da sciogliere il nodo degli appelli di gennaio-febbraio utili per laurearsi in quella stessa sessione.
 
-Da qui nasce la proposta presentata dai Rappresentanti dagli studenti in Consulta della Didattica e ratificata oggi pomeriggio dal Senato Accademico: variare le date degli appelli di Laurea di Ingegneria del mese di Febbraio 2018, posticipandole al termine della sessione, in modo da rendere fruibile anche agli studenti laureandi il secondo appello della sessione di gennaio-febbraio.
+Da qui nasce la proposta presentata dai Rappresentanti dagli studenti in Consulta della Didattica e ratificata oggi pomeriggio dal Senato Accademico: variare le date degli appelli di Laurea di Ingegneria del mese di Febbraio 2018, posticipandole al termine della sessione, in modo da rendere fruibile anche agli studenti laureandi il secondo appello della sessione di Gennaio-Febbraio.
 
 La proposta parte dalla constatazione che, a seguito dell’introduzione del nuovo calendario accademico e della riduzione a un solo appello (invece che due) per la sessione di esami di settembre, i laureandi di febbraio avrebbero avuto a disposizione, relativamente agli esami del secondo semestre, 4 appelli invece dei 5 precedentemente previsti.
 
