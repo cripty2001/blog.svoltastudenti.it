@@ -3,13 +3,11 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  NUOVI SERVIZI AGLI STUDENTI: NUOVI SERVIZI ONLINE | 1TB IN CLOUD | 5 LICENZE
-  OFFICE
+title: "NUOVI SERVIZI AGLI STUDENTI: NUOVI SERVIZI ONLINE"
 tag: Rappresentanza
-desc: >-
-  NUOVI SERVIZI AGLI STUDENTI: NUOVI SERVIZI ONLINE | 1TB IN CLOUD | 5 LICENZE
-  OFFICE
+desc: Accesso alla nuova versione del portale dei Servizi Online aggiornati non
+  soltanto dal punto di vista estetico, ma anche funzionale grazie
+  all'implementazione di nuovi servizi.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
