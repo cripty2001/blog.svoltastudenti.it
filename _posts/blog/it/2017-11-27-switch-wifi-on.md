@@ -5,7 +5,9 @@ isAmp: "true"
 noBrand: "false"
 title: SWITCH WIFI ON
 tag: Associazione
-desc: SWITCH WIFI ON
+desc: "Tanti i temi al tavolo: approvazione delle attività culturali e sportive,
+  approvazione dell’iscrizione ad albo di due nuove associazioni, gestione degli
+  spazi e ampliamento Wi-Fi nelle residenze."
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Ennio Visconti
