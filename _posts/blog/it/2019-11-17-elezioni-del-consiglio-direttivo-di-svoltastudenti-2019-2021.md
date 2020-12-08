@@ -8,13 +8,13 @@ tag: Associazione
 desc: Tra le aule degli edifici di Architettura si è tenuta, infatti,
   l’Assemblea per l’Elezione del nuovo Consiglio Direttivo che, per i prossimi
   due anni, guiderà l’associazione.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/direttivo.jpeg
 authors:
   - Giusy Spacone
 published: true
 date: 2019-10-24T13:52:32.868Z
 ---
-##### Un giorno di cambiamento. Un giorno di Svolta.  
+##### Un giorno di cambiamento. Un giorno di Svolta.
 
 Sono forse queste le parole meglio adatte per descrivere la giornata di sabato 19 Ottobre, una data importante per Svoltastudenti, la Student’s Union del Politecnico di Milano. Una giornata di passaggio di consegne, un nuovo inizio.
 
@@ -36,4 +36,4 @@ I membri dell’associazione hanno assegnato la presidenza a **Sophien Manchor**
 
 - - -
 
-![foto dei nuovi membri al Consiglio del Direttivo di Svoltastudenti](/assets/img/uploads/img_20191019_153800_01-1024x467.jpeg "nuovi membri al Consiglio del Direttivo di Svoltastudenti")
+![foto dei nuovi membri al Consiglio del Direttivo di Svoltastudenti](/assets/img/uploads/direttivo.jpeg "nuovi membri al Consiglio del Direttivo di Svoltastudenti")
