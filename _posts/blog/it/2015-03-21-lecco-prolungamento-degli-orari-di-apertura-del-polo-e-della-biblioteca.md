@@ -3,9 +3,10 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'Lecco: prolungamento degli orari di apertura del polo e della biblioteca'
+title: "Lecco: prolungamento degli orari di apertura polo e biblioteca"
 tag: Rappresentanza
-desc: 'Lecco: prolungamento degli orari di apertura del polo e della biblioteca'
+desc: "Prolungamento orari di apertura della biblioteca ed obbligo di ingresso
+  con badge. "
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Valentina Rao
