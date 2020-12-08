@@ -5,10 +5,11 @@ isAmp: "true"
 noBrand: "false"
 title: ↱SVOLTA STORICA AL POLIMI↱
 tag: Rappresentanza
-desc: ↱SVOLTA STORICA AL POLIMI↱
+desc: Nonostante il calo di affluenza, la nostra lista ha visto il consenso
+  aumentare, segno di un impegno concreto.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
-  - Valentina Rao
+  - Vincenzo Giannico
 published: true
 date: 2015-05-17T00:00:00.000Z
 ---
