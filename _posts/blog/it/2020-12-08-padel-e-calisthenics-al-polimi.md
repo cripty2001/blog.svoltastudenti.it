@@ -32,8 +32,6 @@ Oltre ad un aspetto totalmente nuovo il Giuriati sarà pronto ad offrire anche t
 Manca veramente poco alla conclusione del progetto e la chiusura del cantiere è prevista per la fine del 2020. Questo significa che nel 2021 il nuovo Giuriati sarà a completa disposizione degli studenti.\
 Questo importante traguardo ci conferma come il Politecnico di Milano continui a promuovere gli aspetti sociali, formativi ed educativi dello sport. Questa è la visione di sport fortemente condivisa tra ateneo e rappresentanza, che collaborano per rendere lo sport, sempre di più, parte integrante dell’offerta formativa.
 
- 
-
 Per qualsiasi domanda siamo a disposizione.
 
 Guido Sassaroli – [guido.sassaroli@svoltastudenti.it](guido.sassaroli@svoltastudenti.it)\
