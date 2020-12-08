@@ -5,7 +5,11 @@ isAmp: "true"
 noBrand: "false"
 title: "Open day 2020 e tutor LM: tutte le novità dalla rappresentanza"
 tag: Rappresentanza
-desc: "Open day 2020 e tutor LM: tutte le novità dalla rappresentanza"
+desc: >-
+  Open day del Politecnico di Milano quest’anno verrà organizzato nel Campus
+  Leonardo.
+
+  Con l’arrivo del tutorato peer-to-peer, i tutor potranno essere anche studenti!
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
