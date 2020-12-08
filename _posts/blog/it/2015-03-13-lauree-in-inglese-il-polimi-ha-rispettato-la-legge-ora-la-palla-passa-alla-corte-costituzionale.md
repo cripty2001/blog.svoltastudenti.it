@@ -3,13 +3,12 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  Lauree in inglese: il Polimi ha rispettato la legge, ora la palla passa alla
-  Corte costituzionale
+title: "Lauree in inglese: la palla passa alla Corte costituzionale"
 tag: Rappresentanza
-desc: >-
-  Lauree in inglese: il Polimi ha rispettato la legge, ora la palla passa alla
-  Corte costituzionale
+desc: >
+  A rischio non sono solo le lauree in inglese del Politecnico di Milano ma
+  tutti i corsi di studio in lingua straniera del sistema universitario
+  italiano. Si attende la sentenza della consulta. 
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Valentina Rao
