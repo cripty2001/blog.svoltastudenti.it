@@ -6,7 +6,7 @@ noBrand: "false"
 title: "Lecco: il nuovo campus sempre più a misura di studente"
 tag: Rappresentanza
 desc: >-
-  Nuovo campus di Lecco, sempre di più a misura di studente.
+  Nuovo campus di Lecco sempre di più a misura di studente.
 
   Nuove postazioni studio, orari di apertura più ampi, possibilità di parcheggio a prezzo ridotto. 
 article_th: /assets/img/uploads/article_placeholder.png
