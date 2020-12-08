@@ -3,13 +3,12 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  Collaborazioni degli studenti e Tesi all'estero, le ultime novità dagli Organi
-  Centrali
+title: Collaborazioni degli studenti e Tesi all'estero, ultime novità!
 tag: Rappresentanza
 desc: >-
-  Collaborazioni degli studenti e Tesi all'estero, le ultime novità dagli Organi
-  Centrali
+  Ultime novità dagli Organi Centrali:
+
+  Collaborazioni a tempo parziale degli studenti, Tesi all'estero e realizzazione dell'auditorium nel nuovo Trifoglio.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
