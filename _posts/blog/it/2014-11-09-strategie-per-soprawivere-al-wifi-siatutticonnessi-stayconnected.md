@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: >-
   Miglioramenti riguardanti la connessione internet al Politecnico di Milano:
 
-  cosa fare per migliorare l'esperienza con la rete in attesa di un'implementazione del servizio
+  cosa fare per migliorare l'esperienza con la rete in attesa di un'implementazione del servizio.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
