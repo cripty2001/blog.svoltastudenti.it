@@ -5,7 +5,10 @@ isAmp: "true"
 noBrand: "false"
 title: Polimi with a View - Progetti ViVi.Polimi e Renzo Piano
 tag: Associazione
-desc: Polimi with a View - Progetti ViVi.Polimi e Renzo Piano
+desc: |-
+  Presentato il progetto di riassetto per i campus del Politecnico.
+  I lavori ridisegneranno il campus di Città Studi e il campus La Masa.
+  Si tratta di due macro progetti: "Renzo Piano" e "ViVi.Polimi".
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Ennio Visconti
