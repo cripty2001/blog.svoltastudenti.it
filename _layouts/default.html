@@ -127,41 +127,6 @@
         </li>
       {% endif %}
     </ul>
-
-    <ul id="projects">
-      <li>
-        <a href="">
-          <svg>
-            <rect></rect>
-          </svg>
-          FAQ
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <svg>
-            <rect></rect>
-          </svg>
-          LM
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <svg>
-            <rect></rect>
-          </svg>
-          Orange
-        </a>
-      </li>
-      <li>
-        <a href="">
-          <svg>
-            <rect></rect>
-          </svg>
-          Legal
-        </a>
-      </li>
-    </ul>
     <div id="social">
       <ul>
         <li><a href="">SOCIAL1</a></li>
@@ -173,19 +138,25 @@
   </div>
 
   <div id="header">
-    <label for="menu-checkbox" class="left">
-      <img src="/assets/img/svolta-mini-neg.png" alt="logo">
-    </label>
-    {% if page.translations_it  %}
-      <a href="{{site.url}}/it/{{page.translations_it | slugify}}" class="right">
-        <img src="/assets/img/lang/it.png" alt="lang">
-      </a>
-    {% endif %}
-    {% if page.translations_en  %}
-      <a href="{{site.url}}/en/{{page.translations_en | slugify}}" class="right">
-        <img src="/assets/img/lang/en.png" alt="lang">
-      </a>
-    {% endif %}
+    <div class="top">
+      <label for="menu-checkbox" class="left">
+        <img src="/assets/img/menu.png" alt="logo">
+      </label>
+      <img src="/assets/img/logo-testo.png">
+      {% if page.translations_it  %}
+        <a href="{{site.url}}/it/{{page.translations_it | slugify}}" class="right">
+          <img src="/assets/img/lang/it.png" alt="lang">
+        </a>
+      {% elsif page.translations_en  %}
+        <a href="{{site.url}}/en/{{page.translations_en | slugify}}" class="right">
+          <img src="/assets/img/lang/en.png" alt="lang">
+        </a>
+      {% else %}
+        <div><!-- Act as a dummy for the flex --></div>
+      {% endif %}
+    </div>
+    <div class="title">
+      Prova
     </div>
   </div>
 
