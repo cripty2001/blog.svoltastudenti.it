@@ -1,37 +1,9 @@
 ---
 layout: default
 ---
-<div class="article">
-	<div class="th">
-		<amp-img id="th" layout="fill" src="{{ page.article_th }}"></amp-img>
-		<div class="info">
-			<div class="title">
-				{{ page.title }}
-			</div>
-			<div class="category">
-				{{ page.tags }}
-			</div>
-		</div>
-		<!-- {{ page.article_th }} -->
-		<ul id="authors">
-			{% for author_name in page.authors %}
-			{% assign author = site.posts | where: "category", page.category | where: "layout", "users" | where: "title", author_name %}
-				<li>
-					{% if author[0] %}
-						<a href="/{{ page.category }}/{{ author[0].title | slugify }}">
-						<amp-img layout="fixed" height="50" width="50" src="{{ author[0].article_th }}" alt="{{ author_name }}"></amp-img>
-						</a>
-					{% else %}
-					<span>{{ author_name }}</span>
-					{% endif %}
-				</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div id="content-wrapper">
-		{{ content }}
-	</div>
-</div>
+<article>
+	{{ content }}
+</article>
 <!-- <aside>
 	<section id="related">
 		<h1>

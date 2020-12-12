@@ -1,5 +1,5 @@
 <!doctype html>
-<html {% if page.isAmp == "true" %}⚡{% endif %}>
+<html>
 
 <head>
   <meta charset="utf-8">
@@ -20,8 +20,7 @@
   <link rel="canonical" href="{{site.url}}/it/{{page.translations_en | slugify}}">
   <link rel="alternate" hreflang="en" href="{{site.url}}/it/{{page.translations_en | slugify}}" />
   {% endif %}
-  <meta property="og:url"
-    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.desc }}" />
@@ -72,20 +71,21 @@
   <title>
     {{ page.title }} | Svoltastudenti
   </title>
-  {% include amp_boilerplate.html %}
+  <!-- {% include amp_boilerplate.html %}
   <script async custom-element="amp-lightbox-gallery" src="https://cdn.ampproject.org/v0/amp-lightbox-gallery-0.1.js"></script>
-  <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-latest.js"></script>
-  <style amp-custom>
+  <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-latest.js"></script> -->
+  <style>
     {% include style.css %}
   </style>
 </head>
-
+<!-- TODO BEFORE -->
 <body>
-
-  <input type="checkbox" id="menu-checkbox"></input>
-
-  <div id="menu" for="menu-checkbox">
-    <ul id="nav">
+  <input id="site-nav-checkbox" type="checkbox" ></input>
+  <main id="site-content">
+    {{ content }}
+  </main>
+  <div id="site-nav">
+    <ul id="site-nav-pages">
       {% if page.category == "it"  %}
         <li>
           <a href="{{site.url}}/it/">Home</a>
@@ -127,43 +127,44 @@
         </li>
       {% endif %}
     </ul>
-    <div id="social">
-      <ul>
-        <li><a href="">SOCIAL1</a></li>
-        <li><a href="">SOCIAL2</a></li>
-        <li><a href="">SOCIAL3</a></li>
-        <li><a href="">SOCIAL4</a></li>
-      </ul>
-    </div>
+    <ul id="site-nav-socials">
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+      <li><a href=""><img src="/assets/img/socials/facebook.png" alt="Facebook"></a></li>
+    </ul>
   </div>
-
-  <div id="header">
-    <div class="top">
-      <label for="menu-checkbox" class="left">
-        <img src="/assets/img/menu.png" alt="logo">
-      </label>
-      <img src="/assets/img/logo-testo.png">
-      {% if page.translations_it  %}
-        <a href="{{site.url}}/it/{{page.translations_it | slugify}}" class="right">
-          <img src="/assets/img/lang/it.png" alt="lang">
-        </a>
-      {% elsif page.translations_en  %}
-        <a href="{{site.url}}/en/{{page.translations_en | slugify}}" class="right">
-          <img src="/assets/img/lang/en.png" alt="lang">
-        </a>
-      {% else %}
-        <div><!-- Act as a dummy for the flex --></div>
-      {% endif %}
-    </div>
-    <div class="title">
-      Prova
-    </div>
+  <div id="site-header">
+    <label for="site-nav-checkbox">
+      <img src="/assets/img/menu.png" alt="logo">
+    </label>
+    <img src="/assets/img/logo-testo.png">
+    {% if page.translations_it  %}
+      <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
+        <img src="/assets/img/lang/it.png" alt="IT">
+      </a>
+    {% elsif page.translations_en  %}
+      <a href="{{site.url}}/en/{{page.translations_en | slugify}}">
+        <img src="/assets/img/lang/en.png" alt="EN">
+      </a>
+    {% else %}
+      <div><!-- Act as a dummy for the flex --></div>
+    {% endif %}
   </div>
-
-  <article>
-    {{ content }}
-  </article>
-  <amp-consent id="cookie" layout="nodisplay">
+  <div id="site-title" class="backgroundImage">
+    Prova
+  </div>
+  <div id="site-cookies">
+    Informativa<br /><br />
+    Questo sito o gli strumenti terzi da questo utilizzati si avvalgono di cookie necessari al funzionamento ed
+    utili alle finalità illustrate nella cookie policy. Se vuoi saperne di più o negare il consenso a tutti o ad
+    alcuni cookie, consulta la <a href="https://www.iubenda.com/privacy-policy/27818292/cookie-policy"
+      target="_blank">cookie policy</a>.<br />
+    <button on="tap:cookie.accept" role="button">Accept</button>
+  </div>
+  <!-- <amp-consent id="cookie" layout="nodisplay">
     <script type="application/json">
       {
         "consentInstanceId": "consent896537",
@@ -179,7 +180,7 @@
         target="_blank">cookie policy</a>.<br />
       <button on="tap:cookie.accept" role="button">Accept</button>
     </div>
-  </amp-consent>
+  </amp-consent> -->
 </body>
 
 </html>
