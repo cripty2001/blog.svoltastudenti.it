@@ -3,9 +3,13 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'News dalla rappresentanza: tutorato peer-to-peer e Difensore degli Studenti'
+title: Tutorato peer-to-peer e Difensore degli Studenti e altro ancora!
 tag: Rappresentanza
-desc: 'News dalla rappresentanza: tutorato peer-to-peer e Difensore degli Studenti'
+desc: >-
+  Tutorato peer-to-peer, puoi candidarti per essere tutor dei tuoi colleghi del
+  primo o del secondo anno e potrei decidere quali materie “impartire”.
+
+  Nominato, inoltre, il nuovo difensore degli studenti!
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
