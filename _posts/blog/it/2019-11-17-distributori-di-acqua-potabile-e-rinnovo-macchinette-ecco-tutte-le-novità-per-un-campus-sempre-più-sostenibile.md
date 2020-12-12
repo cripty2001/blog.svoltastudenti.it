@@ -3,13 +3,12 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  Distributori di acqua potabile e rinnovo macchinette: ecco tutte le novità per
-  un campus sempre più sostenibile
+title: Distributori d'acqua potabile, rinnovo macchinette e sostenibilità
 tag: Rappresentanza
 desc: >-
-  Distributori di acqua potabile e rinnovo macchinette: ecco tutte le novità per
-  un campus sempre più sostenibile
+  Il PoliMi diventa ancora più sostenibile:
+
+  nuovi distributori di acqua naturale e gassata, sostituzione di tutte le vecchie macchinette, bicchieri Hybrid e palette compostabili e piatti per celiaci.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
