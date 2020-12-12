@@ -5,7 +5,9 @@ isAmp: "true"
 noBrand: "false"
 title: Inaugurazione 157° anno accademico Politecnico di Milano
 tag: Rappresentanza
-desc: TOInaugurazione 157° anno accademico Politecnico di MilanoDO
+desc: "\"Siamo un’Università e il nostro primo compito è quello di ampliare i
+  confini della conoscenza e di superare i limiti.\" Queste le parole del
+  rettore nel giorno dell'inaugurazione e molto altro."
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Francesca Marra
@@ -14,7 +16,7 @@ date: 2019-11-09T15:11:07.375Z
 ---
 Milano, 05 novembre 2019
 
-_“Guardate l’orizzonte e non la punta delle scarpe“_.
+###### *“Guardate l’orizzonte e non la punta delle scarpe“*.
 
 Questo è stato l’appello lanciato dal Rettore del Politecnico di Milano, Ferruccio Resta, nel suo discorso per l’inaugurazione del nuovo anno accademico, il 157esimo dell’ateno milanese fondato nel 1863.
 
@@ -32,8 +34,6 @@ Rocca ha continuato argomentando su come l’Università debba essere il luogo d
 
 > Rocca conclude il suo discorso parlando di diritti: “Nel nostro Paese è necessaria una svolta etica che è possibile raggiungere solo con politiche a favore dei diritti e delle pari opportunità. Bisogna parlare di diritti, delle discriminazioni che non sono ancora del tutto sconfitte e della bellezza della diversità.”
 
-
-
 E’ seguito l’intervento di Ersilia Vaudo Scarpetta (Chief Diversity Officer dell’European Space Agency (ESA)), che con la sua lectio ha riportato alla mente avvenimenti del passato quali la prima volta dell’uomo sulla luna. Tramite foto e testimonianze mostra la terra da un’altra prospettiva. “Siamo arrivati fino a qui per scoprire la luna e invece riscopriamo la terra.” Ci ha fatto riflettere lasciandoci un quesito: “quanto siamo pronti a cambiare mentalità?”.
 
 Merito, futuro, uguaglianza e innovazione.
@@ -42,7 +42,7 @@ Queste le parole chiave della giornata, marcate ancora una volta dal ministro El
 
 E’ doveroso richiamare con forza e determinazione i sette valori fondamentali e fondanti della grande Comunità del Politecnico cosi come ha fatto Rocca a conclusione del suo intervento:
 
-“RESPONSABILITÀ, RISPETTO, PROFESSIONALITÀ, INTEGRITÀ, FIDUCIA, EQUITÀ’ E TRASPARENZA.”
+###### “RESPONSABILITÀ, RISPETTO, PROFESSIONALITÀ, INTEGRITÀ, FIDUCIA, EQUITÀ’ E TRASPARENZA.”
 
 Questo è il Politecnico di Milano.
 
