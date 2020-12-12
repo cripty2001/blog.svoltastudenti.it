@@ -5,14 +5,16 @@ isAmp: "true"
 noBrand: "false"
 title: Elezioni del Consiglio Direttivo di Svoltastudenti 2019-2021
 tag: Associazione
-desc: Elezioni del Consiglio Direttivo di Svoltastudenti 2019-2021
-article_th: /assets/img/uploads/article_placeholder.png
+desc: Tra le aule degli edifici di Architettura si è tenuta, infatti,
+  l’Assemblea per l’Elezione del nuovo Consiglio Direttivo che, per i prossimi
+  due anni, guiderà l’associazione.
+article_th: /assets/img/uploads/direttivo.jpeg
 authors:
   - Giusy Spacone
 published: true
 date: 2019-10-24T13:52:32.868Z
 ---
-Un giorno di cambiamento. Un giorno di Svolta.  
+##### Un giorno di cambiamento. Un giorno di Svolta.
 
 Sono forse queste le parole meglio adatte per descrivere la giornata di sabato 19 Ottobre, una data importante per Svoltastudenti, la Student’s Union del Politecnico di Milano. Una giornata di passaggio di consegne, un nuovo inizio.
 
@@ -24,14 +26,14 @@ Un mandato importante, quindi, quello consegnato nelle mani del nuovo Direttivo:
 
 I membri dell’associazione hanno assegnato la presidenza a **Sophien Manchor**, che lavorerà insieme a sei altri componenti.  
 
-_Vice Presidente_: **Francesco Candiloro** 
+*Vice Presidente*: **Francesco Candiloro** 
 
-_Segretario_: **Giada Chiametti** 
+*Segretario*: **Giada Chiametti** 
 
-_Tesoriere_: **Ludovico Casati** 
+*Tesoriere*: **Ludovico Casati** 
 
-_Consiglieri_: **Antonio Galli, Matteo Salamone, Francesca Palladino**
+*Consiglieri*: **Antonio Galli, Matteo Salamone, Francesca Palladino**
 
 - - -
 
-![foto dei nuovi membri al Consiglio del Direttivo di Svoltastudenti](/assets/img/uploads/img_20191019_153800_01-1024x467.jpeg "nuovi membri al Consiglio del Direttivo di Svoltastudenti")
+![foto dei nuovi membri al Consiglio del Direttivo di Svoltastudenti](/assets/img/uploads/direttivo.jpeg "nuovi membri al Consiglio del Direttivo di Svoltastudenti")
