@@ -3,21 +3,23 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'Aggiornamento Dicembre - Giunte AUIC, ICAT, 3I & Design'
+title: Aggiornamento Dicembre - Giunte AUIC, ICAT, 3I & Design
 tag: Associazione
-desc: 'Aggiornamento Dicembre - Giunte AUIC, ICAT, 3I & Design'
+desc: |-
+  Aggiornamento Dicembre - AUIC, ICAT, 3I & Design
+  2 nuovi programmi di Internal Double Degree:
+  -Mechanical Engineering e Civil Engineering;
+  -Mechanical Engineering – Building and Architectural Engineering
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Ennio Visconti
 published: true
 date: 2017-12-27T00:00:00.000Z
 ---
-
-Buongiorno a tutti!  
+Buongiorno a tutti!\
 Vogliamo proporre oggi un resoconto delle giunte tenutesi da giugno a dicembre 2017 per le scuole di **Design** e **3I** ed infine di dicembre 2017 per l’**AUIC**.
 
-**Giunte Scuola 3I**
---------------------
+## Giunte Scuola 3I
 
 ### Giugno 2017
 
@@ -31,8 +33,8 @@ Il costo previsto è di circa 40000 € per il passaggio di 15000 tesi.
 
 Sono stati proposti 2 nuovi programmi di Internal Double Degree:
 
-1.  Mechanical Engineering e Civil Engineering con la scuola ICAT legato alla progettazione delle infrastrutture e del trasporto;
-2.  Mechanical Engineering – Building and Architectural Engineering con la scuola AUIC, si svolgerà interamente presso la Sede di Lecco, legato all’automazione dei processi di costruzione.
+1. Mechanical Engineering e Civil Engineering con la scuola ICAT legato alla progettazione delle infrastrutture e del trasporto;
+2. Mechanical Engineering – Building and Architectural Engineering con la scuola AUIC, si svolgerà interamente presso la Sede di Lecco, legato all’automazione dei processi di costruzione.
 
 Sono stati presentati i programmi, all’interno dei quali ci sarà poca possibilità di inserire corsi a scelta dovuta all’alta specializzazione dei percorsi stessi.
 
@@ -40,12 +42,12 @@ Sono stati presentati i programmi, all’interno dei quali ci sarà poca possibi
 
 Il Preside informa che è in fase di organizzazione un pozzetto di corsi da cui attingere 5/6 CFU per i CCS che lo richiederanno, riguardanti:
 
-1.  Etica per l’innovazione
-2.  Comunicazione e argomentazione
-3.  Sviluppo sostenibile
-4.  Diritto pubblico e privato nel mercato globale
-5.  Personalità, teambuilding, leadership
-6.  Technology forecasting
+1. Etica per l’innovazione
+2. Comunicazione e argomentazione
+3. Sviluppo sostenibile
+4. Diritto pubblico e privato nel mercato globale
+5. Personalità, teambuilding, leadership
+6. Technology forecasting
 
 Questi insegnamenti potrebbero essere inserito nei Manifesti come obbligatori (definite come “azione 1” o come ulteriore integrazioni sotto “azione 2”).
 
@@ -65,17 +67,16 @@ Per questo motivo gli studenti potranno accederci dal secondo semestre del primo
 
 I CCS interessati sono :
 
-1.  automation and control engineering
-2.  biomedical engineering
-3.  computer science and engineering
-4.  electrical engineering
-5.  electronics engineering
-6.  telecommunication engineering
+1. automation and control engineering
+2. biomedical engineering
+3. computer science and engineering
+4. electrical engineering
+5. electronics engineering
+6. telecommunication engineering
 
 Sarà composto da 14 crediti in modo che lo studente non vada a pagare tasse aggiuntive.
 
-Giunta AUIC
------------
+## Giunta AUIC
 
 ### DICEMBRE  2017
 
@@ -83,16 +84,15 @@ La seduta della Giunta di Scuola AUIC si è aperta con la presentazione da parte
 
 In prima battuta il progetto propone con priorità **spazi studenti** e **spazi segreteria** con una nuova organizzazione dell’edificio 11.
 
-La riorganizzazione funzionale propone al **Piano Patio** lo sviluppo di attività di carattere collettivo/spazi studenti in collegamento al progetto Renzo Piano; il **Piano strada, **attraverso la riqualificazione dell’Aula Rogers e la nuova disposizione degli spazi mostre, che rappresentano il carattere identificativo della scuola, funge da contatto con la città; il **Piano ammezzato** ospiterà, invece, lo spazio segreteria con sala d’attesa e sportelli studenti, in accordo con quanto richiesto dal corpo tecnico presente; il **Piano superiore ** accoglierà una grande agorà con spazi studi per gli studenti con 400 postazioni. Il progetto illustrato è in fase preliminare e si ipotizza l’inizio cantiere nell’estate del 2018 con una durata di 4 mesi.
+La riorganizzazione funzionale propone al **Piano Patio** lo sviluppo di attività di carattere collettivo/spazi studenti in collegamento al progetto Renzo Piano; il **Piano strada,** attraverso la riqualificazione dell’Aula Rogers e la nuova disposizione degli spazi mostre, che rappresentano il carattere identificativo della scuola, funge da contatto con la città; il **Piano ammezzato** ospiterà, invece, lo spazio segreteria con sala d’attesa e sportelli studenti, in accordo con quanto richiesto dal corpo tecnico presente; il **Piano superiore**  accoglierà una grande agorà con spazi studi per gli studenti con 400 postazioni. Il progetto illustrato è in fase preliminare e si ipotizza l’inizio cantiere nell’estate del 2018 con una durata di 4 mesi.
 
 Sempre attraverso il progetto **VI.VI. POLIMI**, sono state proposte delle **regole** che verranno applicate negli spazi studio in base alla **tipologia di studio prevista**, definendo diversi spazi in base alle esigenze necessarie per la tipologia di studio, come per esempio studio individuale, lavoro di gruppo o studio flessibile. Ciò implica che alcune aule verranno predisposte al **silenzio** o alla possibilità di comunicare in gruppo.
 
-Un altro tema interessante di cui si è discusso è la necessità di una **comunicazione attiva **della Scuola con il corpo docente e gli studenti, alla luce della poca consapevolezza della Prassi Didattica.
+Un altro tema interessante di cui si è discusso è la necessità di una **comunicazione attiva** della Scuola con il corpo docente e gli studenti, alla luce della poca consapevolezza della Prassi Didattica.
 
-In chiusura è stata proposta da parte della Rappresentanza Studenti una **modifica **e **semplificazione **della procedura amministrativa di gestione delle istanze degli studenti attraverso l creazione di un sistema FAQ di Scuola, e la comunicazione sulle procedure di allocazione nei laboratori.
+In chiusura è stata proposta da parte della Rappresentanza Studenti una **modifica** e **semplificazione** della procedura amministrativa di gestione delle istanze degli studenti attraverso l creazione di un sistema FAQ di Scuola, e la comunicazione sulle procedure di allocazione nei laboratori.
 
-Giunte Giugno-Dicembre Scuola Design
-------------------------------------
+## Giunte Giugno-Dicembre Scuola Design
 
 In questo primo semestre dell’anno accademico 2017/18 l’argomento più discusso è stato la didattica innovativa. La Scuola vanta già un notevole vantaggio in merito, essendo già da molto presenti modalità di insegnamento innovative come le “flipped classroom”.
 
@@ -100,14 +100,13 @@ L’ultima iniziativa è ”Design Explorer”, uno stimolo maggiore per girare 
 
 Dalla mail mandata a tutti gli studenti del 19 dicembre è possibile scaricare il ”Passaporto del designer” il quale va stampato ed usato come diario di viaggio per fissarci su biglietti, brochure, selfie e tutto ciò che è necessario a raccontare la propria partecipazione.
 
-Gli studenti possono accedere al palinsesto presente sul sito della scuola ([http://www.design.polimi.it/design-explorer](http://www.design.polimi.it/design-explorer)) e scegliere le attività riconosciute: ad ogni attività corrisponde un punteggio che, sommato agli altri, garantirà 3 crediti extra al raggiungimento di un punteggio maggiore o uguale a 100. Gli studenti possono inoltre proporre nuovi eventi non presenti nella lista tramite una mail ai rappresentanti ([andreagiulia.pusineri@mail.polimi.it](mailto:andreagiulia.pusineri@mail.polimi.it), [federico.nunziata@mail.polimi.it](mailto:federico.nunziata@mail.polimi.it)).
+Gli studenti possono accedere al palinsesto presente sul sito della scuola (<http://www.design.polimi.it/design-explorer>) e scegliere le attività riconosciute: ad ogni attività corrisponde un punteggio che, sommato agli altri, garantirà 3 crediti extra al raggiungimento di un punteggio maggiore o uguale a 100. Gli studenti possono inoltre proporre nuovi eventi non presenti nella lista tramite una mail ai rappresentanti ([andreagiulia.pusineri@mail.polimi.it](mailto:andreagiulia.pusineri@mail.polimi.it), [federico.nunziata@mail.polimi.it](mailto:federico.nunziata@mail.polimi.it)).
 
 Altra novità è l’aggiunta di un portfolio al momento della laurea.
 
 L’elaborato di laurea, che può consistere in un poster, modello, prototipo o qualsiasi alto output comunicato durante il corso di Laboratorio di sintesi e che può continuare ad essere di gruppo, sarà poi affiancato al momento della laurea, dopo il PEL e il conseguente approfondimento del progetto concordato col relatore, da un portfolio strettamente personale in cui lo studente mostrerà tutte le sue esperienze (accademiche o lavorative) utili a mostrare la maturità raggiunta alla fine del triennio. Per il momento lezioni di portfolio sono state inserite all’interno del corso di sintesi finale, ma un domani potrebbe diventare un corso a sé.
 
-Paritetica Scuola ICAT
-----------------------
+## Paritetica Scuola ICAT
 
 In questi mesi di rappresentanza in qualità di vicepresidente della commissione paritetica della scuola ICAT ho avuto modo di partecipare attivamente alla stesura del report relativo all’ A.A. 2016/17 insieme con gli altri rappresentati. Dopo diversi incontri con i professori e con il nucleo di valutazione di ateneo abbiamo deciso di apportare alcune modifiche al vecchio report aggiungendo altri dati utili per capire meglio il rendimento degli studenti nei diversi CDS per poter trarre le conclusioni più appropriate.
 
@@ -117,5 +116,5 @@ Abbiamo già altre proposte/migliorie per il 2018 che porteremo all’attenzione
 
 In conclusione, da parte di tutta l’associazione, vorremmo augurarvi delle buone vacanze di Natale (stringiamo le dita anche per la vostra sessione di febbraio).
 
-Mattia Maria Bernacchi ([mattiamaria.bernacchi@svoltastudenti.it](mailto:%20mattiamaria.bernacchi@svoltastudenti.it))  
-_Rappresentante degli Studenti in Paritetica della Scuola di Ingegneria Civile, Ambientale e Territoriale_
+Mattia Maria Bernacchi ([mattiamaria.bernacchi@svoltastudenti.it](mailto:%20mattiamaria.bernacchi@svoltastudenti.it))\
+*Rappresentante degli Studenti in Paritetica della Scuola di Ingegneria Civile, Ambientale e Territoriale*
