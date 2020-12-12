@@ -3,9 +3,13 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: 'Inizia il nuovo anno accademico, qualche novità e le prime scadenze'
+title: Inizia il nuovo anno accademico, qualche novità e prime scadenze!
 tag: Rappresentanza
-desc: 'Inizia il nuovo anno accademico, qualche novità e le prime scadenze'
+desc: >-
+  Il nuovo anno accademico sta per cominciare e tante sono le novità che lo
+  caratterizzeranno tra cui:
+
+  Bando di selezione per le attività di tutorato, 150 ore e nuovi finanziamenti.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
