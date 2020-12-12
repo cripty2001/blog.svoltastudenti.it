@@ -3,13 +3,10 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: >-
-  Le ultime dalla rappresentanza: dall’elezione della Presidenza del Consiglio
-  degli Studenti all’inaugurazione della Biblioteca di Bovisa
+title: "Ultime della Rappresentanza: ultime elezioni e nuova biblioteca!"
 tag: Rappresentanza
-desc: >-
-  Le ultime dalla rappresentanza: dall’elezione della Presidenza del Consiglio
-  degli Studenti all’inaugurazione della Biblioteca di Bovisa
+desc: "Le ultime dalla rappresentanza: dall’elezione della Presidenza del
+  Consiglio degli Studenti all’inaugurazione della Biblioteca di Bovisa"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Alessio Rocca
