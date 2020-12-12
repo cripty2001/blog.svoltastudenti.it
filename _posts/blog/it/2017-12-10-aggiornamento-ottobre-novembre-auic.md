@@ -5,7 +5,9 @@ isAmp: "true"
 noBrand: "false"
 title: Aggiornamento Ottobre / Novembre AUIC
 tag: Associazione
-desc: Aggiornamento Ottobre / Novembre AUIC
+desc: Affrontate le tematiche inerenti la conferma delle audizioni del Nucleo di
+  Valutazione per i corsi di EDA a Lecco, Progettazione dell’Architettura a
+  Milano e Ingegneria dei Sistemi Edilizi a Milano.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Manuela Taurino
