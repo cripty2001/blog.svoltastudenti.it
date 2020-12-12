@@ -4,8 +4,10 @@ category: it
 isAmp: "true"
 noBrand: "false"
 title: Appelli Ing. Edile Gennaio - Febbraio 2018
-tag: Associazione
-desc: Appelli Ing. Edile Gennaio - Febbraio 2018
+tag: Rappresentanza
+desc: Presentata e ratificata la posticipazione degli appelli di Laurea al
+  termine della sessione per  rendere utili alla laurea tutti gli appelli di
+  esame per le scuole ICAT e 3I.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Manuela Taurino
