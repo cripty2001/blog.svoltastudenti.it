@@ -1,6 +1,135 @@
 ---
 layout: default
 ---
+<style>
+	 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+        h1,
+        h2,
+        h3,
+        nav ul li a {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html,
+        body {
+            top: 0;
+            left: 0;
+            margin: 0;
+        }
+
+        header,
+        main,
+        section,
+        ul {
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: fixed;
+            height: 70px;
+            width: 100%;
+            z-index: 3;
+        }
+
+        header img {
+            top: 20px;
+            left: 50%;
+            position: fixed;
+            transform: translate(-50%, 0);
+            height: 70px;
+        }
+
+        nav {
+            top: 50vh;
+            left: 70vw;
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            height: 75vh;
+            width: 25vw;
+            z-index: 2;
+            border-radius: 30px;
+            transform: translate(0, -50%);
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav ul {
+            list-style: none;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 3px;
+            transition: margin 1s;
+        }
+
+        nav ul li.animActive {
+            margin: 7px;
+        }
+
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 1vw;
+            font-weight: 400;
+            color: white;
+            opacity: 0.7;
+            transition: font-size 0.5s;
+        }
+
+        nav ul li a.animActive {
+            font-size: 1.2vw;
+            font-weight: 700;
+            opacity: 1;
+        }
+
+        nav ul li a:hover {
+            font-size: 2.5vh;
+            font-weight: 700;
+        }
+
+        main {
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            scroll-behavior: smooth;
+        }
+
+        #sfondo {
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            filter: brightness(50%);
+        }
+
+        section {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            scroll-snap-align: center;
+        }
+</style>
+
 <nav>
 	<ul>
 		{% assign posts = site.posts | where: "category", "it" | where: "layout", "home" | sort: "order" %}
@@ -12,7 +141,6 @@ layout: default
 </nav>
 
 <main>
-	<img src="/assets/img/sfondo.jpg" id="sfondo"></div>
 	{% for post in list %}
 	<section id="{{ post.sku }}" class="animTrigger" data-animId="{{ post.sku }}">
 		<img class="logo" data-animtarget="{{ post.sku }}"
@@ -23,11 +151,6 @@ layout: default
 			<h3 data-animtarget="{{ post.sku }}">{{ post.type }}</h3>
 			<p data-animtarget="{{ post.sku }}">{{ post.description }}</p>
 		</article>
-		<video controls poster="/assets/cdn/cover/{{ post.sku }}.jpg"
-			data-id="{{ post.sku }}">
-			<source src="/assets/cdn/video/{{ post.sku }}.mp4" type="video/mp4">
-			Your browser does not support HTML video.
-		</video>
 	</section>
 	{% endfor %}
 </main>
