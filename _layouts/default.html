@@ -137,9 +137,17 @@
     </ul>
   </div>
   <div id="site-header">
-    <label for="site-nav-checkbox">
-      <img src="/assets/img/menu.png" alt="logo">
+    <label id="menu-icon" for="site-nav-checkbox">
+      <svg class="ham" viewBox="0 0 100 100" width="80">
+        <path class="hamTop" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+        <path class="hamMiddle" d="m 70,50 h -40" />
+        <path class="hamBottom"
+          d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+      </svg>
     </label>
+    <!-- <label for="site-nav-checkbox">
+      <img src="/assets/img/menu.png" alt="logo">
+    </label> -->
     <img src="/assets/img/logo-testo.png">
     {% if page.translations_it  %}
       <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
