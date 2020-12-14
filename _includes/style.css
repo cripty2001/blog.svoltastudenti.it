@@ -21,7 +21,7 @@ body {
     position: relative;
     scroll-behavior: smooth;
     font-family: 'Montserrat', sans-serif;
-    background-color: darkgray;
+    background-color: var(--light-on);
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -247,6 +247,22 @@ body {
     width: 100%;
 }
 
+#site-content {
+    width: 40%;
+    margin: 25vh auto;
+}
+
+#content {
+    margin-top: 30px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+#content img {
+    padding: 2vw;
+    width: 100%;
+}
+
 article {
     margin-left: 10px;
     margin-right: 10px;
@@ -254,7 +270,7 @@ article {
 
 article h1 {
     font-size: xx-large;
-}
+margin-bottom: 20px;}
 
 article h2 {
     font-size: x-large;
@@ -262,6 +278,10 @@ article h2 {
 
 article h3 {
     font-size: large;
+}
+
+article .authors {
+    text-align: center;
 }
 
 article .authors,
@@ -285,14 +305,4 @@ article .authors li img {
     border-radius: 25px;
     height: 50px;
     overflow: hidden;
-}
-
-@media all and (min-width: 1025px) {
-
-    #site-header,
-    #site-content,
-    #site-nav {
-        padding-left: calc((100% - 1024px) / 2);
-        padding-right: calc((100% - 1024px) / 2);
-    }
 }
