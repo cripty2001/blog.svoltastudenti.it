@@ -5,7 +5,13 @@ isAmp: "true"
 noBrand: "false"
 title: The impossible way to architecture
 tag: Rappresentanza
-desc: The impossible way to architecture
+desc: >-
+  Difficoltà nel passaggio dalla laurea triennale in Design degli Interni alla
+  Laurea Magistrale della facoltà di Architettura Civile.
+
+  Gli altri anni non accadeva.
+
+  Come mai quest'anno sì?
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Laura Olivastri
