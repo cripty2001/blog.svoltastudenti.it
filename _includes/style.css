@@ -288,7 +288,7 @@ body {
 }
 
 article {
-    width: 50%;
+    max-width: 600px;
     margin: 10vh auto;
 }
 
