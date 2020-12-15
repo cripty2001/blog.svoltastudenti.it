@@ -4,198 +4,205 @@ backend:
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
+logo_url: "/assets/img/logo-testo.png"
+show_preview_links: False
+editor:
+  preview: False
 collections:
   - name: "blog-it" # Used in routes, e.g., /admin/collections/blog
     label: "Blog (it)" # Used in the UI
     folder: "_posts/blog/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    publish: False
+    delete: False
+    preview: False
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
-      - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: false}
+      - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: False}
       - {label: "Riassunto (max 200 caratteri)", name: "desc", widget: "text" }
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Articolo in Inglese", name: "translations_en", widget: "relation", required: false, collection: "blog-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: true}
-      - {label: "Referenti", name: "authors", widget: "relation", multiple: true, required: true, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Articolo in Inglese", name: "translations_en", widget: "relation", required: False, collection: "blog-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: True}
+      - {label: "Referenti", name: "authors", widget: "relation", multiple: True, required: True, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "blog-en" # Used in routes, e.g., /admin/collections/blog
     label: "Blog (en)" # Used in the UI
     folder: "_posts/blog/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
-      - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: false}
+      - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: False}
       - {label: "Riassunto (max 200 caratteri)", name: "desc", widget: "text" }
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Articolo in Inglese", name: "translations_it", widget: "relation", required: false, collection: "blog-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: true}
-      - {label: "Referenti", name: "authors", widget: "relation", multiple: true, required: true, collection: "users-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Articolo in Inglese", name: "translations_it", widget: "relation", required: False, collection: "blog-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: True}
+      - {label: "Referenti", name: "authors", widget: "relation", multiple: True, required: True, collection: "users-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "users-it" # Used in routes, e.g., /admin/collections/blog
     label: "Utenti (it)" # Used in the UI
     folder: "_posts/users/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "users"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Nome e Cognome", name: "title", widget: "string"}
       - {label: "Bio", name: "body", widget: "markdown" }
-      - {label: "Utente in Inglese", name: "translations_en", widget: "relation", required: false, collection: "users-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Immagine", name: "article_th", widget: "image", required: true}
+      - {label: "Utente in Inglese", name: "translations_en", widget: "relation", required: False, collection: "users-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Immagine", name: "article_th", widget: "image", required: True}
       - label: "Stato"
         name: "status"
         widget: "object"
         fields:
-          - {label: "Attivo", name: "active", widget: "boolean", required: false}
-          - {label: "Data Entrata", name: "start_date", widget: "datetime", required: true}
-          - {label: "Data Uscita", name: "end_date", widget: "datetime", required: false}
+          - {label: "Attivo", name: "active", widget: "boolean", required: False}
+          - {label: "Data Entrata", name: "start_date", widget: "datetime", required: True}
+          - {label: "Data Uscita", name: "end_date", widget: "datetime", required: False}
       - label: "Profili"
         name: "socials"
         widget: "object"
         fields:
-          - {label: "Facebook Id", name: "fb", widget: "string", required: false}
-          - {label: "Telegram Id", name: "tg", widget: "string", required: false}
-          - {label: "Instagram Id", name: "in", widget: "string", required: false}
+          - {label: "Facebook Id", name: "fb", widget: "string", required: False}
+          - {label: "Telegram Id", name: "tg", widget: "string", required: False}
+          - {label: "Instagram Id", name: "in", widget: "string", required: False}
           - {label: "Svolta Id", name: "mail", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "users-en" # Used in routes, e.g., /admin/collections/blog
     label: "Utenti (en)" # Used in the UI
     folder: "_posts/users/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "users"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Nome e Cognome", name: "title", widget: "string"}
       - {label: "Bio", name: "body", widget: "markdown" }
-      - {label: "Utente in Italiano", name: "translations_it", widget: "relation", required: false, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Immagine", name: "article_th", widget: "image", required: true}
+      - {label: "Utente in Italiano", name: "translations_it", widget: "relation", required: False, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Immagine", name: "article_th", widget: "image", required: True}
       - label: "Stato"
         name: "status"
         widget: "object"
         fields:
-          - {label: "Attivo", name: "active", widget: "boolean", required: false}
-          - {label: "Data Entrata", name: "start_date", widget: "datetime", required: true}
-          - {label: "Data Uscita", name: "end_date", widget: "datetime", required: false}
+          - {label: "Attivo", name: "active", widget: "boolean", required: False}
+          - {label: "Data Entrata", name: "start_date", widget: "datetime", required: True}
+          - {label: "Data Uscita", name: "end_date", widget: "datetime", required: False}
       - label: "Profili"
         name: "socials"
         widget: "object"
         fields:
-          - {label: "Facebook Id", name: "fb", widget: "string", required: false}
-          - {label: "Telegram Id", name: "tg", widget: "string", required: false}
-          - {label: "Instagram Id", name: "in", widget: "string", required: false}
+          - {label: "Facebook Id", name: "fb", widget: "string", required: False}
+          - {label: "Telegram Id", name: "tg", widget: "string", required: False}
+          - {label: "Instagram Id", name: "in", widget: "string", required: False}
           - {label: "Svolta Id", name: "mail", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "events-it" # Used in routes, e.g., /admin/collections/blog
     label: "Eventi (it)" # Used in the UI
     folder: "_posts/events/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "events"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Data", name: "date", widget: "datetime"}
-      - {label: "Categoria", name: "tag", widget: "select", options: ["Viaggio", "Attivita'", "Conferenza", "Workshop", "Evento"], multiple: false}
+      - {label: "Categoria", name: "tag", widget: "select", options: ["Viaggio", "Attivita'", "Conferenza", "Workshop", "Evento"], multiple: False}
       - {label: "Descrizione", name: "body", widget: "markdown" }
-      - {label: "Evento in Inglese", name: "translations_en", widget: "relation", required: false, collection: "events-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Miniatura Evento", name: "article_th", widget: "image", required: true}
+      - {label: "Evento in Inglese", name: "translations_en", widget: "relation", required: False, collection: "events-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Miniatura Evento", name: "article_th", widget: "image", required: True}
       - label: "Programma"
         name: "days"
         widget: "object"
         fields:
-          - {label: "Giorno 1", name: "day1", widget: "markdown", required: false}
-          - {label: "Giorno 2", name: "day2", widget: "markdown", required: false }
-          - {label: "Giorno 3", name: "day3", widget: "markdown", required: false }
-          - {label: "Giorno 4", name: "day4", widget: "markdown", required: false }
-          - {label: "Giorno 5", name: "day5", widget: "markdown", required: false }
+          - {label: "Giorno 1", name: "day1", widget: "markdown", required: False}
+          - {label: "Giorno 2", name: "day2", widget: "markdown", required: False }
+          - {label: "Giorno 3", name: "day3", widget: "markdown", required: False }
+          - {label: "Giorno 4", name: "day4", widget: "markdown", required: False }
+          - {label: "Giorno 5", name: "day5", widget: "markdown", required: False }
       - label: "Descrizione"
         name: "info"
         widget: "object"
         fields:
-          - {label: "Dove", name: "where", widget: "markdown", required: false}
+          - {label: "Dove", name: "where", widget: "markdown", required: False}
           - {label: "Quando", name: "when", widget: "markdown" }
           - {label: "Costo", name: "cost", widget: "markdown" }
           - {label: "Iscrizione", name: "reservation", widget: "markdown" }
-          - {label: "Cosa Portare", name: "requirements", widget: "markdown", required: false }
+          - {label: "Cosa Portare", name: "requirements", widget: "markdown", required: False }
           - {label: "Informazioni", name: "info", widget: "markdown" }
-          - {label: "Note", name: "notes", widget: "markdown", required: false }
+          - {label: "Note", name: "notes", widget: "markdown", required: False }
       - {label: "Prezzo", name: "price", widget: "number", valueType: "int", min: 0, step: 1}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Pretix ID", name: "pretix", widget: "string"}
   - name: "events-en" # Used in routes, e.g., /admin/collections/blog
     label: "Eventi (en)" # Used in the UI
     folder: "_posts/events/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "events"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "true"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "false"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Data", name: "date", widget: "datetime"}
-      - {label: "Categoria", name: "tag", widget: "select", options: ["Viaggio", "Attivita'", "Conferenza", "Workshop", "Evento"], multiple: false}
+      - {label: "Categoria", name: "tag", widget: "select", options: ["Viaggio", "Attivita'", "Conferenza", "Workshop", "Evento"], multiple: False}
       - {label: "Descrizione", name: "body", widget: "markdown" }
-      - {label: "Evento in Inglese", name: "translations_it", widget: "relation", required: false, collection: "events-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: true}
+      - {label: "Evento in Inglese", name: "translations_it", widget: "relation", required: False, collection: "events-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: True}
       - label: "Programma"
         name: "days"
         widget: "object"
         fields:
-          - {label: "Giorno 1", name: "day1", widget: "markdown", required: false}
-          - {label: "Giorno 2", name: "day2", widget: "markdown", required: false }
-          - {label: "Giorno 3", name: "day3", widget: "markdown", required: false }
-          - {label: "Giorno 4", name: "day4", widget: "markdown", required: false }
-          - {label: "Giorno 5", name: "day5", widget: "markdown", required: false }
+          - {label: "Giorno 1", name: "day1", widget: "markdown", required: False}
+          - {label: "Giorno 2", name: "day2", widget: "markdown", required: False }
+          - {label: "Giorno 3", name: "day3", widget: "markdown", required: False }
+          - {label: "Giorno 4", name: "day4", widget: "markdown", required: False }
+          - {label: "Giorno 5", name: "day5", widget: "markdown", required: False }
       - label: "Descrizione"
         name: "info"
         widget: "object"
         fields:
-          - {label: "Dove", name: "where", widget: "markdown", required: false}
+          - {label: "Dove", name: "where", widget: "markdown", required: False}
           - {label: "Quando", name: "when", widget: "markdown" }
           - {label: "Costo", name: "cost", widget: "markdown" }
           - {label: "Iscrizione", name: "reservation", widget: "markdown" }
-          - {label: "Cosa Portare", name: "requirements", widget: "markdown", required: false }
+          - {label: "Cosa Portare", name: "requirements", widget: "markdown", required: False }
           - {label: "Informazioni", name: "info", widget: "markdown" }
-          - {label: "Note", name: "notes", widget: "markdown", required: false }
+          - {label: "Note", name: "notes", widget: "markdown", required: False }
       - {label: "Prezzo", name: "price", widget: "number", valueType: "int", min: 0, step: 1}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Pretix ID", name: "pretix", widget: "string"}
   - name: "home-it" # Used in routes, e.g., /admin/collections/blog
     label: "Home (it)" # Used in the UI
     folder: "_posts/home/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - label: "Bottone 1"
         name: "btn1"
         widget: "object"
@@ -208,21 +215,21 @@ collections:
         fields:
           - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string"}
           - {label: "Link Bottone", name: "link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "home-en" # Used in routes, e.g., /admin/collections/blog
     label: "Home (en)" # Used in the UI
     folder: "_posts/home/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - label: "Bottone 1"
         name: "btn1"
         widget: "object"
@@ -235,73 +242,73 @@ collections:
         fields:
           - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string"}
           - {label: "Link Bottone", name: "link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "rappresentanza-it" # Used in routes, e.g., /admin/collections/blog
     label: "Rappresentanza (it)" # Used in the UI
     folder: "_posts/rappresentanza/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "rappresentanza"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - {label: "Testo Bottone (max 20 caratteri)", name: "btn_text", widget: "string"}
       - {label: "Link Bottone", name: "btn_link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "rappresentanza-en" # Used in routes, e.g., /admin/collections/blog
     label: "Rappresentanza (en)" # Used in the UI
     folder: "_posts/rappresentanza/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "rappresentanza"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - {label: "Testo Bottone (max 20 caratteri)", name: "btn_text", widget: "string"}
       - {label: "Link Bottone", name: "btn_link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "associazione-it" # Used in routes, e.g., /admin/collections/blog
     label: "Associazione (it)" # Used in the UI
     folder: "_posts/associazione/it" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "associazione"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - {label: "Testo Bottone (max 20 caratteri)", name: "btn_text", widget: "string"}
       - {label: "Link Bottone", name: "btn_link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "associazione-en" # Used in routes, e.g., /admin/collections/blog
     label: "Associazione (en)" # Used in the UI
     folder: "_posts/associazione/en" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: True # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "associazione"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "en"}
-      - {label: "Amp", name: "isAmp", widget: "hidden", default: "false"}
-      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "true"}
+      - {label: "Amp", name: "isAmp", widget: "hidden", default: "False"}
+      - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Immagine Background", name: "bg", widget: "image", required: true}
+      - {label: "Immagine Background", name: "bg", widget: "image", required: True}
       - {label: "Testo Bottone (max 20 caratteri)", name: "btn_text", widget: "string"}
       - {label: "Link Bottone", name: "btn_link", widget: "string"}
-      - {label: "Pubblicato", name: "published", widget: "hidden", default: true}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
