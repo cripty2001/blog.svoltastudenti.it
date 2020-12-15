@@ -185,8 +185,8 @@ body {
 }
 
 #site-nav-pages li {
-    font-size: 50px;
-    padding: 10px 0px;
+    font-size: 5vh;
+    padding: 1.5vh 0px;
     transform: scale(1);
     transition: transform .5s;
 }
@@ -336,12 +336,6 @@ article .authors li img {
     overflow: hidden;
 }
 
-@media (orientation: portrait) {
-    article {
-      width: 70%;
-    }
-  }
-
 .backgroundImage {
     background-origin: padding-box;
     background-position: center;
@@ -370,7 +364,8 @@ article .authors li img {
     transition: all .5s;
 }
 
-.thList .th:hover {
+.thList .th:hover,
+.thList .th:active {
     transform: scale(1.1);
 }
 
@@ -390,3 +385,22 @@ article .authors li img {
     left: 50%;
     transform: scale(1) translate(-50%, 0%);
 }
+
+@media (orientation: portrait) {
+    article {
+      width: 70%;
+    }
+
+    #site-header .lang {
+        right: 10vw;
+    }
+    
+    .ham {
+        margin-left: calc(10vw - 25px);
+    }
+
+    #site-nav-pages li {
+        font-size: 4vw;
+    }
+
+  }
