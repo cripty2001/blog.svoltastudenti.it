@@ -5,7 +5,9 @@ isAmp: "true"
 noBrand: "false"
 title: Giunta della scuola di ing. Edile-Architettura - 12/12/2013
 tag: Rappresentanza
-desc: Giunta della scuola di ing. Edile-Architettura - 12/12/2013
+desc: Per evitare una sovrapposizione di corsi nell'area settoriale "scienze e
+  tecniche dell'edilizia" sono stati accorpati i due corsi di ing. dell'edilizia
+  e Architettura e produzione edilizia (APE).
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Cesare De Mezza
