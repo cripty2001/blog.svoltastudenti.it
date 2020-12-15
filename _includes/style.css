@@ -27,8 +27,6 @@ body {
 }
 
 .backgroundImage {
-    background-color: #FF6600;
-    background-image: url('/assets/img/home_cover.jpg');
     background-origin: padding-box;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,7 +177,7 @@ body {
 }
 
 #site-content {
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 #site-nav-checkbox:not(:checked)~#site-nav {

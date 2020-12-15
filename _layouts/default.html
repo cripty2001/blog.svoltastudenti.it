@@ -76,6 +76,16 @@
   <script async custom-element="amp-consent" src="https://cdn.ampproject.org/v0/amp-consent-latest.js"></script> -->
   <style>
     {% include style.css %}
+    {% unless page.header_title %}
+      #site-title {
+        display: none;
+      }
+    {% endunless %}
+    {% if page.article_th %}
+      #site-title {
+        background-image: url('{{ page.article_th }}');
+      }
+    {% endif %}
   </style>
 </head>
 <!-- TODO BEFORE -->
@@ -159,7 +169,7 @@
     {% endif %}
   </div>
   <div id="site-title" class="backgroundImage">
-    <h1>Prova</h1>
+    <h1>{{ page.header_title }}</h1>
   </div>
   <div id="site-cookies">
     Informativa<br /><br />

@@ -5,3 +5,4 @@ desc
 article_th
 category
 layout
+header_title
