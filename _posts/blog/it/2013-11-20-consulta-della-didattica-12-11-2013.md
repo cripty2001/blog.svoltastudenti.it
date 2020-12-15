@@ -5,7 +5,11 @@ isAmp: "true"
 noBrand: "false"
 title: Consulta della Didattica 12-11-2013
 tag: Rappresentanza
-desc: Consulta della Didattica 12-11-2013
+desc: |-
+  -Calendarizzazione Offerta Formativa 2014-2015
+  -Valutazione esami di profitto
+  -Linee guida per la gestione della mobilità internazionale degli studenti
+  -Honor Code e proposte di accordi internazionali
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
