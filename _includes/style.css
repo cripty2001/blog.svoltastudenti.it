@@ -133,7 +133,7 @@ body {
     top: 25px;
     position: absolute;
     right: 15vw;
-    transform: translate(0%, -50%);
+    transform: translate(50%, -50%);
     font-weight: normal;
     font-size: 16px;
 }
@@ -397,10 +397,6 @@ article .authors li img {
 @media (orientation: portrait) {
     article {
       width: 70%;
-    }
-
-    #site-header .lang {
-        right: 10vw;
     }
     
     .ham {
