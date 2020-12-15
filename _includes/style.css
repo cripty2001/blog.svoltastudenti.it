@@ -13,6 +13,14 @@
     --dark-on: rgba(0, 0, 0, 1);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     padding: 0;
@@ -192,12 +200,12 @@ body {
 }
 
 #site-nav-pages li:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #site-nav-pages,
 #site-nav-socials {
-    margin-left: 25vw;
+    margin-left: 20vw;
 }
 
 #site-nav-socials {
