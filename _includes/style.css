@@ -4,7 +4,7 @@
 
 :root {
     --orange: rgb(255, 102, 0);
-    --orange-half: rgb(255, 102, 0, .9);
+    --orange-half: rgb(255, 102, 0, .85);
     --light-off: rgba(255, 255, 255, 0);
     --light-half: rgba(255, 255, 255, .5);
     --light-on: rgba(255, 255, 255, 1);
@@ -103,7 +103,7 @@ body {
     align-items: center;
     z-index: 11;
     background-color: var(--orange-half);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 #site-header>* {
@@ -266,6 +266,15 @@ body {
 #content img {
     padding: 2vw;
     width: 100%;
+    transition: all .4s;
+}
+
+#content img:hover {
+    transform: scale(1.025);
+}
+
+#content img:active {
+    transform: scale(5);
 }
 
 #content p {
@@ -275,12 +284,12 @@ body {
 
 .bar {
     list-style-type: none;
-    
+
 }
 
 article {
-    width: 40%;
-    margin: 25vh auto;
+    width: 50%;
+    margin: 10vh auto;
 }
 
 article h1 {
@@ -314,6 +323,11 @@ article .authors li {
     margin-top: 15px;
     overflow: hidden;
     position: relative;
+    transition: transform .5s;
+}
+
+article .authors li:hover {
+    transform: scale(1.2);
 }
 
 article .authors li img {
@@ -322,6 +336,11 @@ article .authors li img {
     overflow: hidden;
 }
 
+@media (orientation: portrait) {
+    article {
+      width: 70%;
+    }
+  }
 
 .backgroundImage {
     background-origin: padding-box;
@@ -347,7 +366,12 @@ article .authors li img {
     display: block;
     flex-grow: 0;
     flex-shrink: 0;
-    margin: 10px;
+    margin: 15px;
+    transition: all .5s;
+}
+
+.thList .th:hover {
+    transform: scale(1.1);
 }
 
 .thList .th::after {
@@ -364,5 +388,5 @@ article .authors li img {
     font-weight: bold;
     color: black;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: scale(1) translate(-50%, 0%);
 }
