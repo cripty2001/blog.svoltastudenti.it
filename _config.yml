@@ -7,5 +7,3 @@ url: "https://blog.svoltastudenti.it" # the base hostname & protocol for your si
 permalink: /:categories/:title
 future: true
 lang: [ 'it', 'en']
-plugins:
-  - jekyll-redirect-from
