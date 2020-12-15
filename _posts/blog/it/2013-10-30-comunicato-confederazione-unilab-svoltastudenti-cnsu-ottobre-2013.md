@@ -3,9 +3,11 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: Comunicato Confederazione - Unilab SvoltaStudenti CNSU ottobre 2013
+title: Comunicato Confederazione-Unilab SvoltaStudenti CNSU ottobre 2013
 tag: Rappresentanza
-desc: Comunicato Confederazione - Unilab SvoltaStudenti CNSU ottobre 2013
+desc: Si è conclusa la due giorni del CNSU che ha visto partecipi i consiglieri
+  di Confederazione - Unilab SvoltaStudenti Angelo Antinoro, Vincenzo Giannico e
+  Francesco Testa.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
