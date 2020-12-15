@@ -5,7 +5,12 @@ isAmp: "true"
 noBrand: "false"
 title: Consulta della didattica 10-12-13
 tag: Rappresentanza
-desc: Consulta della didattica 10-12-13
+desc: |-
+  Consulta della didattica:
+  -Il Presidio AVA 
+  -Programmazione dell’offerta formativa 2014/2015
+  -Linee guida per la gestione della mobilità internazionale degli studenti
+  -Honor Code - Obblighi dello studente
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
