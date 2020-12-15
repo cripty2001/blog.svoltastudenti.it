@@ -145,13 +145,10 @@
           d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
       </svg>
     </label>
-    <!-- <label for="site-nav-checkbox">
-      <img src="/assets/img/menu.png" alt="logo">
-    </label> -->
-    <img src="/assets/img/logo-testo.png">
+    <img id="logoBig" src="/assets/img/logo-testo.png">
     {% if page.translations_it  %}
       <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
-        <img src="/assets/img/lang/it.png" alt="IT">
+        <span>ENG</span>
       </a>
     {% elsif page.translations_en  %}
       <a href="{{site.url}}/en/{{page.translations_en | slugify}}">
@@ -162,7 +159,7 @@
     {% endif %}
   </div>
   <div id="site-title" class="backgroundImage">
-    Prova
+    <h1>Prova</h1>
   </div>
   <div id="site-cookies">
     Informativa<br /><br />
