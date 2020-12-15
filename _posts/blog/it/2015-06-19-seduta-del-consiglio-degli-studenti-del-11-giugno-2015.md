@@ -5,7 +5,9 @@ isAmp: "true"
 noBrand: "false"
 title: Seduta del Consiglio degli Studenti del 11 Giugno 2015
 tag: Rappresentanza
-desc: Seduta del Consiglio degli Studenti del 11 Giugno 2015
+desc: 'Due i punti principali all’ordine del giorno della seduta: "elezioni
+  indirette dei rappresentanti degli studenti" e "parere obbligatorio inerente
+  alla nuova tassazione prevista per l’A.A 2015/2016".'
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Giorgio Quistini
