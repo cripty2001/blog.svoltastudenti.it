@@ -5,7 +5,17 @@ isAmp: "true"
 noBrand: "false"
 title: +++ Breaking news CNSU +++
 tag: Rappresentanza
-desc: +++ Breaking news CNSU +++
+desc: >-
+  Che cosa è l'ANVUR?
+
+  -L'Agenzia per la valutazione del sistema Universitario e della ricerca (ANVUR)
+
+  Che cosa è il CUN?
+
+  -Il Consiglio universitario nazionale (CUN)
+
+
+  Scopri di più!
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
