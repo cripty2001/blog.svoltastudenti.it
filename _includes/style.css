@@ -290,11 +290,6 @@ body {
     hyphens: auto;
 }
 
-.bar {
-    list-style-type: none;
-
-}
-
 article {
     max-width: 600px;
     margin: 10vh auto;

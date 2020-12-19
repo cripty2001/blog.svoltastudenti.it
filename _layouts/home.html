@@ -67,7 +67,7 @@ layout: default
         }
 
         nav ul {
-            list-style: none;
+            /* list-style: none; */
             flex: 1;
             display: flex;
             flex-direction: column;
@@ -135,7 +135,7 @@ layout: default
 		{% assign posts = site.posts | where: "category", "it" | where: "layout", "home" | sort: "order" %}
 		{% for post in list %}
 		<li data-animtarget="{{ post.sku }}"><a data-animtarget="{{ post.sku }}"
-				href="#{{ post.sku }}">{{ post.title }}</a></li>
+				href="#{{ post.sku }}"></a></li>
 		{% endfor %}
 	</ul>
 </nav>
