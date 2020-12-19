@@ -5,7 +5,11 @@ isAmp: "true"
 noBrand: "false"
 title: Conferenza della Scuola di Architettura e Società
 tag: Rappresentanza
-desc: Conferenza della Scuola di Architettura e Società
+desc: >-
+  -Deliberata la nascita, con decorrenza primo gennaio 2016, della nuova Scuola
+  di Architettura Urbanistica e Ingegneria delle Costruzioni.
+
+  -Approvati i manifesti degli studi dei vari corsi di laurea.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Marcello Cadorin
