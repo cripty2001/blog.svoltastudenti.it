@@ -17,12 +17,12 @@ gem "jekyll", "~> 4.1.1"
 # gem "github-pages", group: :jekyll_plugins
 # gem "minima", "~> 2.5"
 
-# # If you have any plugins, put them here!
-# group :jekyll_plugins do
-#   gem "jekyll-feed", "~> 0.11"
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+  gem "jekyll-redirect-from", "~> 0.16"
 #   gem "jekyll-seo-tag", "~> 2.5"
 #   gem "jekyll-sitemap", "~> 1.2"
-# end
+end
 
 # # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
