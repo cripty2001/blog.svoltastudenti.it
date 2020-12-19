@@ -211,7 +211,6 @@ body {
 #site-nav-socials {
     margin-top: 3vh;
     padding: 0;
-    transition: all .5s;
 }
 
 #site-nav-socials li:hover {
@@ -220,6 +219,7 @@ body {
 
 #site-nav-socials li {
     display: inline-block;
+    transition: all .5s;
 }
 
 #site-nav-socials img {
