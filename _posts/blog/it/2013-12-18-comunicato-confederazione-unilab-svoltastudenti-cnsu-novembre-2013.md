@@ -3,9 +3,17 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: Comunicato Confederazione - Unilab SvoltaStudenti CNSU novembre 2013
+title: Comunicato Confederazione-Unilab SvoltaStudenti CNSU novembre 2013
 tag: Rappresentanza
-desc: Comunicato Confederazione - Unilab SvoltaStudenti CNSU novembre 2013
+desc: >-
+  -Elezioni per il CUN e per l'ANVUR, eletti due consiglieri di Unilab
+  SvoltaStudenti;
+
+  -Internazionalizzazione;
+
+  -Situazioni nelle quali l'attuale sistema DSU è abusato da evasori;
+
+  -Bonus maturità.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico

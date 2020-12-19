@@ -337,6 +337,7 @@ article .authors li img {
     border-radius: 25px;
     height: 50px;
     overflow: hidden;
+    object-fit: cover;
 }
 
 .backgroundImage {

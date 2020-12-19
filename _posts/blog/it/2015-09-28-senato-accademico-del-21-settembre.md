@@ -5,7 +5,12 @@ isAmp: "true"
 noBrand: "false"
 title: Senato Accademico del 21 Settembre
 tag: Rappresentanza
-desc: Senato Accademico del 21 Settembre
+desc: |-
+  News dal Senato Accademico:
+  -Inaugurazione del 153° Anno Accademico;
+  -Ranking 2015 (il nostro ateneo è 187° nel mondo e primo in Italia);
+  -Sedute aperte Senato Accademico;
+  -Fondazione Politecnico.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Giorgio Quistini

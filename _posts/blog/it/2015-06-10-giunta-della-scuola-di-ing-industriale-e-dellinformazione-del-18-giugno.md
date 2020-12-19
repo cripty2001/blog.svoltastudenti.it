@@ -3,9 +3,14 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title:  Giunta della Scuola di Ing. Industriale e dell’Informazione del 18 Giugno
+title: Giunta della Scuola di Ing. Industriale e dell’Informazione
 tag: Rappresentanza
-desc:  Giunta della Scuola di Ing. Industriale e dell’Informazione del 18 Giugno
+desc: >-
+  Rielaborazione del Calendario per il prossimo anno Accademico 2015-2016 la cui
+  unica proposta di modifica è stata la diminuzione dagli attuali 6 appelli ai
+  vecchi 5.
+
+  Leggi cosa cambierà!
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Federico Gatti

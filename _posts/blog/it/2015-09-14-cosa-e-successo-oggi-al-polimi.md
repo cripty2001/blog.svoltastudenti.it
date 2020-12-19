@@ -5,7 +5,13 @@ isAmp: "true"
 noBrand: "false"
 title: Cosa è successo oggi al Polimi?
 tag: Rappresentanza
-desc: Cosa è successo oggi al Polimi?
+desc: |-
+  Tante le ultime novita al PoliMi:
+  -Workshop ad Ingegneria;
+  -Dati Immatricolazione;
+  -Novita' doppia laurea AA 2016-2017;
+  -Riconoscimenti crediti Summer School;
+  -Honor Programs.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Giorgio Quistini

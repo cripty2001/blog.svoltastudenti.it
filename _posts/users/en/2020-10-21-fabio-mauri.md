@@ -12,7 +12,7 @@ status:
   active: true
 socials:
   mail: fabio.mauri
-  tg: "@cripty2001"
+  tg: cripty2001
 published: true
 date: 2020-10-21T21:13:57.086Z
 ---
