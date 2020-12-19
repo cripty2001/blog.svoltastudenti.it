@@ -211,6 +211,11 @@ body {
 #site-nav-socials {
     margin-top: 3vh;
     padding: 0;
+    transition: all .5s;
+}
+
+#site-nav-socials li:hover {
+    transform: scale(1.1);
 }
 
 #site-nav-socials li {
@@ -221,7 +226,6 @@ body {
     height: auto;
     width: 4vw;
     overflow: hidden;
-    border-radius: 20px;
     margin: 10px;
 }
 
