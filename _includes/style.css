@@ -211,6 +211,11 @@ body {
 #site-nav-socials {
     margin-top: 3vh;
     padding: 0;
+    transition: all .5s;
+}
+
+#site-nav-socials:hover {
+    transform: scale(1.1);
 }
 
 #site-nav-socials li {
