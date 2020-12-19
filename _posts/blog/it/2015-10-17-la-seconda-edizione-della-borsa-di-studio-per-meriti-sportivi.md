@@ -5,7 +5,11 @@ isAmp: "true"
 noBrand: "false"
 title: La seconda edizione della borsa di studio per meriti sportivi
 tag: Rappresentanza
-desc: La seconda edizione della borsa di studio per meriti sportivi
+desc: >-
+  Seconda call della borsa di studio per meriti sportivi assegnata a studenti
+  eccellenti nello studio e nello sport!
+
+  Il numero di borse scende a 22, ma ne aumenta il premio passando da €1.500 a €2.500.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Giorgio Quistini
