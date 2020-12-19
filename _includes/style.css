@@ -214,7 +214,7 @@ body {
     transition: all .5s;
 }
 
-#site-nav-socials:hover {
+#site-nav-socials li:hover {
     transform: scale(1.1);
 }
 
