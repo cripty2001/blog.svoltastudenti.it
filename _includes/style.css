@@ -111,7 +111,7 @@ body {
     align-items: center;
     z-index: 11;
     background-color: var(--orange-half);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
 }
 
 #site-header>* {
