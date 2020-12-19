@@ -4,14 +4,16 @@ category: it
 isAmp: "true"
 noBrand: "false"
 title: Giada Chiametti
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/giadachiametti1.jpg
 status:
   start_date: 2020-10-25T15:53:51.931Z
   end_date: 2020-10-25T15:53:51.936Z
   active: true
 socials:
   mail: giada.chiametti
+  in: "@di.sa.gia.da "
+  fb: https://www.facebook.com/giada.chiametti
 published: true
 date: 2020-10-25T15:53:51.940Z
 ---
-TODO
+Amante dei Pink Floyd e del tennis; per nulla egocentrica e umilmente favolosa. 😇😇
