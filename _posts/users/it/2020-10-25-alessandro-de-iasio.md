@@ -12,7 +12,7 @@ status:
   active: true
 socials:
   mail: alessandro.deiasio
-  fb: https://www.facebook.com/alessandro.deiasio/
+  fb: alessandro.deiasio
 published: true
 date: 2020-10-25T15:54:48.439Z
 ---

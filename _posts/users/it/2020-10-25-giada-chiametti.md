@@ -11,8 +11,8 @@ status:
   active: true
 socials:
   mail: giada.chiametti
-  in: "@di.sa.gia.da "
-  fb: https://www.facebook.com/giada.chiametti
+  in: di.sa.gia.da
+  fb: giada.chiametti
 published: true
 date: 2020-10-25T15:53:51.940Z
 ---
