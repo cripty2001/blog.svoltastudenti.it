@@ -3,47 +3,87 @@ layout: default
 ---
 {% assign posts = site.posts | where: "category", page.thlist_lang | where: "layout", page.thlist_layout %}
 {% assign tags = posts | map: page.thlist_tag | compact | uniq | sort_natural %}
-<div class="thList">
-    {% for post in posts %}
-      <a class="th backgroundImage" style="background-image: url('{{ post.article_th }}')" href="{{ post.url | prepend: site.baseurl }}"></a>
-    {% endfor %}
-  <!-- </div>
-  <div class="wrapper-third">
+{% if page.category == "it" %}
+  {% assign all_txt = "Tutti gli Articoli" | split: "~" %}
+{% else %}
+  {% assign all_txt = "All Articles" | split: "~" %}
+{% endif %}
+{% assign tags=all_txt | concat: tags %}
 
+<div class="thList">
+  <style>
+    {% for tag in tags %}
+      /* .thList #thList-catFilter-{{ tag | slugify }}:checked {
+        height: 500px;
+      } */
+
+      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data *:not([data-cat*="{{ tag | slugify }}"]) {
+        display: none;
+      }
+
+      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="{{ tag | slugify }}"] {
+        font-size: xx-large;
+      }
+/* 
+      .thList .data .th[data-cat="{{ tag | slugify }}"]{
+        display: none;
+      } */
+    {% endfor %}
+  </style>
+    {% for tag in tags %}
+      <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" />
+    {% endfor %}
+  <div class="list">
+    <ul>
+      {% for tag in tags %}
+        <li>
+          <label for="thList-catFilter-{{ tag | slugify }}">{{ tag }}</label>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
-  <div class="wrapper-vertical">
-    
+  <div class="data">
+    {% for post in posts %}
+      <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" style="background-image: url('{{ post.article_th }}')" href="{{ post.url | prepend: site.baseurl }}"></a>
+    {% endfor %}
   </div>
-  <div class="wrapper-half">
-    
-  </div> -->
+<!-- </div>
+<div class="wrapper-third">
+
+</div>
+<div class="wrapper-vertical">
+  
+</div>
+<div class="wrapper-half">
+  
+</div> -->
 </div>
 <!-- <div class="thList">
-  <div class="wrapper">
-    {% for tag in tags %}
-      <input type="radio" name="thList-catFilter" id="thList-catFilter-{{ tag | slugify }}" />
-    {% endfor %}
-    <input type="checkbox" id="thList-checkbox" />
-    <div class="list">
-      <label for="thList-checkbox">Categorie</label>
-      <ul>
-        {% for tag in tags %}
-          <li>
-            <label for="thList-catFilter-{{ tag | slugify }}">{{ tag }}</label>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="data">
-      {% for post in posts %}
-      <a class="th" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="img" style="background-image: url('{{ post.article_th }}')"></div>
-        <div class="info">
-          <div class="title">{{ post.title }}</div>
-          <div class="category">{{ post.tag }}</div>
-        </div>
-      </a>
+<div class="wrapper">
+  {% for tag in tags %}
+    <input type="radio" name="thList-catFilter" id="thList-catFilter-{{ tag | slugify }}" />
+  {% endfor %}
+  <input type="checkbox" id="thList-checkbox" />
+  <div class="list">
+    <label for="thList-checkbox">Categorie</label>
+    <ul>
+      {% for tag in tags %}
+        <li>
+          <label for="thList-catFilter-{{ tag | slugify }}">{{ tag }}</label>
+        </li>
       {% endfor %}
-    </div>
+    </ul>
   </div>
+  <div class="data">
+    {% for post in posts %}
+    <a class="th" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="img" style="background-image: url('{{ post.article_th }}')"></div>
+      <div class="info">
+        <div class="title">{{ post.title }}</div>
+        <div class="category">{{ post.tag }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
 </div> -->
