@@ -3,7 +3,7 @@ layout: blog
 category: it
 isAmp: "true"
 noBrand: "false"
-title: Struttura del terzo anno del corso in Progettazione dell'Architettura
+title: Struttura terzo anno del corso in Progettazione dell'Architettura
 tag: Rappresentanza
 desc: Struttura del terzo anno del corso in Progettazione dell'Architettura
 article_th: /assets/img/uploads/article_placeholder.png
