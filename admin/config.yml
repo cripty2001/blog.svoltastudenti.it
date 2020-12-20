@@ -17,9 +17,12 @@ collections:
     delete: False
     preview: False
     view_filters:
-      - label: Lingua
+      - label: Italiano
         field: category
-        pattern: 'it|en'
+        pattern: 'it'
+      - label: Inglese
+        field: category
+        pattern: 'en'
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
