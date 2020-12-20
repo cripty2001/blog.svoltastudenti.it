@@ -35,7 +35,7 @@ collections:
       - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: False}
       - {label: "Riassunto (max 200 caratteri)", name: "desc", widget: "text" }
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Articolo in Inglese", name: "translations_en", widget: "relation", required: False, collection: "blog-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Traduzione", name: "translations", widget: "relation", required: False, collection: "blog-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: True}
       - {label: "Referenti", name: "authors", widget: "relation", multiple: True, required: True, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
