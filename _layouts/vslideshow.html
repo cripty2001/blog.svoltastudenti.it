@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "category", page.vslideshow_lang | where: "layout", page.vslideshow_layout %}
+{% assign posts = site.posts | where: "layout", "vslideshow" | where: "page", page.vslideshow_page %}
 <div class="vslideshow">
   <style>
     .vslideshow {
@@ -14,6 +14,9 @@ layout: default
       position: fixed;
       right: 10px;
       top: 300px;
+      {% unless page.vslideshow_type == "snap" %}
+        display: none
+      {% endunless %}
     }
 
     .vslideshow > .bar li {
