@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "layout", "_vslideshow" | where: "page", page.vslideshow_page %}
+{% assign posts = site.posts | where: "layout", "_vslideshow" | where: "page", page.vslideshow_page | sort: "order" %}
 <div class="vslideshow">
   <style>
     .vslideshow {
