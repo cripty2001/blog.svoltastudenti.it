@@ -16,12 +16,22 @@ layout: default
       top: 300px;
     }
 
+    .vslideshow > .bar li {
+      font-size: 150px;
+    }
+
+    .vslideshow > .bar li.vslideshow-animActive {
+      color: #FF6600;
+    }
+
     .vslideshow > .content {
       width: 100%;
       height: 100%;
       overflow-x: hidden;
       overflow-y: auto;
-      scroll-snap-type: y mandatory;
+      {% if page.vslideshow_snap %}
+        scroll-snap-type: y mandatory;
+      {% endif %}
     }
     
 		.vslideshow > .content section {

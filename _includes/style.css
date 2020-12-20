@@ -169,6 +169,8 @@ body {
     background-color: var(--orange);
     transition: all 1s;
     z-index: 10;
+    display: flex;
+    flex-direction: row;
 }
 
 #site-nav ul,
@@ -180,7 +182,6 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-top: 15vh;
     padding: 0;
 }
 
@@ -198,10 +199,10 @@ body {
 #site-nav-pages,
 #site-nav-socials {
     margin-left: 20vw;
+    margin-top: 15vh;
 }
 
 #site-nav-socials {
-    margin-top: 3vh;
     padding: 0;
 }
 
@@ -242,7 +243,6 @@ body {
     width: 80%;
     left: 50%;
     transform: translate(-50%, 0%);
-
 
     display: none;
 }
@@ -417,6 +417,10 @@ article .authors li img {
     
     .ham {
         margin-left: calc(10vw - 25px);
+    }
+
+    #site-nav {
+        flex-direction: column;
     }
 
     #site-nav-pages li {
