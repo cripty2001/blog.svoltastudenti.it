@@ -17,6 +17,9 @@ layout: default
         height: 500px;
       } */
 
+      #thList-checkbox:checked ~ ul {
+        display: none;
+      }
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data *:not([data-cat*="{{ tag | slugify }}"]) {
         display: none;
       }
@@ -34,6 +37,8 @@ layout: default
       <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" />
     {% endfor %}
   <div class="list">
+    <input type="checkbox" id="thList-checkbox" />
+    <label for="thList-checkbox">Categorie</label>
     <ul>
       {% for tag in tags %}
         <li>
