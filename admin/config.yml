@@ -34,9 +34,9 @@ collections:
       - {label: "Categoria", name: "tag", widget: "select", options: ["Architettura Urbanistica Ingegneria delle Costruzioni", "Associazione", "Consiglio degli Studenti", "Consiglio di Amministrazione", "Consiglio Nazionale degli Studenti Universitari", "Design", "Ingegneria Civile, Ambientale e Territoriale", "Ingegneria Industriale e dell’Informazione", "Rappresentanza", "Senato Accademico"], multiple: False}
       - {label: "Riassunto (max 200 caratteri)", name: "desc", widget: "text" }
       - {label: "Testo", name: "body", widget: "markdown"}
-      - {label: "Traduzione", name: "translations", widget: "relation", required: False, collection: "blog-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Traduzione", name: "translations", widget: "relation", required: False, collection: "blog", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Miniatura Articolo", name: "article_th", widget: "image", required: True}
-      - {label: "Referenti", name: "authors", widget: "relation", multiple: True, required: True, collection: "users-it", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Referenti", name: "authors", widget: "relation", multiple: True, required: True, collection: "users", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
   - name: "users" # Used in routes, e.g., /admin/collections/blog
@@ -57,7 +57,7 @@ collections:
       - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Nome e Cognome", name: "title", widget: "string"}
       - {label: "Bio", name: "body", widget: "markdown" }
-      - {label: "Utente in Inglese", name: "translations_en", widget: "relation", required: False, collection: "users-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Utente in Inglese", name: "translations_en", widget: "relation", required: False, collection: "users", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Immagine (50x50 px)", name: "article_th", widget: "image", required: True}
       - {label: "Immagine full", name: "img", widget: "image", required: True}
       - label: "Stato"
@@ -100,7 +100,7 @@ collections:
       - {label: "Data", name: "date", widget: "datetime"}
       - {label: "Categoria", name: "tag", widget: "select", options: ["Viaggio", "Attivita'", "Conferenza", "Workshop", "Evento"], multiple: False}
       - {label: "Descrizione", name: "body", widget: "markdown" }
-      - {label: "Evento in Inglese", name: "translations_en", widget: "relation", required: False, collection: "events-en", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
+      - {label: "Evento in Inglese", name: "translations_en", widget: "relation", required: False, collection: "events", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
       - {label: "Miniatura Evento", name: "article_th", widget: "image", required: True}
       - label: "Programma"
         name: "days"
