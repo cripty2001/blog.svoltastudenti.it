@@ -60,6 +60,14 @@ layout: default
         top: 0;
       {% endif %}
     }
+    .vslideshow > .content section video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
 
     .vslideshow > .content section .title {
       font-size: 3vmax;
@@ -98,7 +106,8 @@ layout: default
   </style>
   <div class="content">
     {% for post in posts %}
-      <section class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}" style="background-image: url('{{ post.bg }}')">
+      <section class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
+        <video muted autoplay loop poster="{{ post.bg }}" class="bg"></video>
         <div class="title">{{ post.title }}</div>
         <div class="subtitle">{{ post.content | markdownify }}</div>
         <div class="btn"><a href="{{ post.btn1.link }}">{{ post.btn1.txt}}</a><a href="{{ post.btn2.link }}">{{ post.btn2.txt}}</a></div>

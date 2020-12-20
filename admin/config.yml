@@ -142,21 +142,21 @@ collections:
       - {label: "Lingua", name: "category", widget: "select", options: ["en", "it"]}
       - {label: "Pagina", name: "page", widget: "select", options: ["home-it", "home-en", "associazione", "association", "rappresentanza", "representatives"]}
       - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
-      - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
+      - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string", required: True}
       - {label: "Testo", name: "body", widget: "markdown"}
       - {label: "Immagine Background", name: "bg_img", widget: "image", required: True}
-      - {label: "Video Background", name: "bg_video", widget: "file", required: True}
+      - {label: "Video Background", name: "bg_video", widget: "file"}
       - label: "Bottone 1"
         name: "btn1"
         widget: "object"
         fields:
-          - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string"}
-          - {label: "Link Bottone", name: "link", widget: "string"}
+          - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string", required: False}
+          - {label: "Link Bottone", name: "link", widget: "string", required: False}
       - label: "Bottone 2"
         name: "btn2"
         widget: "object"
         fields:
-          - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string"}
-          - {label: "Link Bottone", name: "link", widget: "string"}
+          - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string", required: False}
+          - {label: "Link Bottone", name: "link", widget: "string", required: False}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
