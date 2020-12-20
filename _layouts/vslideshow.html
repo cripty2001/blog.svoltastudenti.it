@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "layout", "vslideshow" | where: "page", page.vslideshow_page %}
+{% assign posts = site.posts | where: "layout", "_vslideshow" | where: "page", page.vslideshow_page %}
 <div class="vslideshow">
   <style>
     .vslideshow {
@@ -52,6 +52,7 @@ layout: default
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
+      position: relative;
       {% if page.vslideshow_type == "snap" %}
         scroll-snap-align: start;
       {% endif %}

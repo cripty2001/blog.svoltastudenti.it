@@ -1,5 +1,5 @@
 ---
-layout: vslideshow
+layout: _vslideshow
 category: it
 page: associazione
 noBrand: "True"
