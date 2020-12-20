@@ -140,6 +140,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "vslideshow"}
       - {label: "Lingua", name: "category", widget: "select", options: ["en", "it"]}
+      - {label: "Pagina", name: "page", widget: "select", options: ["home-it", "home-en", "associazione", "association", "rappresentanza", "representatives"]}
       - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
       - {label: "Testo", name: "body", widget: "markdown"}
