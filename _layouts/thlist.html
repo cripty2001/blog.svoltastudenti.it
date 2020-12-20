@@ -24,17 +24,13 @@ layout: default
         display: none;
       }
 
-      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="{{ tag | slugify }}"] {
-        font-size: xx-large;
+      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="thList-catFilter-{{ tag | slugify }}"] {
+        text-decoration: line-through;
       }
-/* 
-      .thList .data .th[data-cat="{{ tag | slugify }}"]{
-        display: none;
-      } */
     {% endfor %}
   </style>
     {% for tag in tags %}
-      <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" />
+      <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" {% if tag == all_txt[0] %} checked {% endif %} />
     {% endfor %}
   <div class="list">
     <input type="checkbox" id="thList-checkbox" />
