@@ -214,7 +214,7 @@ body {
 }
 
 #site-nav-socials li:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 #site-nav-socials li {
@@ -224,7 +224,7 @@ body {
 
 #site-nav-socials img {
     height: auto;
-    width: 4vw;
+    width: 3vw;
     overflow: hidden;
     margin: 10px;
 }
