@@ -3,7 +3,7 @@ layout: vslideshow
 category: it
 page: associazione
 noBrand: "True"
-title: Associazione
+title: Associazionef
 bg_img: /assets/img/uploads/1-1-768x458.png
 bg_video: /assets/img/uploads/svolta.mp4
 published: true
