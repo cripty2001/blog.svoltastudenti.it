@@ -4,7 +4,8 @@ category: it
 isAmp: "true"
 noBrand: "false"
 title: Dario Santo
-article_th: /assets/img/uploads/dariosanto.jpg
+article_th: /assets/img/uploads/dariosanto.min.jpg
+img: /assets/img/uploads/dariosanto.jpg
 status:
   start_date: 2020-10-25T15:18:08.099Z
   end_date: 2020-10-25T15:18:08.104Z

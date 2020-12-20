@@ -5,6 +5,7 @@ isAmp: "true"
 noBrand: "false"
 title: Davide Lo Piccolo
 article_th: /assets/img/uploads/article_placeholder.png
+img: /assets/img/uploads/article_placeholder.png
 status:
   start_date: 2020-10-25T16:01:11.106Z
   end_date: 2020-10-25T16:01:11.120Z

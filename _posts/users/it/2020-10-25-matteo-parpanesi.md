@@ -5,6 +5,7 @@ isAmp: "true"
 noBrand: "false"
 title: Matteo Parpanesi
 article_th: /assets/img/uploads/article_placeholder.png
+img: /assets/img/uploads/article_placeholder.png
 status:
   start_date: 2020-10-25T15:19:53.093Z
   end_date: 2020-10-25T15:19:53.098Z

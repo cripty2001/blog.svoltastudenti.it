@@ -5,6 +5,7 @@ isAmp: "true"
 noBrand: "false"
 title: Giada Chiametti
 article_th: /assets/img/uploads/giadachiametti1.jpg
+img: /assets/img/uploads/giadachiametti1.jpg
 status:
   start_date: 2020-10-25T15:53:51.931Z
   end_date: 2020-10-25T15:53:51.936Z

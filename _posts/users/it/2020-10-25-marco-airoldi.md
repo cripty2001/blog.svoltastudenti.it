@@ -5,6 +5,7 @@ isAmp: "true"
 noBrand: "false"
 title: Marco Airoldi
 article_th: /assets/img/uploads/article_placeholder.png
+img: /assets/img/uploads/article_placeholder.png
 status:
   start_date: 2020-10-25T15:00:21.861Z
   end_date: 2020-10-25T15:00:21.869Z
