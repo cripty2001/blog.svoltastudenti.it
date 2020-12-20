@@ -161,5 +161,6 @@ collections:
         fields:
           - {label: "Testo Bottone (max 20 caratteri)", name: "txt", widget: "string", required: False}
           - {label: "Link Bottone", name: "link", widget: "string", required: False}
+      - {label: "Ordine", name: "order", widget: "number", value_type: "int", min: 0, step: 1, required: True}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
