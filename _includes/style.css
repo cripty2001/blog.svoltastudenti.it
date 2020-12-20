@@ -190,6 +190,7 @@ body {
     padding: 1.5vh 0px;
     transform: scale(1);
     transition: transform .5s;
+    transform-origin: left;
 }
 
 #site-nav-pages li:hover {
