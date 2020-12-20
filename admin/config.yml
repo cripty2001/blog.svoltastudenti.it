@@ -145,7 +145,7 @@ collections:
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string", required: True}
       - {label: "Testo", name: "body", widget: "markdown"}
       - {label: "Immagine Background", name: "bg_img", widget: "image", required: True}
-      - {label: "Video Background", name: "bg_video", widget: "file"}
+      - {label: "Video Background", name: "bg_video", widget: "file", required: False}
       - label: "Bottone 1"
         name: "btn1"
         widget: "object"
