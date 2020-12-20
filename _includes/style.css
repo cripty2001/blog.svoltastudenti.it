@@ -222,7 +222,8 @@ body {
     transition: all .5s;
 }
 
-#site-nav-socials img {
+#site-nav-socials img,
+#site-nav-socials svg {
     height: auto;
     width: 3vw;
     overflow: hidden;
