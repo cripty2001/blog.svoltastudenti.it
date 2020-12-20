@@ -29,7 +29,7 @@ layout: default
       height: 100%;
       overflow-x: hidden;
       overflow-y: auto;
-      {% if page.vslideshow_type == "snap"}
+      {% if page.vslideshow_type == "snap" %}
         scroll-snap-type: y mandatory;
       {% endif %}
     }
@@ -49,10 +49,10 @@ layout: default
       flex-direction: column;
       justify-content: flex-end;
       align-items: center;
-      {% if page.vslideshow_type == "snap"}
+      {% if page.vslideshow_type == "snap" %}
         scroll-snap-align: start;
       {% endif %}
-      {% if page.vslideshow_type == "sticky"}
+      {% if page.vslideshow_type == "sticky" %}
         position: sticky;
         top: 0;
       {% endif %}
