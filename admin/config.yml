@@ -28,7 +28,7 @@ collections:
         field: tag
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Lingua", name: "category", widget: "hidden", default: "it"}
+      - {label: "Lingua", name: "category", widget: "select", options: ["en", "it"]}
       - {label: "Amp", name: "isAmp", widget: "hidden", default: "True"}
       - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "False"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string"}
