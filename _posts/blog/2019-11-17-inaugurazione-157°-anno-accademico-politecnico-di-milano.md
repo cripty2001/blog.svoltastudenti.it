@@ -1,18 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Inaugurazione 157° anno accademico Politecnico di Milano
 tag: Rappresentanza
 desc: "\"Siamo un’Università e il nostro primo compito è quello di ampliare i
   confini della conoscenza e di superare i limiti.\" Queste le parole del
   rettore nel giorno dell'inaugurazione e molto altro."
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Inaugurazione-157°-anno-accademico-Politecnico-di-Milano.png
 authors:
   - Francesca Marra
 published: true
 date: 2019-11-09T15:11:07.375Z
+isAmp: "true"
 ---
 Milano, 05 novembre 2019
 
