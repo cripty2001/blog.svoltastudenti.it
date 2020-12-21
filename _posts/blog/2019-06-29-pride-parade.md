@@ -1,18 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Pride Parade
 tag: Rappresentanza
 desc: 29 giugno 2019, 300mila persone hanno sfilato per le strade tra striscioni
   colorati e musica. La diversità è un dono, non una vergogna. L’amore è amore e
   non fa distinzione di razza e di genere.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Pride-Parade.png
 authors:
   - Priscilla Morbin
 published: true
 date: 2019-06-29T22:03:44.726Z
+isAmp: "true"
 ---
 
 Flash back. Siamo negli anni 60. Le incursioni della polizia nei bar gay e nei night club facevano regolarmente parte della vita gay nelle città degli USA. La polizia usava tutti i motivi che riusciva ad escogitare per giustificare un arresto con accuse di “indecenza”. Un bacio tra persone dello stesso sesso era proibito. Tenersi per mano era proibito. Usare abiti del sesso opposto? Era proibito anche questo.  
