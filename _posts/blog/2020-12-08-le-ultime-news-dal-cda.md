@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Le ultime News dal Cda
 tag: Consiglio di Amministrazione
 desc: Borse del diritto allo studio 2020/2021 & Nuovo Bando Mobilità Internazionale
-article_th: /assets/img/uploads/new-dal-cda.jpg
+article_th: /assets/img/uploads/Le-ultime-News-dal-Cda.png
 authors:
   - Giada Chiametti
 published: true
 date: 2020-12-08T02:16:15.879Z
+isAmp: "true"
 ---
 ## Borse del diritto allo studio 2020/2021
 
