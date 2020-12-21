@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: CONSIGLIO DI AMMINISTRAZIONE 24 APRILE 2018
 tag: Associazione
 desc: CONSIGLIO DI AMMINISTRAZIONE 24 APRILE 2018
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Consiglio-di-Amministrazione-24-Aprile-2018.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-05-07T00:00:00.000Z
+isAmp: "true"
 ---
 Seduta ricca di argomenti interessanti. Bilancio, servizi e esoneri i temi principali.
 
