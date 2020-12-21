@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Nuovo Calendario Accademico
 tag: Associazione
 desc: Nuovo Calendario Accademico
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Nuovo-Calendario-Accademico.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-05-05T00:00:00.000Z
+isAmp: "true"
 ---
 
 Il 16 Aprile scorso si è riunito il Senato Accademico e uno dei punti all’ordine del giorno riguardava l’approvazione del Calendario Accademico del prossimo anno.
