@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Tutorato peer-to-peer e Difensore degli Studenti e altro ancora!
 tag: Rappresentanza
@@ -10,11 +9,12 @@ desc: >-
   primo o del secondo anno e potrei decidere quali materie “impartire”.
 
   Nominato, inoltre, il nuovo difensore degli studenti!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/News-dalla-rappresentanza--tutorato-peer-to-peer-e-Difensore-degli-Studenti.png
 authors:
   - Alessio Rocca
 published: true
 date: 2020-01-13T17:34:20.955Z
+isAmp: "true"
 ---
 Grandi novità dalla rappresentanza.
 
