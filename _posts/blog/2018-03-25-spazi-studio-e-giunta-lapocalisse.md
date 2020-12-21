@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: 'Spazi studio: è giunta l’apocalisse?'
+title: "Spazi studio: è giunta l’apocalisse?"
 tag: Associazione
-desc: 'Spazi studio: è giunta l’apocalisse?'
-article_th: /assets/img/uploads/article_placeholder.png
+desc: "Spazi studio: è giunta l’apocalisse?"
+article_th: /assets/img/uploads/Spazi-studio--è-giunta-l’apocalisse.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-03-25T00:00:00.000Z
+isAmp: "true"
 ---
 
 Negli ultimi giorni abbiamo avuto notizie non molto confortanti circa il numero di spazi studio disponibili durante il **_periodo più gravoso dei lavori nel campus Leonardo_**, ovvero il prossimo anno accademico 2018/2019.
