@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Risposta emergenza spazi studio
 tag: Associazione
 desc: Risposta emergenza spazi studio
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Risposta-emergenza-spazi-studio.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-05-05T00:00:00.000Z
+isAmp: "true"
 ---
 
 Durante l’ultima Commissione Permanente Studenti, come vi avevamo anticipato nell’ultimo articolo (lo potete trovare [qui](https://www.svoltastudenti.it/it/spazi-studio-e-giunta-lapocalisse/)), è stato discusso il tema spazi. Ecco quanto è stato deciso in termini di spazi studio!
