@@ -1,18 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Lavori in corso - Progetti ViVi.Polimi e Renzo Piano
 tag: Associazione
 desc: Il progetto Vi.Vi. Polimi mira a un miglioramento della fruibilità e
   vivibilità dei nostri edifici, razionalizzando gli spazi ad oggi presenti e
   monitorando la situazione nel prossimo futuro.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Polimi-with-a-View---Progetti-ViVi.Polimi-e-Renzo-Piano.png
 authors:
   - Ennio Visconti
 published: true
 date: 2017-12-31T00:00:00.000Z
+isAmp: "true"
 ---
 Negli ultimi mesi abbiamo collaborato con le altre liste e con l’Ateneo per la **definizione dei lavori** che coinvolgeranno molti degli edifici e spazi dei campus milanesi della nostra università, in relazione al **progetto Vi.Vi. Polimi**. Questo mira a un miglioramento della fruibilità e vivibilità dei nostri edifici, razionalizzando gli spazi ad oggi presenti e monitorando la situazione nel prossimo futuro.  
 
