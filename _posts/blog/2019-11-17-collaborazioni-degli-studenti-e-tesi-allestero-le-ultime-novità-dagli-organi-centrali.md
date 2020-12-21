@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Collaborazioni degli studenti e Tesi all'estero, ultime novità!
 tag: Rappresentanza
@@ -9,13 +8,14 @@ desc: >-
   Ultime novità dagli Organi Centrali:
 
   Collaborazioni a tempo parziale degli studenti, Tesi all'estero e realizzazione dell'auditorium nel nuovo Trifoglio.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Collaborazioni-degli-studenti-e-Tesi-all_estero,-le-ultime-novità-dagli-Organi-Centrali.png
 authors:
   - Alessio Rocca
   - Tecla Trifilo
   - Marco Airoldi
 published: true
 date: 2019-09-27T13:42:09.179Z
+isAmp: "true"
 ---
 Tante novità dalle ultime riunioni degli Organi Centrali: si è appena aperto un bando per 65 borse di studio per tesi all’estero. Il totale, nel corso dell’anno, andrà a coprire 110 richieste, contro le 75 previste, grazie al contributo del Fondo Merito integrativo, voluto dagli studenti!
 
