@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: "Open day 2020 e tutor LM: tutte le novità dalla rappresentanza"
 tag: Rappresentanza
@@ -10,13 +9,14 @@ desc: >-
   Leonardo.
 
   Con l’arrivo del tutorato peer-to-peer, i tutor potranno essere anche studenti!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Open-day-2020-e-tutor-LM--tutte-le-novità-dalla-rappresentanza.png
 authors:
   - Alessio Rocca
   - Marco Airoldi
   - Tecla Trifilo
 published: true
 date: 2020-01-29T14:58:15.662Z
+isAmp: "true"
 ---
 Le ultime novità dalla rappresentanza, l’Open day del Politecnico di Milano quest’anno verrà organizzato nel Campus Leonardo.
 
