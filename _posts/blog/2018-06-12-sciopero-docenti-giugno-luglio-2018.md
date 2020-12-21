@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Sciopero docenti Giugno - Luglio 2018
 tag: Associazione
 desc: Sciopero docenti Giugno - Luglio 2018
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Sciopero-docenti-Giugno---Luglio-2018.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-06-12T00:00:00.000Z
+isAmp: "true"
 ---
 
 Cari ragazzi,
