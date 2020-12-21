@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: BORSA MOBILITÀ INTERNAZIONALE COSA CAMBIA NEL 18/19
 tag: Associazione
 desc: BORSA MOBILITÀ INTERNAZIONALE COSA CAMBIA NEL 18/19
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Borsa-Mobilità-Internazional.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-07-04T00:00:00.000Z
+isAmp: "true"
 ---
 Per l’A.A. 2018/19 sono stati ridefiniti gli importi delle borse per la mobilità internazionale, in base a regole ministeriali volte a tutelare i redditi più bassi.
 
