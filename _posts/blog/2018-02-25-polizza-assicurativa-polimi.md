@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Polizza assicurativa PoliMi
 tag: Associazione
@@ -10,11 +9,12 @@ desc: >-
   Politecnico.
 
   Il costo, di 13 euro a studente, sarà annuale e compreso nelle tasse universitarie.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Polizza-assicurativa-PoliMi.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-02-25T00:00:00.000Z
+isAmp: "true"
 ---
 Dal 01/01/2018 è attiva la polizza assicurativa in caso di furto di materiale all’interno del Politecnico.
 
