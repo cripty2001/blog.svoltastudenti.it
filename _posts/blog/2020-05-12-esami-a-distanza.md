@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Esami a distanza
 tag: Rappresentanza
 desc: Esami a distanza
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Esami-a-distanza.png
 authors:
   - Alessio Rocca
 published: true
 date: 2020-05-12T14:47:56.031Z
+isAmp: "true"
 ---
 Sono state individuate quattro diverse tipologie di modalità/strumenti (utilizzabili eventualmente anche in modo combinato) che l’Ateneo fornisce ai docenti, garantendo adeguata formazione e assistenza. Andiamo ad analizzarle in dettaglio:
 
