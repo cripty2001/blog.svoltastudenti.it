@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Il contrasto al Coronavirus targato Polimi
 tag: Rappresentanza
 desc: Il contrasto al Coronavirus targato Polimi
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Il-contrasto-al-Coronavirus-targato-Polimi.png
 authors:
   - Alessio Rocca
 published: true
 date: 2020-04-09T14:12:03.422Z
+isAmp: "true"
 ---
 In questo particolare periodo molte aziende ed istituzioni stanno dando il loro contributo solidale per gestire l’emergenza sanitaria legata alla pandemia in atto. Anche il Politecnico di Milano non si è tirato indietro, con varie iniziative per sostenere la comunità in questo momento difficile, mettendo a disposizione i propri laboratori e conoscenze.
 
