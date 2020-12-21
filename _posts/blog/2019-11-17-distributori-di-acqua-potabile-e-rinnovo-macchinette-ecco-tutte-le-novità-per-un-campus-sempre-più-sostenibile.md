@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Distributori d'acqua potabile, rinnovo macchinette e sostenibilità
 tag: Rappresentanza
@@ -9,11 +8,12 @@ desc: >-
   Il PoliMi diventa ancora più sostenibile:
 
   nuovi distributori di acqua naturale e gassata, sostituzione di tutte le vecchie macchinette, bicchieri Hybrid e palette compostabili e piatti per celiaci.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Distributori-di-acqua-potabile-e-rinnovo-macchinette.png
 authors:
   - Alessio Rocca
 published: true
 date: 2019-10-30T15:10:02.851Z
+isAmp: "true"
 ---
 Il PoliMi diventa ancora più sostenibile con la sostituzione di tutte le vecchie macchinette ed il loro rinnovo!
 
