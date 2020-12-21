@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: 'Residenze 2018/2019: Un nuovo inizio.'
+title: "Residenze 2018/2019: Un nuovo inizio."
 tag: Associazione
-desc: 'Residenze 2018/2019: Un nuovo inizio.'
-article_th: /assets/img/uploads/article_placeholder.png
+desc: "Residenze 2018/2019: Un nuovo inizio."
+article_th: /assets/img/uploads/Residenze-29--Un-nuovo-inizio.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-05-24T00:00:00.000Z
+isAmp: "true"
 ---
 
 Come vi avevamo preannunciato, questo maggio è un mese di grandi novità per le residenze. In questo articolo riassumiamo lemaggiori per gli ospiti che non usufruiscono di tariffa agevolata.
