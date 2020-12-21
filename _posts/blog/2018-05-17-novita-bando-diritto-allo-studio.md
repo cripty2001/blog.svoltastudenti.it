@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Novità Bando Diritto Allo Studio
 tag: Associazione
 desc: Novità Bando Diritto Allo Studio
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Novità-Bando-Diritto-Allo-Studio.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-05-17T00:00:00.000Z
+isAmp: "true"
 ---
 
 Il mese di maggio è foriero di novità per il tema Diritto allo Studio e residenze.
