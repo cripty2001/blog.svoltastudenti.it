@@ -1,17 +1,17 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: "Dal Calendario Accademico 2019-2020 al DSU "
 tag: Rappresentanza
 desc: "Tante novità: dal Calendario Accademico 2019-2020 al Diritto allo Studio
   Universitario"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Tante-novità--dal-Calendario-Accademico-2019-2020-al-Diritto-allo-Studio-Universitario.png
 authors:
   - Carlo Giovani
 published: true
 date: 2019-05-30T21:57:29.765Z
+isAmp: "true"
 ---
 Tante sono le novità emerse dall’ultimo Consiglio di Amministrazione.\
 Rimane come obiettivo prioritario la preventivazione delle borse DSU per gli aventi diritto (ISEE < 23000) in un numero minimo di 1700 con inoltre l’estensione della sede dell’alloggio anche all’area metropolitana di Milano e l’estensione al 9 ottobre della scadenza per presentare ricorso per la graduatoria. Inoltre, nel bando Residenze sono stati preventivati +40 posti tramite REFIT della casa dello studente e +213 posti per la costruzione della residenza in Piazzale Ferrara (entrambi previsti per il 2021) e + 246 posti nella nuova residenza in via Baldinucci intitolata alla memoria del prof. Gianluca Spina (non prima del 2022). Un’altra grande novità è l’indizione di una gara per l’acquisto di 15000 licenze Adobe Creative Cloud da destinarsi agli studenti di design e auic + 280 per le postazioni del politecnico + 2500 per i professori;\
