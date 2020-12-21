@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Resoconto Giunte - Gennaio 2018
 tag: Associazione
@@ -9,11 +8,12 @@ desc: >-
   Modalità di ammissione alle Lauree Magistrali snellite.
 
   Insegnamenti della Scuola del Design saranno aperti agli studenti del corso di Laurea Magistrale in Management Engineering.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Resoconto-Giunte---Gennaio-2018.png
 authors:
   - Ennio Visconti
 published: true
 date: 2018-02-01T00:00:00.000Z
+isAmp: "true"
 ---
 In questo articolo vi raccontiamo cos’è stato detto durante le giunte delle tre scuole, 3I, Design e AUIC, nel mese di gennaio. Novità sull’ammissione alle lauree magistrali per la 3I e Design. Qualcosa, invece, si muove sui costi delle stampe e dei materiali dei modellini per AUIC!
 
