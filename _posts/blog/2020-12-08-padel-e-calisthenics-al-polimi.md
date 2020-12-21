@@ -1,18 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Padel e calisthenics al Polimi
 tag: Rappresentanza
 desc: Il 4 maggio, con l’inizio della fase 2, sono ricominciati a pieno regime
   anche i lavori del centro sportivo Giuriati che avevano subito un
   rallentamento di circa due mesi dovuto all’emergenza Covid-19
-article_th: /assets/img/uploads/padle.jpg
+article_th: /assets/img/uploads/Padel-e-calisthenics-al-Polimi.png
 authors:
   - Giada Chiametti
 published: true
 date: 2020-12-08T02:21:24.369Z
+isAmp: "true"
 ---
 Il 4 maggio, con l’inizio della fase 2, sono ricominciati a pieno regime anche i lavori del centro sportivo Giuriati che avevano subito un rallentamento di circa due mesi dovuto all’emergenza Covid-19.
 
