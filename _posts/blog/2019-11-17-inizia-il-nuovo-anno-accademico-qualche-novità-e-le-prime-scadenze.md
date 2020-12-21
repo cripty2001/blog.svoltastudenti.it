@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Inizia il nuovo anno accademico, qualche novità e prime scadenze!
 tag: Rappresentanza
@@ -10,13 +9,14 @@ desc: >-
   caratterizzeranno tra cui:
 
   Bando di selezione per le attività di tutorato, 150 ore e nuovi finanziamenti.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Inizia-il-nuovo-anno-accademico,-qualche-novità-e-le-prime-scadenze.png
 authors:
   - Alessio Rocca
   - Marco Airoldi
   - Tecla Trifilo
 published: true
 date: 2019-09-02T13:28:00.277Z
+isAmp: "true"
 ---
 Il nuovo anno accademico sta per cominciare e tante sono le novità che lo caratterizzeranno. 
 
