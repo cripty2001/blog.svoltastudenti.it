@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: "Didattica del Futuro: a che punto siamo?"
 tag: Rappresentanza
@@ -10,11 +9,12 @@ desc: Gli ultimi due semestri hanno visto numerosi cambiamenti nella didattica
   hanno reso registrazioni e lezioni online parte della nostra quotidianità**,
   così come numerosi docenti sono stati costretti a sperimentare nuove forme di
   coinvolgimento degli studenti in uno scenario così diverso.
-article_th: /assets/img/uploads/didattica-del-futuro.jpg
+article_th: /assets/img/uploads/Didattica-del-Futuro--a-che-punto-siamo-.png
 authors:
   - Giada Chiametti
 published: true
 date: 2020-12-08T02:04:21.291Z
+isAmp: "true"
 ---
 Gli ultimi due semestri hanno visto numerosi cambiamenti nella didattica del Politecnico di Milano. **Le  costrizioni dovute alla situazione COVID hanno reso registrazioni e lezioni online parte della nostra quotidianità**, così come numerosi docenti sono stati costretti a sperimentare nuove forme di coinvolgimento degli studenti in uno scenario così diverso.
 
