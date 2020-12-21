@@ -1,12 +1,11 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Modifiche alla soglia di accesso a Aeronautical e Space Engineering
 tag: Rappresentanza
 desc: Modifiche alla soglia di accesso a Aeronautical e Space Engineering
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Modifiche-alla-soglia-di-accesso-a-Aeronautical-e-Space-Engineering.png
 authors:
   - Alessandro Mantani
   - Annachiara Frezza
@@ -17,6 +16,7 @@ authors:
   - Sofia Ferrabue
 published: true
 date: 2020-04-22T14:26:21.221Z
+isAmp: "true"
 ---
 Lunedì 23 Marzo è stata approvata in sede di Consiglio del Corso di Studi di Ingegneria Aerospaziale l’incremento della soglia d’ammissione alle Lauree Magistrali di Spaziale e Aeronautica. Trattandosi di una modifica piuttosto sostanziale, riteniamo opportuno esporre in modo chiaro e conciso:
 
