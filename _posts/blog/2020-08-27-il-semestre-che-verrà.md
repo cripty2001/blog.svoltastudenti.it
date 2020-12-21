@@ -1,12 +1,11 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Il semestre che verrà
 tag: Rappresentanza
 desc: Il semestre che verrà
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Il-semestre-che-verrà.png
 authors:
   - Alessio Rocca
   - Tecla Trifilo
@@ -14,6 +13,7 @@ authors:
   - Marco Airoldi
 published: true
 date: 2020-08-27T16:02:46.862Z
+isAmp: "true"
 ---
 Si avvicina l’inizio del primo semestre del nuovo anno accademico e, dopo mesi di incertezza legata alla situazione emergenziale desideriamo in questo breve testo fare il punto della situazione su quanto definito fino ad ora.
 
