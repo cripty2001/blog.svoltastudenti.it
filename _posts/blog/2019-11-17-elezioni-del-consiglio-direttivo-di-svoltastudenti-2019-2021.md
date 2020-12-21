@@ -1,18 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Elezioni del Consiglio Direttivo di Svoltastudenti 2019-2021
 tag: Associazione
 desc: Tra le aule degli edifici di Architettura si è tenuta, infatti,
   l’Assemblea per l’Elezione del nuovo Consiglio Direttivo che, per i prossimi
   due anni, guiderà l’associazione.
-article_th: /assets/img/uploads/direttivo.jpeg
+article_th: /assets/img/uploads/Elezioni-del-Consiglio-Direttivo-di-Svoltastudenti-2019-2021.png
 authors:
   - Giusy Spacone
 published: true
 date: 2019-10-24T13:52:32.868Z
+isAmp: "true"
 ---
 ##### Un giorno di cambiamento. Un giorno di Svolta.
 
