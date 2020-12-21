@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Cosa sono quei disegni sui muri del Campus Bovisa?
 tag: Rappresentanza
 desc: Cosa sono quei disegni sui muri del Campus Bovisa?
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Cosa-sono-quei-disegni-sui-muri-del-Campus-Bovisa-.png
 authors:
   - Carlo Giovani
 published: true
 date: 2019-04-26T21:54:16.678Z
+isAmp: "true"
 ---
 Siamo giunti alla conclusione anche di questa iniziativa, ma con l’idea che questo sia solo l’inizio.
 
