@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Fund for Impact
 tag: Rappresentanza
 desc: Fund for Impact
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Fund-for-Impact.png
 authors:
   - Carlo Giovani
 published: true
 date: 2019-02-28T22:20:35.519Z
+isAmp: "true"
 ---
 *“Coltivare le proprie ambizioni di lavoro e carriera anche se non si hanno adeguati mezzi economici è una sfida che riguarda molti studenti.”*
 
