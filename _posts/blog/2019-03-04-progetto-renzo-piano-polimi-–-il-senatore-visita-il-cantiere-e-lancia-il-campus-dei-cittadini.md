@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: PROGETTO RENZO PIANO @POLIMI – IL CAMPUS DEI CITTADINI
 tag: Rappresentanza
 desc: PROGETTO RENZO PIANO @POLIMI – IL CAMPUS DEI CITTADINI
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/PROGETTO-RENZO-PIANO-@POLIMI---IL-SENATORE-VISITA-IL-CANTIERE-E-LANCIA-IL-CAMPUS-DEI-CITTADINI.png
 authors:
   - Alessandro De Iasio
 published: true
 date: 2019-03-04T22:24:10.573Z
+isAmp: "true"
 ---
 *‘’I cantieri sono magia, sono sempre un gesto straordinario per il futuro. I cantieri portano insieme l’orgoglio di fare qualcosa per la società. Ogni cantiere è un’occasione di speranza.”*, ha affermato Piano.
 
