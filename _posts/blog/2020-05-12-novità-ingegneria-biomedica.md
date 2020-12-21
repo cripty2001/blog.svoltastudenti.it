@@ -1,12 +1,11 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Novità Ingegneria Biomedica
 tag: Rappresentanza
 desc: Novità Ingegneria Biomedica
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Novità-Ingegneria-Biomedica.png
 authors:
   - Christian Urzi
   - Elisa Ripamonti
@@ -20,6 +19,7 @@ authors:
   - Valentina Guidali
 published: true
 date: 2020-05-12T14:57:51.642Z
+isAmp: "true"
 ---
 Prosegue l’attività dei rappresentanti degli studenti al Consiglio del Corso di Studio di Ingegneria Biomedica. Dopo quasi un anno dall’insediamento, continuano le proposte e le iniziative messe in atto per agevolare la didattica e proporre un’offerta che sappia rispondere alle richieste di una realtà in continua trasformazione.
 
