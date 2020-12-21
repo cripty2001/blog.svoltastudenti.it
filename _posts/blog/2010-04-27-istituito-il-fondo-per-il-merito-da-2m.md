@@ -1,16 +1,19 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Istituito il FONDO per il MERITO da 2M€
 tag: Rappresentanza
-desc: Istituito il FONDO per il MERITO da 2M€
+desc: >-
+  Approvata l'istituzione di un Fondo per il Merito da 2 milioni di euro.
+
+  Ogni anno l’ateneo destinerà 2 Milioni di Euro agli studenti meritevoli, sulla base delle loro performance accademiche.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Giovanni Sala
 published: true
 date: 2010-04-27T00:00:00.000Z
+isAmp: "true"
 ---
 
 Il Senato Accademico ed il CDA del PoliMI hanno approvato, su proposta dei vostri Rappresentanti degli Studenti, l'istituzione di un Fondo per il Merito da 2 milioni di euro. Si tratta di un importante risultato della attività di rappresentanza: ogni anno l’ateneo destinerà 2 Milioni di Euro agli studenti meritevoli, sulla base delle loro performance accademiche.
