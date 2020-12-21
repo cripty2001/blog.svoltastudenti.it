@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: La Bovisa del futuro
 tag: Rappresentanza
 desc: La Bovisa del futuro
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/La-Bovisa-del-futuro.png
 authors:
   - Carlo Giovani
 published: true
 date: 2020-05-08T15:37:39.849Z
+isAmp: "true"
 ---
 Gli organi di Governo del Politecnico di Milano nelle riunioni di aprile hanno approvato un grande progetto: **“LA GOCCIA E IL DISTRETTO DI BOVISA – PROGETTO DI RIQUALIFICAZIONE de IL PARCO DEI GASOMETRI”**, trovate in conclusione dell’articolo qualche immagine.
 
