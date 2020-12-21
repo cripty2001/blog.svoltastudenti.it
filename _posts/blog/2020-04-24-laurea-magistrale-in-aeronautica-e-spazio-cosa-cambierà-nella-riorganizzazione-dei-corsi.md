@@ -1,17 +1,17 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Laurea Magistrale in Aeronautica e Spazio, cosa cambierà?
 tag: Rappresentanza
 desc: Laurea Magistrale in Aeronautica e Spazio, cosa cambierà nella
   riorganizzazione dei corsi?
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Laurea-Magistrale-in-Aeronautica-e-Spazio,-cosa-cambierà-nella-riorganizzazione-dei-corsi-.png
 authors:
   - Carlo Giovani
 published: true
 date: 2020-04-24T15:33:06.081Z
+isAmp: "true"
 ---
 Carissime Studentesse e Studenti di Ingegneria Aerospaziale, 
 
