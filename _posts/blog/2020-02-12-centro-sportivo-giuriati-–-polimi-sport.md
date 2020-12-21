@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Centro sportivo Giuriati – POLIMI SPORT
 tag: Rappresentanza
 desc: Centro sportivo Giuriati – POLIMI SPORT
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/Centro-sportivo-Giuriati---POLIMI-SPORT.png
 authors:
   - Guido Sassaroli
 published: true
 date: 2020-02-12T15:08:25.753Z
+isAmp: "true"
 ---
 Il centro sportivo Mario Giuriati si trova all’interno del campus Leonardo del Politecnico di Milano e dal 2008 è il centro sportivo di riferimento per tutti gli studenti del nostro Ateneo.
 
