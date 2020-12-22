@@ -1,16 +1,18 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: 'Poliversa, un giornale per gli studenti: incontro per nuove idee'
+title: "Poliversa, un giornale per gli studenti: incontro per nuove idee"
 tag: Associazione
-desc: 'Poliversa, un giornale per gli studenti: incontro per nuove idee'
+desc: La redazione di Poliversa ha avviato un progetto di rinnovamento del
+  giornale per avvicinarsi agli studenti universitari, portando novità, spunti
+  di riflessione e temi di attualità.
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Antonio Mazzitelli
 published: true
 date: 2010-04-17T00:00:00.000Z
+isAmp: "true"
 ---
 
 Dopo circa due anni di attività la redazione di Poliversa ha deciso di avviare un progetto di rinnovamento del giornale, per cercare di avvicinarsi sempre più agli studenti universitari, facendosi portatore di novità, spunti di riflessione e temi di attualità che direttamente coinvolgono gli allievi.
