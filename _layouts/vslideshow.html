@@ -116,7 +116,13 @@ layout: default
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
         <div class="title">{{ post.title }}</div>
         <div class="subtitle">{{ post.content | markdownify }}</div>
-        <div class="btn"><a href="{{ post.btn1.link }}">{{ post.btn1.txt}}</a><a href="{{ post.btn2.link }}">{{ post.btn2.txt}}</a></div>
+        <div class="btn">
+          {% if post.btn1.txt %}
+            <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
+          {% endif %}
+          {% if post.btn2.txt %}
+            <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a></div>
+          {% endif %}
       </section>
     {% endfor %}
   </div>
