@@ -167,8 +167,11 @@
           d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
       </svg>
     </label>
-    <span>Svoltastudenti</span>
-    <!-- <img id="logoBig" src="/assets/img/logo-testo.png"> -->
+    <!-- <span>Svoltastudenti</span> -->
+    <picture>
+      <source media="(min-width:767px)" srcset="/assets/img/logo-full.svg">
+      <img height="46" src="/assets/img/logo-min.svg">
+    </picture>
     {% if page.translations_it  %}
       <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
         <span class="lang">ITA</span>
