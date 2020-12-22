@@ -1,23 +1,19 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: >-
-  Il Polimi fruga nelle tasche degli studenti (ma in maniera Smart): Sviluppo
-  App Polimi
+title: Sviluppo App Polimi
 tag: Rappresentanza
-desc: >-
-  Il Polimi fruga nelle tasche degli studenti (ma in maniera Smart): Sviluppo
-  App Polimi
+desc: "Il Polimi fruga nelle tasche degli studenti (ma in maniera Smart):
+  Sviluppo App Polimi"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Vincenzo Giannico
 published: true
 date: 2014-03-22T00:00:00.000Z
+isAmp: "true"
 ---
-
-Nella giornata di mercoledì 12 marzo si è riunita una _**commissione tecnologia**_ composta da responsabili dell'area informatica, sviluppatori e alcuni rappresentanti degli studenti. Si tratta di commissione che avrà il compito nei prossimi mesi di riunirsi in maniera cadenzata per discutere di diversi temi riguardanti i servizi tecnologici al politecnico.
+Nella giornata di mercoledì 12 marzo si è riunita una ***commissione tecnologia*** composta da responsabili dell'area informatica, sviluppatori e alcuni rappresentanti degli studenti. Si tratta di commissione che avrà il compito nei prossimi mesi di riunirsi in maniera cadenzata per discutere di diversi temi riguardanti i servizi tecnologici al politecnico.
 
 Oggetto del primo tavolo di lavoro: l'**app ufficiale del politecnico**.
 
@@ -25,15 +21,15 @@ Già da qualche mese infatti è in cantiere lo sviluppo di un'app che possa supp
 
 Allo stadio attuale il progetto prevede funzioni di sola lettura:
 
-*   **consultazione aule libere** / ricerca aule integrato con sistema di navigazione polimaps
-*   **consultazione stato carriera**/esito esami/dettagli media
-*   phonebook: **ricerca personale politecnico**
+* **consultazione aule libere** / ricerca aule integrato con sistema di navigazione polimaps
+* **consultazione stato carriera**/esito esami/dettagli media
+* phonebook: **ricerca personale politecnico**
 
 L'app sarà in principio disponibile per gli store **Android e iOS**, mentre si sta considerando lo sviluppo per la terza piattaforma mobile in Italia, in crescente espansione: **Windows Phone**.
 
 Date le infinite possibilità di sviluppo, la linea guida del focus group ha imposto di individuare una soluzione che permetta di concentrare gli sforzi e i costi per ottenere il maggior beneficio possibile con il numero minimo indispensabile di funzioni, **evitando poi di arrivare ad un prodotto che si limita a clonare le funzionalità già fruibili via web**.
 
-Sì è discusso in merito alla possibilità di integrare un sistema di segnalazione _live_ dei guasti all'interno delle aulee, sfruttando i **QR code** che sono affissi ad ogni porta. La proposta è stata ben accolta dalle rappresentanze e ed è già preventivata dagli sviluppatori.
+Sì è discusso in merito alla possibilità di integrare un sistema di segnalazione *live* dei guasti all'interno delle aulee, sfruttando i **QR code** che sono affissi ad ogni porta. La proposta è stata ben accolta dalle rappresentanze e ed è già preventivata dagli sviluppatori.
 
 Altro nodo di discussione è stato l'implemento dell'app con i servizi di segreteria. Mentre non si è considerata prioritaria la possibilità di effettuare prenotazioni online (viste le disparità che essa creerebbe, considerata sufficiente la prenotazione telefonica e contando il piano di **riforma degli orari** promosso in questi giorni da **SvoltaStudenti**), si è parlato della possibilità di **verificare online lo stato di avanzamento delle code** agli sportelli, una volta staccato il ticket, per evitare perdite di tempo in fila. Il progetto, già messo in cantiere in passato, è stato tenuto in sospeso visto l'interesse espresso da una società che offre già un servizio identico tramite app in diversi uffici pubblici, istituti e ospedali: **Qurami**.
 
@@ -43,15 +39,15 @@ Tra le varie proposte avanzate dai rappresentanti, interessante risulta l'implem
 
 Per quanto riguarda il futuro, sono state vagliate diverse possibilità:
 
-*   **integrazione calendario eventi**
-*   sviluppo funzioni social (si dimentichi l'amaro tentativo chat di BeeP)
-*   integrazione bacheche virtuali in-app legate ai luoghi, per permettere avvisi da parte di professori e studenti.
+* **integrazione calendario eventi**
+* sviluppo funzioni social (si dimentichi l'amaro tentativo chat di BeeP)
+* integrazione bacheche virtuali in-app legate ai luoghi, per permettere avvisi da parte di professori e studenti.
 
 A margine del focus principale, il tavolo di lavoro ha avuto modo di discutere anche di altri aspetti che riguardano lo stato dei servizi attuale, a riguardo saranno presi i seguenti provvedimenti:
 
-*   **accesso alla rete _Polimi secured_ anche tramite dispositivi Windows Phone**,
-*   creazione pagina in **versione mobile per il login ai servizi online**,
-*   mappatura e integrazione dei luoghi non didattici e degli uffici in polimaps.
+* **accesso alla rete *Polimi secured* anche tramite dispositivi Windows Phone**,
+* creazione pagina in **versione mobile per il login ai servizi online**,
+* mappatura e integrazione dei luoghi non didattici e degli uffici in polimaps.
 
 Prossimo argomento del focus group: **IL PORTALE WEB**
 
