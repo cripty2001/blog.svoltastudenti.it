@@ -144,6 +144,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "_vslideshow"}
       - {label: "Lingua", name: "category", widget: "select", options: ["en", "it"]}
       - {label: "Pagina", name: "page", widget: "select", options: ["home-it", "home-en", "associazione", "association", "rappresentanza", "representatives"]}
+      - {label: "Allineamento", name: "align", widget: "select", options: ["left", "center", "right"]}
       - {label: "Disable Branding", name: "noBrand", widget: "hidden", default: "True"}
       - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string", required: True}
       - {label: "Testo", name: "body", widget: "markdown"}

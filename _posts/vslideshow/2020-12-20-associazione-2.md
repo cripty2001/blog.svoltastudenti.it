@@ -6,6 +6,7 @@ noBrand: "True"
 title: associazione 2
 bg_img: /assets/img/uploads/6-768x433.png
 order: 2
+align: center
 published: true
 date: 2020-12-20T23:13:03.467Z
 ---

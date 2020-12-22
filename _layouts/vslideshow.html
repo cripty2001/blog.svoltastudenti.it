@@ -70,7 +70,6 @@ layout: default
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
-      align-items: center;
       position: relative;
       scroll-snap-align: start;
       {% if page.vslideshow_type == "sticky" %}
@@ -131,7 +130,7 @@ layout: default
   </style>
   <div class="content">
     {% for post in posts %}
-      <section class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
+      <section style="align-items: {{ post.align }}" class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
         <div class="title">{{ post.title }}</div>
         <div class="subtitle">{{ post.content | markdownify }}</div>

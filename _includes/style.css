@@ -432,4 +432,20 @@ article .authors li img {
     #site-nav-pages li {
         font-size: 4vw;
     }
-  }
+}
+
+@media all and (min-width: 1024px){
+    .thList {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .thList .data {
+        width: 60%;
+    }
+
+    .thList .list {
+        width: 20%;
+    }
+}
