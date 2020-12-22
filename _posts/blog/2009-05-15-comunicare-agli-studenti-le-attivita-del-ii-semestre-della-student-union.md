@@ -1,16 +1,16 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: 'Comunicare agli studenti: le attività del II semestre della Student Union'
+title: Le attività del II semestre della Students Union
 tag: Rappresentanza
-desc: 'Comunicare agli studenti: le attività del II semestre della Student Union'
+desc: "Comunicare agli studenti: le attività del II semestre della Student Union"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Antonio Mazzitelli
 published: true
 date: 2009-05-15T00:00:00.000Z
+isAmp: "true"
 ---
 
 Ho sempre sostenuto l'importanza di valorizzare la comunicazione tra studenti e associazioni attive al Politecnico, di rappresentanza e non. Studentipolitecnico ormai da oltre un anno, grazie alla brillante idea di alcuni rappresentanti della Terna Sinistrorsa, si è mosso in questa direzione.
