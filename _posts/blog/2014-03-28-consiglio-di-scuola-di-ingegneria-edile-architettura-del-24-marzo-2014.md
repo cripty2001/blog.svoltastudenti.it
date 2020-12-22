@@ -1,9 +1,8 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: Consiglio di Scuola di Ingegneria Edile - Architettura del 24 marzo 2014
+title: Consiglio di Scuola di Ingegneria EdA del 24 marzo 2014
 tag: Rappresentanza
 desc: Consiglio di Scuola di Ingegneria Edile - Architettura del 24 marzo 2014
 article_th: /assets/img/uploads/article_placeholder.png
@@ -11,8 +10,8 @@ authors:
   - Cesare De Mezza
 published: true
 date: 2014-03-28T00:00:00.000Z
+isAmp: "true"
 ---
-
 Ieri, 24 marzo 2014, si è riunito il Consiglio di Scuola della Scuola di Ingegneria Edile - Architettura a Milano-Leonardo, convocato dal Preside Pizzi per comunicare gli ultimi aggiornamenti in merito allo stato dell'arte della nuova offerta formativa.
 
 Presenti i docenti dei corsi di studio afferenti alla Scuola - Ingegneria dell'Edilizia, Gestione del Costruito, Ingegneria Edile-Architettura e Architectural Engineering - e i rappresentanti degli studenti.
@@ -45,16 +44,15 @@ Numero studenti ammessi: 120 (-30 rispetto al corrente AA)
 
 Corso ormai storico, volto alla formazione di tecnici con una preparazione completa relativa all'ingegnerizzazione dei progetti di architettura, alla direzione lavori e al project management.
 
-Il corso sarà rinnovato attraverso l'introduzione di **laboratori in lingua inglese **per la preparazione della tesi di laurea.
+Il corso sarà rinnovato attraverso l'introduzione di **laboratori in lingua inglese** per la preparazione della tesi di laurea.
 
 Numero studenti ammessi: 120 (-20 rispetto al corrente AA)
 
-Lauree di II livello:
----------------------
+## Lauree di II livello:
 
 ### Architectural Engineering (Lecco):
 
-Il corso era stato concepito come l'alternativa in **lingua inglese **di Ingegneria dei Sistemi Edilizi ma per la profonda diversità dei temi trattati e degli insegnamenti offerti si è deciso di renderlo un corso autonomo, riconosciuto a livello ministeriale.
+Il corso era stato concepito come l'alternativa in **lingua inglese** di Ingegneria dei Sistemi Edilizi ma per la profonda diversità dei temi trattati e degli insegnamenti offerti si è deciso di renderlo un corso autonomo, riconosciuto a livello ministeriale.
 
 Oggi possono accedere al corso architetti, ing. edili e ing. civili; in futuro potrà rappresentare una variante in inglese della laurea a ciclo unico EDA.
 
@@ -68,22 +66,22 @@ Il corso vuole creare figure professionali che operino nel mercato internazional
 
 ### Gestione del Costruito (Milano-Leonardo):
 
-Corso interscuola erogato completamente in **lingua inglese **al quale possono accedere architetti, ing. edili, ing. civili e ing. gestionali.
+Corso interscuola erogato completamente in **lingua inglese** al quale possono accedere architetti, ing. edili, ing. civili e ing. gestionali.
 
 Numero studenti ammessi: 80
 
-Illustrato il quadro delle materie offerte, il Preside Pizzi ha tenuto a sottolineare il miglioramento dell'offerta formativa, che passa da
+Illustrato il quadro delle materie offerte, il Preside Pizzi ha tenuto a sottolineare il miglioramento dell'offerta formativa, che passa da:
 
-*   1 corso di laurea triennale
-*   1 corso di laurea quinquennale
-*   2 corsi di laurea magistrale
+* 1 corso di laurea triennale
+* 1 corso di laurea quinquennale
+* 2 corsi di laurea magistrale
 
 a:
 
-*   1 corso di laurea triennale INTERSCUOLA
-*   1 corso di laurea quinquennale
-*   4 corsi di laurea magistrali, di cui 3 erogati completamente in lingua inglese
+* 1 corso di laurea triennale INTERSCUOLA
+* 1 corso di laurea quinquennale
+* 4 corsi di laurea magistrali, di cui 3 erogati completamente in lingua inglese
 
 senza aumentare il numero di docenti, e diventando l'unica scuola dell'ateneo con ben 2 corsi interscuola.
 
-Da ultimo, il preside ha confermato l'organizzazione delle **conferenze di architettura **del mese di novembre anche per il 2014 e ha comunicato un nuovo accordo con l'ordine degli architetti e degli ingegneri di lecco per l'attivazione di **corsi di formazione post laurea**.
+Da ultimo, il preside ha confermato l'organizzazione delle **conferenze di architettura** del mese di novembre anche per il 2014 e ha comunicato un nuovo accordo con l'ordine degli architetti e degli ingegneri di lecco per l'attivazione di **corsi di formazione post laurea**.
