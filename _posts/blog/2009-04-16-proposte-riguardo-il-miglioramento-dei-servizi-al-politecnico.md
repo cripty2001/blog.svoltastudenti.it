@@ -1,20 +1,17 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
-title: >-
-  Le proposte riguardo il miglioramento dei servizi al politecnico: Università
-  aperta 24h/24, Spazi per i gruppi studenteschi, bacheche
+title: Miglioramento dei servizi al Politecnico
 tag: Rappresentanza
-desc: >-
-  Le proposte riguardo il miglioramento dei servizi al politecnico: Università
-  aperta 24h/24, Spazi per i gruppi studenteschi, bacheche
+desc: "Le proposte riguardo il miglioramento dei servizi al politecnico:
+  Università aperta 24h/24, Spazi per i gruppi studenteschi, bacheche"
 article_th: /assets/img/uploads/article_placeholder.png
 authors:
   - Antonio Mazzitelli
 published: true
 date: 2009-04-16T00:00:00.000Z
+isAmp: "true"
 ---
 
 Ecco alcune proposte fatte nelle sottocommissioni servizi!
