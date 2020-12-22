@@ -53,9 +53,7 @@ layout: default
       height: 100%;
       overflow-x: hidden;
       overflow-y: auto;
-      {% if page.vslideshow_type == "snap" %}
-        scroll-snap-type: y mandatory;
-      {% endif %}
+      scroll-snap-type: y mandatory;
     }
     
 		.vslideshow > .content section {
@@ -74,9 +72,7 @@ layout: default
       justify-content: flex-end;
       align-items: center;
       position: relative;
-      {% if page.vslideshow_type == "snap" %}
-        scroll-snap-align: start;
-      {% endif %}
+      scroll-snap-align: start;
       {% if page.vslideshow_type == "sticky" %}
         position: sticky;
         top: 0;
