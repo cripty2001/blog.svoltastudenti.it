@@ -379,7 +379,7 @@ article .authors li img {
 }
 
 .thList .list {
-    text-align: center;
+    text-align: left;
 }
 
 .thList .list ul,
@@ -391,6 +391,11 @@ article .authors li img {
 
 .thList .list label[for="thList-checkbox"] {
     font-weight: bold;
+}
+
+.list ul li {
+    font-size: x-large;
+    padding: 20px;
 }
 
 .thList .data {
