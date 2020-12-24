@@ -132,7 +132,8 @@ layout: default
     {% for post in posts %}
       <section style="align-items: {{ post.align }}" class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
-        <div class="title">{{ post.title }}</div>
+        <div class="data">
+          <div class="title">{{ post.title }}</div>
         <div class="subtitle">{{ post.content | markdownify }}</div>
         <div class="btn">
           {% if post.btn1.txt %}
@@ -141,6 +142,7 @@ layout: default
           {% if post.btn2.txt %}
             <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a></div>
           {% endif %}
+        </div>
       </section>
     {% endfor %}
   </div>
