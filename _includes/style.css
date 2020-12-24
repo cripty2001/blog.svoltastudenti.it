@@ -39,6 +39,10 @@ body {
     box-sizing: border-box;
 }
 
+#logo-svolta {
+    height: 30px;
+}
+
 #site-nav-checkbox {
     display: none;
 }
@@ -188,7 +192,6 @@ body {
 #site-nav-pages li {
     font-size: 5vh;
     padding: 1.5vh 0px;
-    transform: scale(1);
     transition: transform .5s;
     transform-origin: left;
 }
@@ -197,18 +200,13 @@ body {
     transform: scale(1.1);
 }
 
-#site-nav-pages,
-#site-nav-projects {
+#site-nav-pages {
     margin-left: 20vw;
-    margin-top: 15vh;
+    margin-top: 18vh;
 }
 
 #site-nav-socials {
     padding: 0;
-}
-
-#site-nav-socials li:hover {
-    transform: scale(1.2);
 }
 
 #site-nav-socials li {
@@ -223,10 +221,29 @@ body {
     margin: 10px;
 }
 
+#site-nav-projects {
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+
 #site-nav-projects li {
-    display: inline-block;
+    font-weight: bold;
+    color: var(--light-on);
+    text-align: center;
+    display: block;
+    width: 100%;
     border: 1px solid white;
     padding: 20px;
+    margin: 20px;
+    transition: all .5s;
+    background-color: var(--light-off);
+}
+
+#site-nav-projects li:hover {
+    background-color: var(--light-on);
+    color: var(--orange);
+    transform: scale(1.1);
 }
 
 #site-nav a {
@@ -362,7 +379,7 @@ article .authors li img {
 }
 
 .thList .list {
-    text-align: center;
+    text-align: left;
 }
 
 .thList .list ul,
@@ -374,6 +391,11 @@ article .authors li img {
 
 .thList .list label[for="thList-checkbox"] {
     font-weight: bold;
+}
+
+.list ul li {
+    font-size: x-large;
+    padding: 20px;
 }
 
 .thList .data {
@@ -431,6 +453,11 @@ article .authors li img {
 
     #site-nav-pages li {
         font-size: 4vw;
+    }
+
+    #site-nav-projects li{
+        margin: 50px auto;  
+        display: inline-block;
     }
 }
 
