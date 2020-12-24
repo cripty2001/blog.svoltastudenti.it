@@ -168,10 +168,12 @@
       </svg>
     </label>
     <!-- <span>Svoltastudenti</span> -->
-    <picture>
-      <source media="(min-width:767px)" srcset="/assets/img/logo-full.svg">
-      <img height="46" src="/assets/img/logo-min.svg">
-    </picture>
+    <a href="/{{ page.category }}">
+      <picture>
+        <source media="(min-width:767px)" srcset="/assets/img/logo-full.svg">
+        <img height="46" src="/assets/img/logo-min.svg">
+      </picture>
+    </a>
     {% if page.translations_it  %}
       <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
         <span class="lang">ITA</span>
@@ -192,8 +194,7 @@
     Questo sito utilizza cookies tecnici per fornire i suoi servizi. <br />
     Trattandosi di servizi strettamente necessari per la fornitura del servizio, non e' necessario il tuo consenso <br />
 
-    Maggiori informazioni nella nostra <a href="https://www.iubenda.com/privacy-policy/27818292/cookie-policy"
-    target="_blank">cookie policy</a>
+    Maggiori informazioni nella nostra <a href="https://www.iubenda.com/privacy-policy/27818292/cookie-policy" target="_blank">cookie policy</a>
   </div>
 </body>
 
