@@ -195,7 +195,7 @@ body {
     font-size: 5vh;
     padding: 1.5vh 0px;
     transition: transform .5s;
-    transform-origin: left;
+    transform-origin: center;
 }
 
 #site-nav-pages li:hover {
@@ -216,6 +216,11 @@ body {
     width: 3vw;
     overflow: hidden;
     margin: 10px;
+    transform: scale(1);
+}
+
+#site-nav-socials svg:hover {
+    transform: scale(2);
 }
 
 #site-nav-projects {

@@ -90,6 +90,20 @@ layout: default
       align-items: flex-start;
       text-align: left;
     }
+    .vslideshow > .content section.right .data {
+      align-items: flex-end;
+      text-align: right;
+      margin-right: 10vw;
+    }
+    .vslideshow > .content section.center .data {
+      align-items: center;
+      text-align: center;
+    }
+    .vslideshow > .content section.left .data {
+      align-items: flex-start;
+      text-align: left;
+      margin-left: 10vw;
+    }
 
     .vslideshow > .content section video {
       position: absolute;
@@ -143,18 +157,19 @@ layout: default
   </style>
   <div class="content">
     {% for post in posts %}
-      <section class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
+      <section class="vslideshow-animTrigger {{ post.align }}" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
         <div class="data">
           <div class="title">{{ post.title }}</div>
-        <div class="subtitle">{{ post.content | markdownify }}</div>
-        <div class="btn">
-          {% if post.btn1.txt %}
-            <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
-          {% endif %}
-          {% if post.btn2.txt %}
-            <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a></div>
-          {% endif %}
+          <div class="subtitle">{{ post.content | markdownify }}</div>
+          <div class="btn">
+            {% if post.btn1.txt %}
+              <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
+            {% endif %}
+            {% if post.btn2.txt %}
+              <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a>
+            {% endif %}
+          </div>
         </div>
       </section>
     {% endfor %}
