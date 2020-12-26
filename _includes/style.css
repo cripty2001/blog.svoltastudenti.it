@@ -547,6 +547,10 @@ article .authors li img {
     position: relative;
 }
 
+.vslideshow > .content {
+    scroll-behavior: smooth;
+}
+
 @media (orientation: portrait) {
     article {
       width: 80%;
