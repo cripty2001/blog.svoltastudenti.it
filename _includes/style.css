@@ -476,17 +476,17 @@ article .authors li img {
     color: var(--orange);
 }
 
-/* .thList #thList-checkbox:not(:checked)~ul label[for*="thList-catFilter"]{
+.thList #thList-checkbox:not(:checked)~ul label[for*="thList-catFilter"]{
     background-color: red;
     margin: 5px;
     height: 100%;
     transition: all 1s;
-} */
+}
 
-#thList-checkbox:not(:checked) ~ .list ul {
+/* #thList-checkbox:not(:checked) ~ .list ul {
     height: 100%;
     transition: all 1s;
-  }
+  } */
 
 .thList .list ul {
     margin-bottom: 20px;
