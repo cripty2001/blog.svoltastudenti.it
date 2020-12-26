@@ -11,6 +11,30 @@ layout: default
 {% assign tags=all_txt | concat: tags %}
 
 <div class="thList">
+  <script>
+    let options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: [0, 1]
+    };
+
+    window.currentScreen = '';
+    observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        let img = entry.target.dataset.th;
+        if (img && entry.intersectionRatio > 0.1) {
+          console.log(entry);
+          entry.target.style.backgroundImage = `url('${img}')`;
+        }
+      });
+    }, options);
+
+    document.addEventListener('DOMContentLoaded', _ => {
+      document.querySelectorAll('.thList .data .th').forEach(item => {
+        observer.observe(item);
+      })
+    });
+  </script>
   <style>
     {% for tag in tags %}
       /* .thList #thList-catFilter-{{ tag | slugify }}:checked {
@@ -45,7 +69,7 @@ layout: default
   </div>
   <div class="data">
     {% for post in posts %}
-      <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" style="background-image: url('{{ post.article_th }}')" href="{{ post.url | prepend: site.baseurl }}"></a>
+      <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}"></a>
     {% endfor %}
   </div>
 <!-- </div>

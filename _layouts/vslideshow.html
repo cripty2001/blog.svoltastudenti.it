@@ -174,41 +174,19 @@ layout: default
           targets.forEach(item => {
             if (entry.intersectionRatio > 0.5) {
               item.classList.add('vslideshow-animActive');
-              // let newScreen = `associations/${entry.target.dataset.animid}`;
-              // if (window.currentScreen !== newScreen) {
-              //   gtag('event', 'screen_view', {
-              //       'screen_name': newScreen
-              //   });
-              // }
-              // document.querySelectorAll('video').forEach(item => {
-              //   item.pause();
-              // });
-              // window.currentScreen = newScreen;
             } else if (entry.intersectionRatio < 0.95) {
               item.classList.remove('vslideshow-animActive');
             }
           })
-          // gtag('event', 'view_item', {
-          //     event_label: entry.target.dataset.animid
-          // });
         }
       });
     }, options);
 
-    document.querySelectorAll('.vslideshow-animTrigger').forEach(item => {
-      observer.observe(item);
-    })
+    document.addEventListener('DOMContentLoaded', _ => {
+      document.querySelectorAll('.vslideshow-animTrigger').forEach(item => {
+        observer.observe(item);
+      })
+    });
 
-    // function sendVideoTrigger(e, type) {
-    //   e.target.dataset.id
-    //   gtag('event', 'view_item', {
-    //     event_label: `associations/${e.target.dataset.id}`,
-    //     event_category: `video_${type}`,
-    //   });
-    // }
-    // document.querySelectorAll('video').forEach(item => {
-    //   item.addEventListener('play', e => sendVideoTrigger(e, 'play'))
-    //   item.addEventListener('pause', e => sendVideoTrigger(e, 'pause'))
-    // });
   </script>
 </div>
