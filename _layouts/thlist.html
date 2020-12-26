@@ -37,12 +37,35 @@ layout: default
   <style>
     #thList-checkbox ~ ul {
       max-height: 0px;
-      transition: max-height 1s;
+      transition: all 1s;
       overflow: hidden;
     }
 
     #thList-checkbox:checked ~ ul {
-      max-height: 500px;
+      max-height: 600px;
+      padding-bottom: 20px
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    ul li label {
+      font-size: 16px;
+      display: block;
+      padding: 8px 10px;
+      margin: 2px;
+      transition: all 1s;
+    }
+
+    ul li label:hover {
+      color: var(--light-on);
+      font-weight: bold;
+      font-size: 20px;
+      background-color: var(--orange);
+      cursor: pointer;
     }
 
     .thList .data > .th {
@@ -58,7 +81,11 @@ layout: default
       }
 
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="thList-catFilter-{{ tag | slugify }}"] {
-        text-decoration: line-through;
+        color: var(--light-on);
+      font-weight: bold;
+      font-size: 20px;
+      background-color: var(--orange);
+      text-decoration: line-through;
       }
     {% endfor %}
   </style>
@@ -66,7 +93,7 @@ layout: default
       <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" {% if tag == all_txt[0] %} checked {% endif %} />
     {% endfor %}
   <div class="list">
-    <input type="checkbox" id="thList-checkbox" checked/>
+    <input type="checkbox" id="thList-checkbox"/>
     <label for="thList-checkbox">Categorie</label>
     <ul>
       {% for tag in tags %}
