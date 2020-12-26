@@ -4,7 +4,8 @@
 
 :root {
     --orange: rgb(255, 102, 0);
-    --orange-half: rgb(255, 102, 0, .85);
+    --orange-half: rgba(255, 102, 0, .85);
+    --orange-off: rgba(255, 102, 0, 0);
     --light-off: rgba(255, 255, 255, 0);
     --light-half: rgba(255, 255, 255, .5);
     --light-on: rgba(255, 255, 255, 1);
@@ -113,9 +114,16 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 11;
+    z-index: 20;
     background-color: var(--orange-half);
     backdrop-filter: blur(15px);
+    transition: all .5s .5s;
+}
+
+#site-nav-checkbox:checked~#site-header {
+    background-color: var(--orange-off);
+    backdrop-filter: blur(0px);
+    transition: all .2s;
 }
 
 #site-header>* {
@@ -170,7 +178,9 @@ body {
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: var(--orange);
+    background-color: var(--orange-half);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     transition: all 1s;
     z-index: 10;
     display: flex;
@@ -187,6 +197,7 @@ body {
 #site-nav-pages {
     text-transform: uppercase;
     padding: 0;
+    margin-bottom: 0;
 }
 
 #site-nav-pages li {
@@ -200,6 +211,7 @@ body {
     font-size: 4vh;
     transform: scale(1);
     padding: .8vh 1.8vh;
+    z-index: 12;
 }
 
 #site-nav-pages li a:hover {
@@ -217,16 +229,17 @@ body {
     transform: translate(-50%, -50%);
     font-size: 17vh;
     pointer-events: none;
-    letter-spacing: 20px;
+    letter-spacing: 30px;
     transition: all .5s;
     opacity: 0;
     white-space: nowrap;
     color: var(--light-off);
+    z-index: 11;
 }
 
 #site-nav-pages li a:hover::before {
     opacity: .5;
-    letter-spacing: 0px;
+    letter-spacing: 5px;
     -webkit-text-stroke: 2px var(--light-on);
 }
 
@@ -237,6 +250,8 @@ body {
 
 
 #site-nav-socials {
+    margin-top: 0;
+    margin-bottom: 20px;
     padding: 0;
 }
 
@@ -496,6 +511,14 @@ article .authors li img {
         margin-left: calc(10vw - 25px);
     }
 
+    #logo-svolta {
+        height: 25px;
+    }
+
+    #menu-icon {
+        margin-left: calc(12vw - 25px);
+    }
+
     #site-nav-pages {
         margin-top: 10px;
         margin-bottom: 0px;
@@ -503,6 +526,14 @@ article .authors li img {
 
     #site-nav-pages li {
         font-size: 4vw;
+    }
+
+    #site-nav-pages li a {
+        font-size: 3vh;
+    }
+
+    #site-nav-pages li a:hover {
+        font-size: 4vh;
     }
 
     #site-nav-projects li{
@@ -521,7 +552,7 @@ article .authors li img {
     }
 
     #site-nav-socials svg {
-        width: 5vw;
+        width: 7vw;
     }
 }
 
