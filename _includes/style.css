@@ -408,7 +408,7 @@ article .authors li img {
 .thList .th {
     position: relative;
     width: 220px;
-    height: 320px;
+    height: 275px;
     display: block;
     flex-grow: 0;
     flex-shrink: 0;
