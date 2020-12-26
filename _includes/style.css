@@ -441,7 +441,6 @@ article .authors li img {
 .thList {
     width: 70%;
     margin: auto;
-    padding-top: 12vh;
 }
 
 .thList input[name="thList-tags"],
@@ -450,8 +449,16 @@ article .authors li img {
 }
 
 .thList .list {
+    top: 0;
+    padding-top: 60px;
+    width: 100vw;
+    position: fixed;
     text-align: center;
     margin-bottom: 5vh;
+    z-index: 5;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: var(--light-on);
 }
 
 .thList .list ul,
@@ -463,13 +470,30 @@ article .authors li img {
 
 .thList .list label[for="thList-checkbox"] {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     margin: 20px;
+    display: block;
+    color: var(--orange);
+}
+
+/* .thList #thList-checkbox:not(:checked)~ul label[for*="thList-catFilter"]{
     background-color: red;
+    margin: 5px;
+    height: 100%;
+    transition: all 1s;
+} */
+
+#thList-checkbox:not(:checked) ~ .list ul {
+    height: 100%;
+    transition: all 1s;
+  }
+
+.thList .list ul {
+    margin-bottom: 20px;
 }
 
 .thList .list ul li {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .thList .data {
@@ -477,6 +501,7 @@ article .authors li img {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 15vh;
 }
 
 .thList .th {
@@ -574,21 +599,5 @@ article .authors li img {
 
     #site-nav-socials svg {
         width: 40px;
-    }
-}
-
-@media all and (min-width: 1024px){
-    .thList {
-        width: 90%;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .thList .data {
-        width: 60%;
-    }
-
-    .thList .list {
-        width: 20%;
     }
 }

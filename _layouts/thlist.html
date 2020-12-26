@@ -44,9 +44,10 @@ layout: default
       #thList-checkbox:checked ~ ul {
         display: none;
       }
+
       .thList .data > .th {
         opacity: 1;
-        transition: opacity: 3s;
+        transition: opacity 3s;
       }
 
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) {
@@ -62,7 +63,7 @@ layout: default
       <input type="radio" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" {% if tag == all_txt[0] %} checked {% endif %} />
     {% endfor %}
   <div class="list">
-    <input type="checkbox" id="thList-checkbox" />
+    <input type="checkbox" id="thList-checkbox" checked/>
     <label for="thList-checkbox">Categorie</label>
     <ul>
       {% for tag in tags %}
