@@ -5,7 +5,7 @@ noBrand: "false"
 title: Il Politecnico investe sugli studenti – Costi AUIC
 tag: Rappresentanza
 desc: Il Politecnico investe sugli studenti – Costi AUIC
-article_th: /assets/img/uploads/Il-Politecnico-investe-sugli-studenti---Costi-AUIC.png
+article_th: /assets/img/uploads/Il-Politecnico-investe-sugli-studenti---Costi-AUIC.jpg
 authors:
   - Carlo Giovani
 published: true

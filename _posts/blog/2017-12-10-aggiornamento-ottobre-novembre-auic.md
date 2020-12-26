@@ -8,7 +8,7 @@ tag: Associazione
 desc: Affrontate le tematiche inerenti la conferma delle audizioni del Nucleo di
   Valutazione per i corsi di EDA a Lecco, Progettazione dell’Architettura a
   Milano e Ingegneria dei Sistemi Edilizi a Milano.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Manuela Taurino
 published: true

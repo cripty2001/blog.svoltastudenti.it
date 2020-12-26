@@ -10,7 +10,7 @@ tag: Rappresentanza
 desc: >-
   L’università oltre le lezioni, la realtà in Olanda, ancora un miraggio al
   Politecnico.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

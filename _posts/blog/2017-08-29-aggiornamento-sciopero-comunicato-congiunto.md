@@ -6,7 +6,7 @@ noBrand: "false"
 title: AGGIORNAMENTO SCIOPERO - Comunicato Congiunto
 tag: Associazione
 desc: AGGIORNAMENTO SCIOPERO - Comunicato Congiunto
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

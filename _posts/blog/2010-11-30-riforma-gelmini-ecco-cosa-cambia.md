@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Riforma Gelmini, ecco cosa cambia'
 tag: Rappresentanza
 desc: 'Riforma Gelmini, ecco cosa cambia'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giovanni Sala
 published: true

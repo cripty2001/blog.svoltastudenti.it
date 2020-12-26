@@ -10,7 +10,7 @@ tag: Rappresentanza
 desc: >-
   Svoltastudenti si racconta: tutto ciò che è stato fatto nei primi sei mesi di
   rappresentanza.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Roberto Maffei
 published: true

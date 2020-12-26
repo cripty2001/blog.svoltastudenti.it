@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Diritto allo Studio: l''importanza della Rappresentanza'
 tag: Rappresentanza
 desc: 'Diritto allo Studio: l''importanza della Rappresentanza'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Nicolo Mariotti
 published: true

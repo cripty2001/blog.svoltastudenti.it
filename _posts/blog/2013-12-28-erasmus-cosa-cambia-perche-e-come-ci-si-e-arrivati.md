@@ -5,7 +5,7 @@ noBrand: "false"
 title: "Erasmus: cosa cambia, perché e come ci si è arrivati"
 tag: Rappresentanza
 desc: "Erasmus: cosa cambia, perché e come ci si è arrivati"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

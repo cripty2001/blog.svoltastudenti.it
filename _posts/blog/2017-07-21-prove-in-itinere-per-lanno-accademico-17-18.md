@@ -6,7 +6,7 @@ noBrand: "false"
 title: Prove in Itinere per l'anno accademico 17/18
 tag: Associazione
 desc: Prove in Itinere per l'anno accademico 17/18
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

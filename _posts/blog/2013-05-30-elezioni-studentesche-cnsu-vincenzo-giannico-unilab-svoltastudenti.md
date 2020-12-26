@@ -6,7 +6,7 @@ noBrand: "false"
 title: Elezioni Studentesche CNSU Vincenzo Giannico - UniLab-Svoltastudenti
 tag: Rappresentanza
 desc: Elezioni Studentesche CNSU Vincenzo Giannico - UniLab-Svoltastudenti
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: Giornate Della Sostenibilità 12 e 13 Ottobre 2012
 tag: Rappresentanza
 desc: Giornate Della Sostenibilità 12 e 13 Ottobre 2012
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

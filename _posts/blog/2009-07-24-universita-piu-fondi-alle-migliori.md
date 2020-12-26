@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Università, più fondi alle migliori'
 tag: Rappresentanza
 desc: 'Università, più fondi alle migliori'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

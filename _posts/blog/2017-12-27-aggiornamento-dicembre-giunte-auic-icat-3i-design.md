@@ -10,7 +10,7 @@ desc: |-
   2 nuovi programmi di Internal Double Degree:
   -Mechanical Engineering e Civil Engineering;
   -Mechanical Engineering – Building and Architectural Engineering
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

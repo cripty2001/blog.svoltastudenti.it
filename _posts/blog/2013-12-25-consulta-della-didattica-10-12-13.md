@@ -11,7 +11,7 @@ desc: |-
   -Programmazione dell’offerta formativa 2014/2015
   -Linee guida per la gestione della mobilità internazionale degli studenti
   -Honor Code - Obblighi dello studente
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

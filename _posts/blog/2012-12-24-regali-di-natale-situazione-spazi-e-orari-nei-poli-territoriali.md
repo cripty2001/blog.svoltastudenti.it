@@ -6,7 +6,7 @@ noBrand: "false"
 title: REGALI DI NATALE - Situazione spazi e orari nei Poli territoriali
 tag: Rappresentanza
 desc: REGALI DI NATALE - Situazione spazi e orari nei Poli territoriali
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

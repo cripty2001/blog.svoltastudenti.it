@@ -16,7 +16,7 @@ desc: >-
 
 
   Scopri di più!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

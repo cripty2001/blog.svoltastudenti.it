@@ -7,7 +7,7 @@ title: Novità dal corso di Ingegneria Civile
 tag: Rappresentanza
 desc: Precedenze, nuova triennale in inglese, PSPA Geotechnics e novità dal
   corso di Ingegneria Civile
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonino Sgroi
   - Butrint Haxhiu

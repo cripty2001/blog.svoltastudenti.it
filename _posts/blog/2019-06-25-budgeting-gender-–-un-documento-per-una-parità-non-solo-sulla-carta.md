@@ -7,7 +7,7 @@ tag: Rappresentanza
 desc: E' stato redatto il primo Budgeting Gender (o “Bilancio di Genere”) per
   analizzare la situazione all’interno dell’Ateneo riguardo alle tematiche di
   parità di genere e di uguaglianza.
-article_th: /assets/img/uploads/Budgeting-Gender-–-Un-documento-per-una-parità-non-solo-sulla-carta.png
+article_th: /assets/img/uploads/Budgeting-Gender-–-Un-documento-per-una-parità-non-solo-sulla-carta.jpg
 authors:
   - Alessio Rocca
 published: true

@@ -5,7 +5,7 @@ noBrand: "false"
 title: Il semestre che verrà
 tag: Rappresentanza
 desc: Il semestre che verrà
-article_th: /assets/img/uploads/Il-semestre-che-verrà.png
+article_th: /assets/img/uploads/Il-semestre-che-verrà.jpg
 authors:
   - Alessio Rocca
   - Tecla Trifilo

@@ -6,7 +6,7 @@ noBrand: "false"
 title: ACQUA PUBBLICA E GRATIS PER TUTTI!
 tag: Rappresentanza
 desc: ACQUA PUBBLICA E GRATIS PER TUTTI!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

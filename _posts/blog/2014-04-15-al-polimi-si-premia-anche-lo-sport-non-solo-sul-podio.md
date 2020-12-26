@@ -9,7 +9,7 @@ desc: Grazie ai rappresentanti di Svoltastudenti è stata approvata l'istituzio
   di un fondo per meriti sportivi rivolto agli studenti del nostro ateneo che si
   siano distinti nell'attività sportiva agonistica, praticata a livelli alti o
   di eccellenza, senza rinunciare ad una carriera universitaria di rilievo.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

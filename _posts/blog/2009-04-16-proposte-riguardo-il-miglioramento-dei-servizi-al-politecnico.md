@@ -6,7 +6,7 @@ title: Miglioramento dei servizi al Politecnico
 tag: Rappresentanza
 desc: "Le proposte riguardo il miglioramento dei servizi al politecnico:
   Università aperta 24h/24, Spazi per i gruppi studenteschi, bacheche"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

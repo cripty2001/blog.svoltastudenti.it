@@ -5,7 +5,7 @@ noBrand: "false"
 title: Esami a distanza
 tag: Rappresentanza
 desc: Esami a distanza
-article_th: /assets/img/uploads/Esami-a-distanza.png
+article_th: /assets/img/uploads/Esami-a-distanza.jpg
 authors:
   - Alessio Rocca
 published: true

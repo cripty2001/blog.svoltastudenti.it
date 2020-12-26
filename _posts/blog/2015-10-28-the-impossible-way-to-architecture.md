@@ -12,7 +12,7 @@ desc: >-
   Gli altri anni non accadeva.
 
   Come mai quest'anno sì?
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Laura Olivastri
 published: true

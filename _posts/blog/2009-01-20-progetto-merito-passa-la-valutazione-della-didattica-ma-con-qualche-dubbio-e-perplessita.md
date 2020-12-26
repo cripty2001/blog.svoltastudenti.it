@@ -10,7 +10,7 @@ tag: Rappresentanza
 desc: >-
   Progetto Merito: passa la valutazione della didattica, ma con qualche dubbio e
   perplessità
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

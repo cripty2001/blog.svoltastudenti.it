@@ -6,7 +6,7 @@ noBrand: "false"
 title: Nuova Laurea Magistrale Ingegneria Matematica
 tag: Rappresentanza
 desc: Nuova Laurea Magistrale Ingegneria Matematica
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Luca Sosta
   - Davide Lo Piccolo

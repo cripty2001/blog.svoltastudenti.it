@@ -6,7 +6,7 @@ noBrand: "false"
 title: Struttura terzo anno del corso in Progettazione dell'Architettura
 tag: Rappresentanza
 desc: Struttura del terzo anno del corso in Progettazione dell'Architettura
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Marcello Cadorin
 published: true

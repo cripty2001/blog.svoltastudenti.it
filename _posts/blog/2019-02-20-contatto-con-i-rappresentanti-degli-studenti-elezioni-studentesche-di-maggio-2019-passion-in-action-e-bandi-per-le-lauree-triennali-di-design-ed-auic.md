@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Contatto con i rappresentanti degli studenti, elezioni studentesche di
   maggio 2019, Passion in Action e Bandi per le Lauree Triennali di Design ed
   AUIC
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Carlo Giovani
 published: true

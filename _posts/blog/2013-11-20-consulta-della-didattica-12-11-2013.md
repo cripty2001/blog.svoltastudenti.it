@@ -10,7 +10,7 @@ desc: |-
   -Valutazione esami di profitto
   -Linee guida per la gestione della mobilità internazionale degli studenti
   -Honor Code e proposte di accordi internazionali
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

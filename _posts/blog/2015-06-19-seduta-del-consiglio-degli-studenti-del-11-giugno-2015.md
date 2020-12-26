@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: 'Due i punti principali all’ordine del giorno della seduta: "elezioni
   indirette dei rappresentanti degli studenti" e "parere obbligatorio inerente
   alla nuova tassazione prevista per l’A.A 2015/2016".'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
   - Marco Licari

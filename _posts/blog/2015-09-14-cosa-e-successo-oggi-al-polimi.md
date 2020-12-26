@@ -12,7 +12,7 @@ desc: |-
   -Novita' doppia laurea AA 2016-2017;
   -Riconoscimenti crediti Summer School;
   -Honor Programs.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
   - Marco Licari

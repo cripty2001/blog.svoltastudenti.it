@@ -7,7 +7,7 @@ title: "Lecco: prolungamento degli orari di apertura polo e biblioteca"
 tag: Rappresentanza
 desc: "Prolungamento orari di apertura della biblioteca ed obbligo di ingresso
   con badge. "
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Valentina Rao
 published: true

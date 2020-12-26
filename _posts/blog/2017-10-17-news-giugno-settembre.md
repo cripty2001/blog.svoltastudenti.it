@@ -6,7 +6,7 @@ noBrand: "false"
 title: News Giugno-Settembre
 tag: Associazione
 desc: News Giugno-Settembre
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

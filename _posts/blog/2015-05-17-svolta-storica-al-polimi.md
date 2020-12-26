@@ -7,7 +7,7 @@ title: ↱SVOLTA STORICA AL POLIMI↱
 tag: Rappresentanza
 desc: Nonostante il calo di affluenza, la nostra lista ha visto il consenso
   aumentare, segno di un impegno concreto.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

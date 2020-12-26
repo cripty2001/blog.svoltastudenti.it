@@ -5,7 +5,7 @@ noBrand: "false"
 title: Le attività del II semestre della Students Union
 tag: Rappresentanza
 desc: "Comunicare agli studenti: le attività del II semestre della Student Union"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

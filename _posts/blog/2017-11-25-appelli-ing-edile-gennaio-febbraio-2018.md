@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Presentata e ratificata la posticipazione degli appelli di Laurea al
   termine della sessione per  rendere utili alla laurea tutti gli appelli di
   esame per le scuole ICAT e 3I.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Manuela Taurino
 published: true

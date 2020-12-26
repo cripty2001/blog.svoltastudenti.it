@@ -6,7 +6,7 @@ noBrand: "false"
 title: Proposte di potenziamento dei programmi Erasmus
 tag: Rappresentanza
 desc: Proposte di potenziamento dei programmi Erasmus
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

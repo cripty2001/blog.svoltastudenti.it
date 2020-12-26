@@ -6,7 +6,7 @@ noBrand: "false"
 title: Orari di Chiusura (e sloggio) del Campus Bovisa
 tag: Rappresentanza
 desc: Orari di Chiusura (e sloggio) del Campus Bovisa
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

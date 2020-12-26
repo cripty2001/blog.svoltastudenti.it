@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'In pillole: Commissione Permanente Studenti'
 tag: Rappresentanza
 desc: 'In pillole: Commissione Permanente Studenti'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
   - Marco Licari

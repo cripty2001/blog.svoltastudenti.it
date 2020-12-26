@@ -6,7 +6,7 @@ noBrand: "false"
 title: Progetto "Sportello" - La proposta di SvoltaStudenti
 tag: Rappresentanza
 desc: Progetto "Sportello" - La proposta di SvoltaStudenti
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

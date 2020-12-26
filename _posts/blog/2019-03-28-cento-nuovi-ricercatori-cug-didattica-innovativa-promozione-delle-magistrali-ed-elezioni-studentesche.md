@@ -6,7 +6,7 @@ title: Nuovi Ricercatori, CUG, DI ed elezioni studentesche
 tag: Rappresentanza
 desc: Cento nuovi Ricercatori, CUG, didattica innovativa, promozione delle
   magistrali ed elezioni studentesche
-article_th: /assets/img/uploads/Cento-nuovi-Ricercatori,-CUG,-didattica-innovativa,-promozione-delle-magistrali-ed-elezioni-studentesche.png
+article_th: /assets/img/uploads/Cento-nuovi-Ricercatori,-CUG,-didattica-innovativa,-promozione-delle-magistrali-ed-elezioni-studentesche.jpg
 authors:
   - Carlo Giovani
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: A tutti i professori ordinari con età superiore a 65 anni.
 tag: Rappresentanza
 desc: A tutti i professori ordinari con età superiore a 65 anni.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: La nuova scuola consente di elevare il livello di internazionalizzazione
   con maggiori possibilità per gli studenti che si interessano dell'Erasmus e
   con molteplici corsi tenuti da Visiting Professor.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Laura Olivastri
   - Francesca Coffano

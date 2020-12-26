@@ -6,7 +6,7 @@ noBrand: "false"
 title: Intervista candidati Rettore
 tag: Rappresentanza
 desc: Intervista candidati Rettore
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Carlo Giovani
 published: true

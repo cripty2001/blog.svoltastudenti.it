@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Per evitare una sovrapposizione di corsi nell'area settoriale "scienze e
   tecniche dell'edilizia" sono stati accorpati i due corsi di ing. dell'edilizia
   e Architettura e produzione edilizia (APE).
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Cesare De Mezza
 published: true

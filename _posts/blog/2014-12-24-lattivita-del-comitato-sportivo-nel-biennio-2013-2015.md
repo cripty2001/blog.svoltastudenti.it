@@ -7,7 +7,7 @@ title: L’attività del Comitato Sportivo nel biennio 2013-2015
 tag: Rappresentanza
 desc: "Creazione sito web per l'attività sportiva, razionalizzazione di squadre
   competitive di ateneo, istituzione di un bando borse per meriti sportivi. "
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Cesare De Mezza
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'CONSULTA COMUNALE DEGLI STUDENTI, DEI DOTTORANDI E DEI RICERCATORI'
 tag: Rappresentanza
 desc: 'CONSULTA COMUNALE DEGLI STUDENTI, DEI DOTTORANDI E DEI RICERCATORI'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: Consiglio degli Studenti 9 Giugno 2016
 tag: Associazione
 desc: Consiglio degli Studenti 9 Giugno 2016
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

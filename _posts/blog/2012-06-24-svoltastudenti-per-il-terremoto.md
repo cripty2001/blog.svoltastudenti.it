@@ -6,7 +6,7 @@ noBrand: "false"
 title: SvoltaStudenti per il terremoto
 tag: Rappresentanza
 desc: SvoltaStudenti per il terremoto
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

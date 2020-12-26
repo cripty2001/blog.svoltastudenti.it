@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Approvazione di una mozione sull’attuale situazione universitaria,
   presentazione della bozza di budget triennale per il 2016-2018, progetto
   di riqualificazione del Campus Leonardo di Renzo Piano.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
 published: true

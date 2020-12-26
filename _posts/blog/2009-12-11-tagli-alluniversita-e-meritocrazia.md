@@ -6,7 +6,7 @@ noBrand: "false"
 title: Tagli all'Università e Meritocrazia
 tag: Meritocrazia
 desc: Tagli all'Università e Meritocrazia
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

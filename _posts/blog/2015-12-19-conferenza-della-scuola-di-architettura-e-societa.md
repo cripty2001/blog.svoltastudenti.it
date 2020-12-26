@@ -10,7 +10,7 @@ desc: >-
   di Architettura Urbanistica e Ingegneria delle Costruzioni.
 
   -Approvati i manifesti degli studi dei vari corsi di laurea.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Marcello Cadorin
 published: true

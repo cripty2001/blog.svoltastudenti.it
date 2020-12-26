@@ -6,7 +6,7 @@ noBrand: "false"
 title: Il Politecnico che vorrei
 tag: Rappresentanza
 desc: Il Politecnico che vorrei
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

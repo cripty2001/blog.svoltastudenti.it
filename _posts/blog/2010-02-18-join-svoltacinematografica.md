@@ -6,7 +6,7 @@ noBrand: "false"
 title: Join SvoltaCinematografica!
 tag: Associazione
 desc: Join SvoltaCinematografica!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

@@ -5,7 +5,7 @@ noBrand: "false"
 title: Risposta emergenza spazi studio
 tag: Associazione
 desc: Risposta emergenza spazi studio
-article_th: /assets/img/uploads/Risposta-emergenza-spazi-studio.png
+article_th: /assets/img/uploads/Risposta-emergenza-spazi-studio.jpg
 authors:
   - Ennio Visconti
 published: true

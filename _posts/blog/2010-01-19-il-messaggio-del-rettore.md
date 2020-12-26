@@ -6,7 +6,7 @@ noBrand: "false"
 title: il messaggio del rettore
 tag: Rappresentanza
 desc: il messaggio del rettore
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

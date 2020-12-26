@@ -9,7 +9,7 @@ desc: >
   A rischio non sono solo le lauree in inglese del Politecnico di Milano ma
   tutti i corsi di studio in lingua straniera del sistema universitario
   italiano. Si attende la sentenza della consulta. 
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Valentina Rao
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: 1A CONFERENZA DELLA SCUOLA AUIC
 tag: Rappresentanza
 desc: 1A CONFERENZA DELLA SCUOLA AUIC
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Laura Olivastri
   - Francesca Coffano

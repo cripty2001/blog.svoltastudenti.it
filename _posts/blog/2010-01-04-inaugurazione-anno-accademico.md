@@ -6,7 +6,7 @@ noBrand: "false"
 title: inaugurazione anno accademico
 tag: Rappresentanza
 desc: inaugurazione anno accademico
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

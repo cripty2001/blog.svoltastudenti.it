@@ -6,7 +6,7 @@ noBrand: "false"
 title: Progetto LEGACY
 tag: Associazione
 desc: Progetto LEGACY
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

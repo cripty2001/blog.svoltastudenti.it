@@ -6,7 +6,7 @@ noBrand: "false"
 title: Giunta di Scuola di Ingegneria Industriale e dell'Informazione
 tag: Associazione
 desc: Giunta di Scuola di Ingegneria Industriale e dell'Informazione
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

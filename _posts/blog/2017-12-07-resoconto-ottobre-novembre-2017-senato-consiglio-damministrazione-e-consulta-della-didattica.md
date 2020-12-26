@@ -7,7 +7,7 @@ title: Resoconto Ottobre/Novembre 2017
 tag: Associazione
 desc: Resoconto Ottobre/Novembre 2017 - Senato, Consiglio d'amministrazione e
   Consulta della Didattica
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

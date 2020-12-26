@@ -7,7 +7,7 @@ title: Comunicato stampa Unilab Svoltastudenti 16-07-2014
 tag: Rappresentanza
 desc: " L’On. Ministro Giannini risponde ad un quesito
   sull’Internazionalizzazione e sulla questione del Politecnico di Milano."
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

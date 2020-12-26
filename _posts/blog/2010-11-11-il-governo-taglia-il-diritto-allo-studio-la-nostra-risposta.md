@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Il Governo taglia il Diritto allo studio: la nostra risposta.'
 tag: Rappresentanza
 desc: 'Il Governo taglia il Diritto allo studio: la nostra risposta.'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giovanni Sala
 published: true

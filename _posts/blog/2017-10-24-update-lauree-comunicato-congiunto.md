@@ -6,7 +6,7 @@ noBrand: "false"
 title: "Update Lauree: Comunicato congiunto"
 tag: Associazione
 desc: "Update Lauree: Comunicato congiunto"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

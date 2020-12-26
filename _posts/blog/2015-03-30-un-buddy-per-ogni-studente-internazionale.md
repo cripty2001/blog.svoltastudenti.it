@@ -7,7 +7,7 @@ title: Un buddy per ogni studente internazionale!
 tag: Rappresentanza
 desc: Parte anche al Politecnico il programma di tutorato internazionale "Buddy
   System".
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Valentina Rao
 published: true

@@ -8,7 +8,7 @@ tag: Associazione
 desc: "Tanti i temi al tavolo: approvazione delle attività culturali e sportive,
   approvazione dell’iscrizione ad albo di due nuove associazioni, gestione degli
   spazi e ampliamento Wi-Fi nelle residenze."
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

@@ -5,7 +5,7 @@ noBrand: "false"
 title: Nuovo Calendario Accademico
 tag: Associazione
 desc: Nuovo Calendario Accademico
-article_th: /assets/img/uploads/Nuovo-Calendario-Accademico.png
+article_th: /assets/img/uploads/Nuovo-Calendario-Accademico.jpg
 authors:
   - Ennio Visconti
 published: true

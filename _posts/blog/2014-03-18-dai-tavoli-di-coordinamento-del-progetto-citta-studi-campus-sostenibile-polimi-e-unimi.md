@@ -6,7 +6,7 @@ title: Dai tavoli di coordinamento Città Studi Campus Sostenibile
 tag: Rappresentanza
 desc: Dai tavoli di coordinamento del progetto Città Studi Campus Sostenibile
   PoliMi e UniMi
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

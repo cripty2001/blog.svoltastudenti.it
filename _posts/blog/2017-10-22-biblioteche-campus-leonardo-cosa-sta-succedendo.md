@@ -6,7 +6,7 @@ noBrand: "false"
 title: Biblioteche campus Leonardo - Cosa sta succedendo
 tag: Associazione
 desc: Biblioteche campus Leonardo - Cosa sta succedendo
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

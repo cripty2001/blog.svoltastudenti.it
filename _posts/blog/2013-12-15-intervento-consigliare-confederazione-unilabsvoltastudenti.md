@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Interrogazione parlamentare al Ministro dell’Istruzione, Università e
   Ricerca Carrozza dai rappresentanti di Unilab-Svoltastudenti in Consiglio
   Nazionale degli Studenti Universitari.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

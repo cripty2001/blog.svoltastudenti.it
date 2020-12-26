@@ -6,7 +6,7 @@ noBrand: "false"
 title: Education! Education! Education!
 tag: Rappresentanza
 desc: Education! Education! Education!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: Intervista al Prorettore Vicario Alessandro Balducci
 tag: Rappresentanza
 desc: Intervista al Prorettore Vicario Alessandro Balducci
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

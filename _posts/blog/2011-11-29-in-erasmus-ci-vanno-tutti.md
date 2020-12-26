@@ -6,7 +6,7 @@ noBrand: "false"
 title: In Erasmus Ci Vanno Tutti!!
 tag: Rappresentanza
 desc: In Erasmus Ci Vanno Tutti!!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

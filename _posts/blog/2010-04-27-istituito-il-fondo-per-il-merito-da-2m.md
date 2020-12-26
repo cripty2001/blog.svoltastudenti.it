@@ -8,7 +8,7 @@ desc: >-
   Approvata l'istituzione di un Fondo per il Merito da 2 milioni di euro.
 
   Ogni anno l’ateneo destinerà 2 Milioni di Euro agli studenti meritevoli, sulla base delle loro performance accademiche.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giovanni Sala
 published: true

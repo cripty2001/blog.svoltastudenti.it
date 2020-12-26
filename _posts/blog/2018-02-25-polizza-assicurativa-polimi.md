@@ -9,7 +9,7 @@ desc: >-
   Politecnico.
 
   Il costo, di 13 euro a studente, sarà annuale e compreso nelle tasse universitarie.
-article_th: /assets/img/uploads/Polizza-assicurativa-PoliMi.png
+article_th: /assets/img/uploads/Polizza-assicurativa-PoliMi.jpg
 authors:
   - Ennio Visconti
 published: true

@@ -10,7 +10,7 @@ desc: |-
   -l'internazionalizzazione bloccata dal datatissimo regio decreto del '33;
   -l'abuso del sistema di DSU da evasori
   -il problema del bonus maturità.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

@@ -10,7 +10,7 @@ desc: >-
   eccellenti nello studio e nello sport!
 
   Il numero di borse scende a 22, ma ne aumenta il premio passando da €1.500 a €2.500.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
   - Marco Licari

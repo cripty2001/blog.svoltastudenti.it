@@ -6,7 +6,7 @@ noBrand: "false"
 title: Consulta della Didattica 15-10-2013
 tag: Rappresentanza
 desc: Consulta della Didattica 15-10-2013
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

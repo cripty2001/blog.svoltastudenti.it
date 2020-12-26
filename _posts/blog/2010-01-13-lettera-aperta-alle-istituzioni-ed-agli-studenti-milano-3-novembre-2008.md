@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Lettera aperta alle Istituzioni ed agli Studenti - Milano, 3 Novembre 2008'
 tag: Rappresentanza
 desc: 'Lettera aperta alle Istituzioni ed agli Studenti - Milano, 3 Novembre 2008'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

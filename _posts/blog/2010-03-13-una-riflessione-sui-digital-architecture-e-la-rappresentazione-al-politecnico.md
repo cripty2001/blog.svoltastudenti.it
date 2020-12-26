@@ -6,7 +6,7 @@ noBrand: "false"
 title: Una riflessione sui Digital Architecture e la rappresentazione al Politecnico
 tag: Architettura Urbanistica Ingegneria delle Costruzioni
 desc: Una riflessione sui Digital Architecture e la rappresentazione al Politecnico
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

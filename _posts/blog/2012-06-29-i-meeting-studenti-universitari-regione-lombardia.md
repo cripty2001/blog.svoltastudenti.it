@@ -6,7 +6,7 @@ noBrand: "false"
 title: I° MEETING STUDENTI UNIVERSITARI REGIONE LOMBARDIA
 tag: Rappresentanza
 desc: I° MEETING STUDENTI UNIVERSITARI REGIONE LOMBARDIA
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

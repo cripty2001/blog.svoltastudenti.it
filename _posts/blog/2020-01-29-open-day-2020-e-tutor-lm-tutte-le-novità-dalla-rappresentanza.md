@@ -9,7 +9,7 @@ desc: >-
   Leonardo.
 
   Con l’arrivo del tutorato peer-to-peer, i tutor potranno essere anche studenti!
-article_th: /assets/img/uploads/Open-day-2020-e-tutor-LM--tutte-le-novità-dalla-rappresentanza.png
+article_th: /assets/img/uploads/Open-day-2020-e-tutor-LM--tutte-le-novità-dalla-rappresentanza.jpg
 authors:
   - Alessio Rocca
   - Marco Airoldi

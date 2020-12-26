@@ -6,7 +6,7 @@ title: "Dal Calendario Accademico 2019-2020 al DSU "
 tag: Rappresentanza
 desc: "Tante novità: dal Calendario Accademico 2019-2020 al Diritto allo Studio
   Universitario"
-article_th: /assets/img/uploads/Tante-novità--dal-Calendario-Accademico-2019-2020-al-Diritto-allo-Studio-Universitario.png
+article_th: /assets/img/uploads/Tante-novità--dal-Calendario-Accademico-2019-2020-al-Diritto-allo-Studio-Universitario.jpg
 authors:
   - Carlo Giovani
 published: true

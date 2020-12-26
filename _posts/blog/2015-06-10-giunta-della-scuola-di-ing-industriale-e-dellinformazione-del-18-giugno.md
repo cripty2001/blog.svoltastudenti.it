@@ -11,7 +11,7 @@ desc: >-
   vecchi 5.
 
   Leggi cosa cambierà!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Federico Gatti
   - Manal Qablaoui

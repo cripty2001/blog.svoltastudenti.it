@@ -44,7 +44,7 @@ layout: default
       #thList-checkbox:checked ~ ul {
         display: none;
       }
-      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data *:not([data-cat*="{{ tag | slugify }}"]) {
+      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) {
         display: none;
       }
 
@@ -69,7 +69,9 @@ layout: default
   </div>
   <div class="data">
     {% for post in posts %}
-      <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}"></a>
+      <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="button">Read More</div>
+      </a>
     {% endfor %}
   </div>
 <!-- </div>

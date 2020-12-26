@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Sono uno studente al secondo anno di LM in Ing. Civile e da tre mesi in
   Erasmus alla TU Delft, Olanda. Vi scrivo per raccontarvi di un’esperienza
   molto interessante e insolita che ho vissuto.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Alessandro Conti
 published: true

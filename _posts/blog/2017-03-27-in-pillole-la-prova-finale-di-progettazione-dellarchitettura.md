@@ -6,7 +6,7 @@ noBrand: "false"
 title: "In pillole: la prova finale di Progettazione dell'Architettura"
 tag: Associazione
 desc: "In pillole: la prova finale di Progettazione dell'Architettura"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Laura Olivastri
 published: true

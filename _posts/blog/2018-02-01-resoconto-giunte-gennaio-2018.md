@@ -8,7 +8,7 @@ desc: >-
   Modalità di ammissione alle Lauree Magistrali snellite.
 
   Insegnamenti della Scuola del Design saranno aperti agli studenti del corso di Laurea Magistrale in Management Engineering.
-article_th: /assets/img/uploads/Resoconto-Giunte---Gennaio-2018.png
+article_th: /assets/img/uploads/Resoconto-Giunte---Gennaio-2018.jpg
 authors:
   - Ennio Visconti
 published: true

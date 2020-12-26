@@ -6,7 +6,7 @@ noBrand: "false"
 title: RESOCONTO GIUNTA DELLA SCUOLA DI ING. EDILE-ARCHITETTURA – OTTOBRE 2013
 tag: Rappresentanza
 desc: RESOCONTO GIUNTA DELLA SCUOLA DI ING. EDILE-ARCHITETTURA – OTTOBRE 2013
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Cesare De Mezza
 published: true

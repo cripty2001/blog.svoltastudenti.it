@@ -5,7 +5,7 @@ noBrand: "false"
 title: 3 Anni di LAVORO al PoliMI
 tag: Rappresentanza
 desc: In dieci punti, ecco il lavoro di tutti noi negli ultimi due anni!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

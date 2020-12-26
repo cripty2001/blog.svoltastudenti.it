@@ -6,7 +6,7 @@ title: Nuovi corsi di LM, POLIMI SPORT, costi scuola AUIC, mense e spazi
 tag: Rappresentanza
 desc: Nuovi corsi di Laurea Magistrale, POLIMI SPORT, costi scuola AUIC, mense e
   spazi
-article_th: /assets/img/uploads/Nuovi-corsi-di-Laurea-Magistrale,-POLIMI-SPORT,-costi-scuola-AUIC,-mense-e-spazi.png
+article_th: /assets/img/uploads/Nuovi-corsi-di-Laurea-Magistrale,-POLIMI-SPORT,-costi-scuola-AUIC,-mense-e-spazi.jpg
 authors:
   - Carlo Giovani
   - Alessandro De Iasio

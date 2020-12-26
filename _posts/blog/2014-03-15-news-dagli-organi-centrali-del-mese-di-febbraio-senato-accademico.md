@@ -5,7 +5,7 @@ noBrand: "false"
 title: News dagli organi centrali del mese di Febbraio-Senato Accademico
 tag: Rappresentanza
 desc: News dagli organi centrali del mese di Febbraio - Senato Accademico
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

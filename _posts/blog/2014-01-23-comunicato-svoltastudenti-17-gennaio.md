@@ -6,7 +6,7 @@ noBrand: "false"
 title: Comunicato Svoltastudenti - 17 gennaio
 tag: Rappresentanza
 desc: Comunicato Svoltastudenti - 17 gennaio
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: Discorso di Inaugurazione del 148° Anno Accademico
 tag: Rappresentanza
 desc: Discorso di Inaugurazione del 148° Anno Accademico
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Marco Lucio Cerquaglia
 published: true

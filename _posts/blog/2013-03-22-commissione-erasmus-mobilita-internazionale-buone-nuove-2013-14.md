@@ -6,7 +6,7 @@ noBrand: "false"
 title: Commissione "Erasmus" Mobilità Internazionale - Buone Nuove 2013/14
 tag: Rappresentanza
 desc: Commissione "Erasmus" Mobilità Internazionale - Buone Nuove 2013/14
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

@@ -5,7 +5,7 @@ noBrand: "false"
 title: News organi centrali del mese di Febbraio-Consulta della didattica
 tag: Rappresentanza
 desc: News dagli organi centrali del mese di Febbraio - Consulta della didattica
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

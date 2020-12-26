@@ -6,7 +6,7 @@ title: "MIUR: consultazione pubblica sul valore legale del titolo di studio"
 tag: Rappresentanza
 desc: "E-Government made in MIUR: consultazione pubblica sul tema del valore
   legale del titolo di studio"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

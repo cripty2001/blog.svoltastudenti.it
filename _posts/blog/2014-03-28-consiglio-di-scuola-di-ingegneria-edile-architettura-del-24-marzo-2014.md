@@ -5,7 +5,7 @@ noBrand: "false"
 title: Consiglio di Scuola di Ingegneria EdA del 24 marzo 2014
 tag: Rappresentanza
 desc: Consiglio di Scuola di Ingegneria Edile - Architettura del 24 marzo 2014
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Cesare De Mezza
 published: true

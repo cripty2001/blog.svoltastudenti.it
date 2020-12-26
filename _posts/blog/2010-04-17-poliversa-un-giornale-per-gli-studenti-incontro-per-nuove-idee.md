@@ -7,7 +7,7 @@ tag: Associazione
 desc: La redazione di Poliversa ha avviato un progetto di rinnovamento del
   giornale per avvicinarsi agli studenti universitari, portando novità, spunti
   di riflessione e temi di attualità.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

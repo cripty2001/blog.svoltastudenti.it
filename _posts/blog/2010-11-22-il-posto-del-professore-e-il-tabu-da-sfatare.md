@@ -6,7 +6,7 @@ noBrand: "false"
 title: Il posto del Professore è il tabù da sfatare.
 tag: Rappresentanza
 desc: Il posto del Professore è il tabù da sfatare.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giovanni Sala
 published: true

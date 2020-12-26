@@ -9,7 +9,7 @@ desc: >-
   Nuovo campus di Lecco sempre di più a misura di studente.
 
   Nuove postazioni studio, orari di apertura più ampi, possibilità di parcheggio a prezzo ridotto. 
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

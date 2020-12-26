@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Università italiane: l''analisi di Vision e le nuove idee'
 tag: Rappresentanza
 desc: 'Università italiane: l''analisi di Vision e le nuove idee'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

@@ -6,7 +6,7 @@ noBrand: "false"
 title: in vigore la Carta dei Diritti e Doveri degli Studenti
 tag: Partecipazione e Servizi agli Studenti
 desc: in vigore la Carta dei Diritti e Doveri degli Studenti
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

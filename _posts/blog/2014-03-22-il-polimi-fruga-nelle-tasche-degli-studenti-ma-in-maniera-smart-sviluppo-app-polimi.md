@@ -6,7 +6,7 @@ title: Sviluppo App Polimi
 tag: Rappresentanza
 desc: "Il Polimi fruga nelle tasche degli studenti (ma in maniera Smart):
   Sviluppo App Polimi"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

@@ -8,7 +8,7 @@ desc: >-
   La posizione del ranking dovrà influenzare la normale di conversione dei voti.
 
   Stage obbligatorio in azienda o meno al posto dell'esame a scelta nella Laurea Magistrale di Ingegneria Gestionale.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

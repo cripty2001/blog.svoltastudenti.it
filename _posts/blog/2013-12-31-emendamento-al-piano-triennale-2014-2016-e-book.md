@@ -5,7 +5,7 @@ noBrand: "false"
 title: "Emendamento al Piano Triennale 2014-2016: E-book!"
 tag: Rappresentanza
 desc: "Emendamento al Piano Triennale 2014-2016: E-book!"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

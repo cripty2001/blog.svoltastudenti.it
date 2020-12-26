@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Accesso alla nuova versione del portale dei Servizi Online aggiornati non
   soltanto dal punto di vista estetico, ma anche funzionale grazie
   all'implementazione di nuovi servizi.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

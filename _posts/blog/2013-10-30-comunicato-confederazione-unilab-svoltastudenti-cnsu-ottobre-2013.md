@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: Si è conclusa la due giorni del CNSU che ha visto partecipi i consiglieri
   di Confederazione - Unilab SvoltaStudenti Angelo Antinoro, Vincenzo Giannico e
   Francesco Testa.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

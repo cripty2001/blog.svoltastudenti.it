@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Terremoto in Abruzzo: riflettere sugli errori'
 tag: Rappresentanza
 desc: 'Terremoto in Abruzzo: riflettere sugli errori'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

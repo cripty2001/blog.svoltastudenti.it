@@ -6,7 +6,7 @@ noBrand: "false"
 title: Consiglio degli Studenti
 tag: Rappresentanza
 desc: Consiglio degli Studenti
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
   - Marco Licari

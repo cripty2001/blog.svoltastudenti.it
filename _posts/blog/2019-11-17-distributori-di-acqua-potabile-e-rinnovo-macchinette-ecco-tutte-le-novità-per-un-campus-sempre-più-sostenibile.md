@@ -8,7 +8,7 @@ desc: >-
   Il PoliMi diventa ancora più sostenibile:
 
   nuovi distributori di acqua naturale e gassata, sostituzione di tutte le vecchie macchinette, bicchieri Hybrid e palette compostabili e piatti per celiaci.
-article_th: /assets/img/uploads/Distributori-di-acqua-potabile-e-rinnovo-macchinette.png
+article_th: /assets/img/uploads/Distributori-di-acqua-potabile-e-rinnovo-macchinette.jpg
 authors:
   - Alessio Rocca
 published: true

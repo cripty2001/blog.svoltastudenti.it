@@ -7,7 +7,7 @@ title: Elezioni indirette del consiglio degli studenti
 tag: Associazione
 desc: "Elezioni indirette del consiglio degli studenti: Svolta e Terna dicono la
   loro"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

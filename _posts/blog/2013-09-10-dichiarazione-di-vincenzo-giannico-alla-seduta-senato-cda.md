@@ -10,7 +10,7 @@ tag: Rappresentanza
 desc: >-
   Dichiarazione di Vincenzo Giannico alla seduta Senato-CdA in merito al ricorso
   al Consiglio di Stato sulle LM in inglese
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

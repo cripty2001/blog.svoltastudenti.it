@@ -6,7 +6,7 @@ noBrand: "false"
 title: Svolta Studenti diventa ONLUS
 tag: Associazione
 desc: Svolta Studenti diventa ONLUS
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Roberto Maffei
 published: true

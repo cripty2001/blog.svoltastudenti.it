@@ -10,7 +10,7 @@ desc: >-
   il progetto Bonardi e Renzo Piano.
 
   Nuova laurea magistrale in Music and Acoustic Engineering e un percorso di Railway Engineering.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

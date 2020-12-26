@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: A pochi giorni dai risultati delle elezioni per la rappresentanza
   studentesca, durante la prima convocazione del Consiglio degli Studenti è
   successo qualcosa che necessita qualche spiegazione.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Valentina Rao
 published: true

@@ -5,7 +5,7 @@ noBrand: "false"
 title: Modifiche alla soglia di accesso a Aeronautical e Space Engineering
 tag: Rappresentanza
 desc: Modifiche alla soglia di accesso a Aeronautical e Space Engineering
-article_th: /assets/img/uploads/Modifiche-alla-soglia-di-accesso-a-Aeronautical-e-Space-Engineering.png
+article_th: /assets/img/uploads/Modifiche-alla-soglia-di-accesso-a-Aeronautical-e-Space-Engineering.jpg
 authors:
   - Alessandro Mantani
   - Annachiara Frezza

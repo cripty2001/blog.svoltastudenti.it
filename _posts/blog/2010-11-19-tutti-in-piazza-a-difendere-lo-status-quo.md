@@ -6,7 +6,7 @@ noBrand: "false"
 title: Tutti in piazza a difendere lo status quo?
 tag: Rappresentanza
 desc: Tutti in piazza a difendere lo status quo?
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giovanni Sala
 published: true

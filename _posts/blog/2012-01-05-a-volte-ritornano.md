@@ -6,7 +6,7 @@ noBrand: "false"
 title: A volte ritornano..
 tag: Rappresentanza
 desc: A volte ritornano..
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Fabio Frassini
 published: true

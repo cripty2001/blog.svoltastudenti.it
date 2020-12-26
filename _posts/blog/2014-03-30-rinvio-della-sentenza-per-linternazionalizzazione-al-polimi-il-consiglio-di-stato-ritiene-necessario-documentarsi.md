@@ -6,7 +6,7 @@ title: Rinvio della sentenza per l'internazionalizzazione al Polimi
 tag: Rappresentanza
 desc: "Rinvio della sentenza per l'internazionalizzazione al Polimi: il
   Consiglio di Stato ritiene necessario documentarsi!"
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

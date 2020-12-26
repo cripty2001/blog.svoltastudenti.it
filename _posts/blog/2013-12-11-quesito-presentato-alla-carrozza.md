@@ -8,7 +8,7 @@ tag: Rappresentanza
 desc: La Commissione Internazionalizzazione ha approvato il quesito da noi
   presentato, sul Regio Decreto del 1933, successivamente sottoscritto
   all'unanimità da tutto il CNSU.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Vincenzo Giannico
 published: true

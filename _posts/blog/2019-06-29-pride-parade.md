@@ -7,7 +7,7 @@ tag: Rappresentanza
 desc: 29 giugno 2019, 300mila persone hanno sfilato per le strade tra striscioni
   colorati e musica. La diversità è un dono, non una vergogna. L’amore è amore e
   non fa distinzione di razza e di genere.
-article_th: /assets/img/uploads/Pride-Parade.png
+article_th: /assets/img/uploads/Pride-Parade.jpg
 authors:
   - Priscilla Morbin
 published: true

@@ -10,7 +10,7 @@ tag: Rappresentanza
 desc: >-
   21-10-2013 Giunta delle scuole di architettura civile, architettura e società
   e ingegneria edile-architettura
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Cesare De Mezza
 published: true

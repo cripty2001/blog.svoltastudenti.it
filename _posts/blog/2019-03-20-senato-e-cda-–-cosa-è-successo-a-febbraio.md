@@ -5,7 +5,7 @@ noBrand: "false"
 title: Senato e CdA – Cosa è successo a febbraio
 tag: Rappresentanza
 desc: Senato e CdA – Cosa è successo a febbraio
-article_th: /assets/img/uploads/Senato-e-CdA---Cosa-è-successo-a-febbraio.png
+article_th: /assets/img/uploads/Senato-e-CdA---Cosa-è-successo-a-febbraio.jpg
 authors:
   - Alessandro De Iasio
 published: true

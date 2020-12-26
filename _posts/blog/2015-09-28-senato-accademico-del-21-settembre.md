@@ -11,7 +11,7 @@ desc: |-
   -Ranking 2015 (il nostro ateneo è 187° nel mondo e primo in Italia);
   -Sedute aperte Senato Accademico;
   -Fondazione Politecnico.
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Giorgio Quistini
 published: true

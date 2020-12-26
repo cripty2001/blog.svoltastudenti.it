@@ -5,7 +5,7 @@ noBrand: "false"
 title: "Spazi studio: è giunta l’apocalisse?"
 tag: Associazione
 desc: "Spazi studio: è giunta l’apocalisse?"
-article_th: /assets/img/uploads/Spazi-studio--è-giunta-l’apocalisse.png
+article_th: /assets/img/uploads/Spazi-studio--è-giunta-l’apocalisse.jpg
 authors:
   - Ennio Visconti
 published: true

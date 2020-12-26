@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Calendario Accademico: tra mito e leggenda'
 tag: Associazione
 desc: 'Calendario Accademico: tra mito e leggenda'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

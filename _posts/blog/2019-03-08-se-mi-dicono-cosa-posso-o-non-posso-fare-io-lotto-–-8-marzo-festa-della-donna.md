@@ -5,7 +5,7 @@ noBrand: "false"
 title: "Io #lotto contro i pregiudizi - 8 Marzo Festa della Donna"
 tag: Associazione
 desc: "Io #lotto contro i pregiudizi -  8 Marzo Festa della Donna"
-article_th: /assets/img/uploads/Se-mi-dicono-cosa-posso-o-non-posso-fare,-io-#lotto---8-Marzo-Festa-della-Donna.png
+article_th: /assets/img/uploads/Se-mi-dicono-cosa-posso-o-non-posso-fare,-io-#lotto---8-Marzo-Festa-della-Donna.jpg
 authors:
   - Alessandro De Iasio
 published: true

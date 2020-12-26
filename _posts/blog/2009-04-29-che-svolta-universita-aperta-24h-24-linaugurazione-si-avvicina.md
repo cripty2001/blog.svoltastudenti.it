@@ -6,7 +6,7 @@ noBrand: "false"
 title: 'Che Svolta: Università aperta 24h/24, l''inaugurazione si avvicina.'
 tag: Rappresentanza
 desc: 'Che Svolta: Università aperta 24h/24, l''inaugurazione si avvicina.'
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true

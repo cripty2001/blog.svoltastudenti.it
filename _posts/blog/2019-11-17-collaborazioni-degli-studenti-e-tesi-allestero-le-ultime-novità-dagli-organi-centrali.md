@@ -8,7 +8,7 @@ desc: >-
   Ultime novità dagli Organi Centrali:
 
   Collaborazioni a tempo parziale degli studenti, Tesi all'estero e realizzazione dell'auditorium nel nuovo Trifoglio.
-article_th: /assets/img/uploads/Collaborazioni-degli-studenti-e-Tesi-all_estero,-le-ultime-novità-dagli-Organi-Centrali.png
+article_th: /assets/img/uploads/Collaborazioni-degli-studenti-e-Tesi-all_estero,-le-ultime-novità-dagli-Organi-Centrali.jpg
 authors:
   - Alessio Rocca
   - Tecla Trifilo

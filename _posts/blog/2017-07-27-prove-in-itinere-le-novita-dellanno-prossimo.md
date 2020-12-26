@@ -6,7 +6,7 @@ noBrand: "false"
 title: Prove in itinere? Le novità dell'anno prossimo
 tag: Associazione
 desc: Prove in itinere? Le novità dell'anno prossimo
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Ennio Visconti
 published: true

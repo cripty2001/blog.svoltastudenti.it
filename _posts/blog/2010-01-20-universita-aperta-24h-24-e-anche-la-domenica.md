@@ -6,7 +6,7 @@ noBrand: "false"
 title: Università aperta 24h/24 e anche la domenica!
 tag: Rappresentanza
 desc: Università aperta 24h/24 e anche la domenica!
-article_th: /assets/img/uploads/article_placeholder.png
+article_th: /assets/img/uploads/article_placeholder.jpg
 authors:
   - Antonio Mazzitelli
 published: true
