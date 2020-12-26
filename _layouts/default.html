@@ -112,11 +112,6 @@
         <li>
           <a href="{{site.url}}/it/contatti">Contatti/Legal</a>
         </li>
-        <li>
-          <ul id="site-nav-socials">
-            {% include socialnav.html %}
-          </ul>
-        </li>
       {% endif %}
       {% if page.category == "en"  %}
         <li>
@@ -137,26 +132,22 @@
         <li>
           <a href="{{site.url}}/en/contacts">Contacts/Legal</a>
         </li>
-        <li>
-          <ul id="site-nav-socials">
-            {% include socialnav.html %}
-          </ul>
-        </li>
       {% endif %}
     </ul>
-    <div id="site-nav-projects">
-      <ul>
-        <a href="#" target="_blank">
-          <li>Archivio Elezioni</li>
-        </a>
-        <a href="#" target="_blank">
-          <li>SvoltaBook</li>
-        </a>
-        <a href="#" target="_blank">
-          <li>Orange</li>
-        </a>
-      </ul>
-    </div>
+    <ul id="site-nav-projects">
+      <a href="#" target="_blank">
+        <li>Archivio Elezioni</li>
+      </a>
+      <a href="#" target="_blank">
+        <li>SvoltaBook</li>
+      </a>
+      <a href="#" target="_blank">
+        <li>Orange</li>
+      </a>
+    </ul>
+    <div id="site-nav-socials">
+      {% include socialnav.html %}
+    </ul>
   </div>
   <div id="site-header">
     <label id="menu-icon" for="site-nav-checkbox">

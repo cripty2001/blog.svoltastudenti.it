@@ -78,6 +78,19 @@ layout: default
       {% endif %}
     }
 
+    .vslideshow > .content section.right {
+      align-items: flex-end;
+      text-align: right;
+    }
+    .vslideshow > .content section.center {
+      align-items: center;
+      text-align: center;
+    }
+    .vslideshow > .content section.left {
+      align-items: flex-start;
+      text-align: left;
+    }
+
     .vslideshow > .content section video {
       position: absolute;
       top: 0;
@@ -130,7 +143,7 @@ layout: default
   </style>
   <div class="content">
     {% for post in posts %}
-      <section style="align-items: {{ post.align }}" class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
+      <section class="vslideshow-animTrigger" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
         <div class="data">
           <div class="title">{{ post.title }}</div>

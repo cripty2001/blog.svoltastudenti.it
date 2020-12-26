@@ -44,8 +44,13 @@ layout: default
       #thList-checkbox:checked ~ ul {
         display: none;
       }
+      .thList .data > .th {
+        opacity: 1;
+        transition: opacity: 3s;
+      }
+
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) {
-        display: none;
+        opacity: 0;
       }
 
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="thList-catFilter-{{ tag | slugify }}"] {
@@ -70,7 +75,7 @@ layout: default
   <div class="data">
     {% for post in posts %}
       <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="button">Read More</div>
+        <div class="button">{{ post.title }}</div>
       </a>
     {% endfor %}
   </div>

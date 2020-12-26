@@ -2,7 +2,7 @@
 layout: _vslideshow
 category: it
 page: rappresentanza
-align: flex-start
+align: left
 noBrand: "True"
 title: RAPPRESENTANZA
 bg_img: /assets/img/uploads/foto-rappresentanza.png
