@@ -7,7 +7,8 @@ tag: Associazione
 desc: Tra le aule degli edifici di Architettura si è tenuta, infatti,
   l’Assemblea per l’Elezione del nuovo Consiglio Direttivo che, per i prossimi
   due anni, guiderà l’associazione.
-article_th: /assets/img/uploads/Elezioni-del-Consiglio-Direttivo-di-Svoltastudenti-2019-2021.jpg
+article_th: /assets/img/uploads/Elezioni del Consiglio Direttivo di
+  Svoltastudenti 2019-2021.jpg
 authors:
   - Giusy Spacone
 published: true
