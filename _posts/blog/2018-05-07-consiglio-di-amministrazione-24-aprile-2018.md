@@ -5,7 +5,7 @@ noBrand: "false"
 title: CONSIGLIO DI AMMINISTRAZIONE 24 APRILE 2018
 tag: Associazione
 desc: CONSIGLIO DI AMMINISTRAZIONE 24 APRILE 2018
-article_th: /assets/img/uploads/Consiglio-di-Amministrazione-24-Aprile-2018.jpg
+article_th: /assets/img/uploads/Consiglio_di_Amministrazione_24_Aprile_2018.jpg
 authors:
   - Ennio Visconti
 published: true

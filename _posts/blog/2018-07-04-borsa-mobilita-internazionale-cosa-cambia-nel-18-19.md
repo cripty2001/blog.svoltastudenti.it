@@ -5,7 +5,7 @@ noBrand: "false"
 title: BORSA MOBILITÀ INTERNAZIONALE COSA CAMBIA NEL 18/19
 tag: Associazione
 desc: BORSA MOBILITÀ INTERNAZIONALE COSA CAMBIA NEL 18/19
-article_th: /assets/img/uploads/Borsa-Mobilità-Internazional.jpg
+article_th: /assets/img/uploads/Borsa_Mobilita_Internazionale_Cosa_Cambia_nel_18-19.jpg
 authors:
   - Ennio Visconti
 published: true

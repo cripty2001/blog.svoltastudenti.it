@@ -5,7 +5,7 @@ noBrand: "false"
 title: Novità Bando Diritto Allo Studio
 tag: Associazione
 desc: Novità Bando Diritto Allo Studio
-article_th: /assets/img/uploads/Novità-Bando-Diritto-Allo-Studio.jpg
+article_th: /assets/img/uploads/Novita_Bando_Diritto_Allo_Studio.jpg
 authors:
   - Ennio Visconti
 published: true

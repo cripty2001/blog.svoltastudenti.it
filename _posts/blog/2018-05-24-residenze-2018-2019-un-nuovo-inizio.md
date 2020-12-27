@@ -5,7 +5,7 @@ noBrand: "false"
 title: "Residenze 2018/2019: Un nuovo inizio."
 tag: Associazione
 desc: "Residenze 2018/2019: Un nuovo inizio."
-article_th: /assets/img/uploads/Residenze-29--Un-nuovo-inizio.jpg
+article_th: /assets/img/uploads/Residenze_2018-2019_Un_nuovo_inizio.jpg
 authors:
   - Ennio Visconti
 published: true

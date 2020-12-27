@@ -7,7 +7,7 @@ tag: Associazione
 desc: Il progetto Vi.Vi. Polimi mira a un miglioramento della fruibilità e
   vivibilità dei nostri edifici, razionalizzando gli spazi ad oggi presenti e
   monitorando la situazione nel prossimo futuro.
-article_th: /assets/img/uploads/Polimi-with-a-View---Progetti-ViVi.Polimi-e-Renzo-Piano.jpg
+article_th: /assets/img/uploads/Polimi_with_a_View-Progetti_ViVi.Polimi_e_Renzo_Piano.jpg
 authors:
   - Ennio Visconti
 published: true
