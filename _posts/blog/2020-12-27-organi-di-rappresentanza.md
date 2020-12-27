@@ -14,31 +14,23 @@ date: 2020-12-27T23:31:47.731Z
 ---
 # RAPPRESENTANZA
 
-
 La rappresentanza è una delle due anime di Svoltastudenti, insieme all’associazionismo. I rappresentanti vengono eletti ogni due anni e hanno un compito importante nella vita dello studente e dell’Ateneo.
 Un rappresentante, avendo ampia conoscenza delle dinamiche di ateneo ed essendo in contatto con i responsabili a ogni livello di didattica, amministrazione e organizzazione, è in grado di darti una mano per le questioni più disparate: indirizzarti a chi di dovere per un problema con i professori, darti informazioni su bandi e regolamenti, può portare avanti le tue cause in caso di torto subito oppure le tue idee per migliorare il Politecnico.
 
-## 
-IL CCS
-
+## IL CCS
 
 Il CCS, Consiglio di Corso di Studio, è l’organo che riunisce i docenti del Corso e un numero variabile di rappresentanti degli studenti. All’interno del CCS vengono discussi i temi di prettamente legati alle modalità di erogazione della didattica e alle dinamiche del Corso stesso. La presenza di una rappresentanza studentesca in questo organo è fondamentale, al fine di garantire una completa informazione degli studenti sulla realtà che vivono quotidianamente e al fine di avere un dialogo diretto con i docenti.
 Ogni anno, alla fine del primo semestre, il CCS compie un’autoanalisi, basandosi sui risultati e i dati forniti dai singoli insegnamenti, voti, dati di ogni esame e soprattutto i questionari compilati dagli studenti prima dell’iscrizione agli stessi. Le conclusioni sono inviate alla Commissione Paritetica per compiere una controanalisi e, se necessario, delle correzioni. 
 
-#### 
-Per cosa possono aiutarmi i rappresentanti in CCS?
-
+#### Per cosa possono aiutarmi i rappresentanti in CCS?
 
 Indicazioni sugli esami, consigli su come affrontare il percorso di studi, tirocini e informazioni sul tuo corso, aiuto per docenti e problemi con gli esami: per avere un riscontro immediato i rappresentanti degli studenti in CCS sono il tuo primo riferimento!
 
 ## LA COMMISSIONE PARITETICA
 
-
 La commissione paritetica docenti-studenti è l'organo che si occupa di monitorare l'offerta formativa e la qualità della didattica, con specifica attenzione alle opinioni e ai risultati degli studenti. E' composta da cinque docenti e cinque studenti e ogni anno (alla fine del primo semestre) compie la propria analisi, basandosi sui risultati e i dati forniti dai singoli corsi di studio, voti e dati di ogni esame ma soprattutto i questionari compilati dagli studenti ad ogni iscrizione di esame. Le conclusioni della commissione vengono riportate a tutti i coordinatori dei Corsi di studio e al Preside di scuola: costituisce quindi un potente strumento per far sentire le opinioni degli studenti sulla didattica.
 
-#### 
-Per cosa possono aiutarmi i rappresentanti in Commissione Paritetica? 
-
+#### Per cosa possono aiutarmi i rappresentanti in Commissione Paritetica? 
 
 La commissione paritetica lavora basandosi su questionari e segnalazioni ai rappresentanti: il modo migliore per evidenziare problemi è rispondere in maniera completa e attenta ai questionari relativi ad ogni insegnamento!
 
@@ -46,31 +38,22 @@ La commissione paritetica lavora basandosi su questionari e segnalazioni ai rapp
 
 La Giunta di Scuola è un organo composta dal Preside, dai Direttori dei Dipartimenti raccordati nella Scuola, dai Coordinatori dei Corsi di studio e da una Rappresentanza elettiva degli studenti. Qui vengono discusse tematiche di ampio interesse che riguardano tutti i Corsi di Studio e i Dipartimenti: linee guida sulla didattica e la ricerca, didattica innovativa, modalità di esame, progetti extracurriculari e tanto altro. In Giunta si discutono e si analizzano problematiche collettive, in un confronto attivo tra docenti e studenti e si discutono soluzioni nuove e condivise.
 
-#### 
-Per cosa possono aiutarmi i rappresentanti in Scuola?
-
+#### Per cosa possono aiutarmi i rappresentanti in Scuola?
 
 I rappresentanti di Scuola sono in costante contatto con i CCS, venendo loro in aiuto qualora emergano problemi di difficile gestione, comuni a più corsi di studio o riguardanti miglioramenti di lungo respiro sulla didattica. Di concerto con i rappresentanti dei CCS segnalano sovrapposizioni negli orari e nelle sessioni d’esame. I rappresentanti in Giunta si Scuola sono inoltre in contatto con i membri di Senato Accademico e CdA per lavorare di concerto sulle iniziative di Ateneo.
 
-## 
-IL SENATO ACCADEMICO
-
+## IL SENATO ACCADEMICO
 
 Il Senato Accademico è l'organo che indirizza e programma lo sviluppo dell'Ateneo, con particolare riguardo alla didattica e alla ricerca, vigilando inoltre sul funzionamento complessivo dell'istituzione. Il senato è composto dal Rettore, dai direttori di dipartimento, dai rappresentanti eletti del personale docente, dai rappresentanti eletti del personale tecnico-amministrativo e da una rappresentanza elettiva degli studenti.
 
-#### 
-Per cosa possono aiutarmi i rappresentanti in Senato?
-
+#### Per cosa possono aiutarmi i rappresentanti in Senato?
 
 I membri del Senato hanno una visione a 360 gradi dell’Ateneo: si confrontano inoltre con i loro colleghi nelle Scuole attraverso un organo detto Consiglio degli Studenti. Possono quindi portare le istanze degli studenti ai massimi livelli decisionali.
 
 ## IL CONSIGLIO DI AMMINISTRAZIONE
 
-
 Il Consiglio di Amministrazione è uno dei due Organi Centrali del Politecnico di Milano; nella fattispecie, operando in coerenza con le scelte programmatiche e i criteri di utilizzazione delle risorse stabiliti dal Senato Accademico, ha funzioni normative, di indirizzo e di controllo della programmazione amministrativa, economica e patrimoniale di lungo periodo dell'Ateneo. Degli 11 membri con diritto di voto che lo compongono, 2 sono studenti: la rappresentanza di questa categoria è ritenuta molto importante dall'Amministrazione del Politecnico ad ogni livello.
 
-#### 
-Per cosa possono aiutarmi i rappresentanti in CdA?
-
+#### Per cosa possono aiutarmi i rappresentanti in CdA?
 
 Molti sono gli ambiti discussi in quest'organo che si riflettono giornalmente nelle molte opportunità messe a disposizione degli studenti: borse di studio per DSU, tesi all'estero, bandi erasmus, nuove infrastrutture, partecipazioni esterne e interne, bandi di concorso, e molti altri.
