@@ -10,7 +10,7 @@ desc: >-
 
 
   Il CNSU è un organo consultivo del Ministero dell’Università e Ricerca, pertanto a stretto contatto con il Ministero (dove si riunisce, nel quartiere Trastevere a Roma) e con gli ambienti della politica.
-article_th: /assets/img/uploads/How to Cnsu.jpg
+article_th: /assets/img/uploads/How_to_Cnsu.jpg
 authors:
   - Giada Chiametti
 published: true
