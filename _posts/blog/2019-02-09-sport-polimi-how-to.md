@@ -5,7 +5,7 @@ noBrand: "false"
 title: "SPORT @POLIMI: HOW TO?"
 tag: Rappresentanza
 desc: "SPORT @POLIMI: HOW TO?"
-article_th: /assets/img/uploads/SPORT-@POLIMI--HOW-TO.jpg
+article_th: /assets/img/uploads/SPORT_POLIMI_HOW_TO.jpg
 authors:
   - Alessandro De Iasio
 published: true

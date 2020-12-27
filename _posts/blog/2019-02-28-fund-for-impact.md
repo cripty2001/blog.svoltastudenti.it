@@ -5,7 +5,7 @@ noBrand: "false"
 title: Fund for Impact
 tag: Rappresentanza
 desc: Fund for Impact
-article_th: /assets/img/uploads/Fund-for-Impact.jpg
+article_th: /assets/img/uploads/Fund_for_Impact.jpg
 authors:
   - Carlo Giovani
 published: true

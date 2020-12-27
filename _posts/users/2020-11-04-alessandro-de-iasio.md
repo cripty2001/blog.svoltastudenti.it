@@ -5,8 +5,8 @@ isAmp: "true"
 noBrand: "false"
 title: Alessandro De Iasio
 translations_it: Alessandro De Iasio
-article_th: /assets/img/uploads/alessandrodeiasio.min.jpg
-img: /assets/img/uploads/alessandrodeiasio.jpg
+article_th: /assets/img/uploads/alessandrodeiasio.jpg
+img: /assets/img/uploads/alessandrodeiasio.min.jpg
 status:
   start_date: 2020-11-04T12:51:01.936Z
   end_date: 2020-11-04T12:51:01.961Z

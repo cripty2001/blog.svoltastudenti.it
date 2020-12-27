@@ -58,8 +58,8 @@ collections:
       - {label: "Nome e Cognome", name: "title", widget: "string"}
       - {label: "Bio", name: "body", widget: "markdown" }
       - {label: "Utente in Inglese", name: "translation", widget: "relation", required: False, collection: "users", searchFields: ["title"], displayFields: ["title"], valueField: "title"}
-      - {label: "Immagine (50x50 px)", name: "article_th", widget: "image", required: True}
-      - {label: "Immagine full", name: "img", widget: "image", required: True}
+      - {label: "Immagine (50x50 px)", name: "img", widget: "image", required: True}
+      - {label: "Immagine full", name: "article_th", widget: "image", required: True}
       - label: "Stato"
         name: "status"
         widget: "object"

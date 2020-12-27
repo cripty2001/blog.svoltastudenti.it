@@ -5,8 +5,8 @@ isAmp: "true"
 noBrand: "false"
 title: Antonino Sgroi
 translations_it: Antonino Sgroi
-article_th: /assets/img/uploads/antoninosgroi.min.jpeg
-img: /assets/img/uploads/antoninosgroi.jpeg
+article_th: /assets/img/uploads/antoninosgroi.jpeg
+img: /assets/img/uploads/antoninosgroi.min.jpeg
 status:
   start_date: 2020-11-04T13:05:43.987Z
   end_date: 2020-11-04T13:05:44.009Z

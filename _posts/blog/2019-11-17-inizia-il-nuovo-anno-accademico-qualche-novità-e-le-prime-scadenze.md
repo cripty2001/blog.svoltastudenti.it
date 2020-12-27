@@ -9,7 +9,7 @@ desc: >-
   caratterizzeranno tra cui:
 
   Bando di selezione per le attività di tutorato, 150 ore e nuovi finanziamenti.
-article_th: /assets/img/uploads/Inizia-il-nuovo-anno-accademico,-qualche-novità-e-le-prime-scadenze.jpg
+article_th: /assets/img/uploads/Inizia_il_nuovo_anno_accademico_qualche_novita_e_le_prime_scadenze.jpg
 authors:
   - Alessio Rocca
   - Marco Airoldi

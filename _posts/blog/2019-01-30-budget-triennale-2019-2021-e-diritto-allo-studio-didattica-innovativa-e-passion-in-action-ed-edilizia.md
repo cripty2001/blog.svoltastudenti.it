@@ -6,7 +6,7 @@ title: Budget Triennale 2019-21 e DSU, didattica innovativa ed edilizia
 tag: Rappresentanza
 desc: Budget Triennale 2019-2021 e Diritto allo Studio, Didattica innovativa e
   passion in action ed edilizia
-article_th: /assets/img/uploads/Budget-Triennale-2019-2021-e-Diritto-allo-Studio,-Didattica-innovativa-e-passion-in-action-ed-edilizia.jpg
+article_th: /assets/img/uploads/Budget_Triennale_2019_2021_e_Diritto_allo_Studio_Didattica_innovativa.jpg
 authors:
   - Alessandro De Iasio
 published: true
