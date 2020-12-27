@@ -5,7 +5,7 @@ noBrand: "false"
 title: Il contrasto al Coronavirus targato Polimi
 tag: Rappresentanza
 desc: Il contrasto al Coronavirus targato Polimi
-article_th: /assets/img/uploads/Il-contrasto-al-Coronavirus-targato-Polimi.jpg
+article_th: /assets/img/uploads/Il_contrasto_al_Coronavirus_targato_Polimi.jpg
 authors:
   - Alessio Rocca
 published: true
