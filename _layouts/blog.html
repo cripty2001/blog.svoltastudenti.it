@@ -11,7 +11,7 @@ layout: article
 			<li>
 				{% if author[0] %}
 					<a href="/{{ page.category }}/{{ author[0].title | slugify }}">
-						<img height="50" width="50" src="{{ author[0].article_th }}" alt="{{ author_name }}"></img>
+						<img height="50" width="50" src="{{ author[0].img }}" alt="{{ author_name }}"></img>
 					</a>
 				{% else %}
 					<span>{{ author_name }}</span>

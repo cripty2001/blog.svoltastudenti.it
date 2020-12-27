@@ -4,9 +4,9 @@ layout: default
 {% assign posts = site.posts | where: "category", page.thlist_lang | where: "layout", page.thlist_layout %}
 {% assign tags = posts | map: page.thlist_tag | compact | uniq | sort_natural %}
 {% if page.category == "it" %}
-  {% assign all_txt = "Tutti gli Articoli" | split: "~" %}
+  {% assign all_txt = "Tutti" | split: "~" %}
 {% else %}
-  {% assign all_txt = "All Articles" | split: "~" %}
+  {% assign all_txt = "All" | split: "~" %}
 {% endif %}
 {% assign tags=all_txt | concat: tags %}
 
