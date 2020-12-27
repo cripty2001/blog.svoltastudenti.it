@@ -213,6 +213,11 @@ body {
     list-style-type: none;
 }
 
+#site-nav > * {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
 #site-nav-pages {
     text-transform: uppercase;
     padding: 0;
@@ -647,10 +652,15 @@ article .authors li img {
     }
 
     #site-nav-projects li {
+        margin: 10px;
         min-width:150px;
         padding: 10px;
         font-size: 12px;
         flex-grow: 0;
         flex-shrink: 0;
+    }
+
+    #site-nav-socials svg {
+        width: 30px;
     }
   }
