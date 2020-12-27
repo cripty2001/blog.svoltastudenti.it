@@ -5,7 +5,7 @@ noBrand: "false"
 title: Novità Ingegneria Biomedica
 tag: Rappresentanza
 desc: Novità Ingegneria Biomedica
-article_th: /assets/img/uploads/Novità Ingegneria Biomedica.jpg
+article_th: /assets/img/uploads/Novita_Ingegneria_Biomedica.jpg
 authors:
   - Christian Urzi
   - Elisa Ripamonti
