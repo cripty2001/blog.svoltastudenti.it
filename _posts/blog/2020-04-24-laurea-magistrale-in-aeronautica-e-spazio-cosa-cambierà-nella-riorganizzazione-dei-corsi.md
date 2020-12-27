@@ -6,7 +6,7 @@ title: Laurea Magistrale in Aeronautica e Spazio, cosa cambierà?
 tag: Rappresentanza
 desc: Laurea Magistrale in Aeronautica e Spazio, cosa cambierà nella
   riorganizzazione dei corsi?
-article_th: /assets/img/uploads/Laurea_Magistrale_in_Aeronautica_e_Spazio,_cosa_cambiera_nella_.jpg
+article_th: /assets/img/uploads/Laurea_Magistrale_in_Aeronautica_e_Spazio_cosa_cambiera_nella_.jpg
 authors:
   - Carlo Giovani
 published: true
