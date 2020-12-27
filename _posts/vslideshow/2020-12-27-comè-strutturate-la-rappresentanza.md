@@ -4,7 +4,7 @@ category: it
 page: rappresentanza
 align: left
 noBrand: "True"
-title: COM'È STRUTTURATE LA RAPPRESENTANZA
+title: COM'È STRUTTURATA LA RAPPRESENTANZA
 bg_img: /assets/img/uploads/rappresentanza-3.jpg
 order: 3
 published: true
