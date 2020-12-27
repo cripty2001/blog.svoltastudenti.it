@@ -323,19 +323,23 @@ body {
     transform: scale(1.1);
 }
 
-#div1 {
-    height: 60vh;
+#div1, #div2, #div3 {
+    height: 0;
     position: fixed;
-    top: 50%;
+    top: 60px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     background-color: var(--light-on);
     width: 50vw;
     z-index: 30;
+    transform-origin: bottom;
+    transition: all .5s;
 }
 
-#proj1:hover #div1 {
-    height: 70vh;
+#proj1:hover + #div1,
+#proj2:hover + #div2,
+#proj3:hover + #div3 {
+    height: 60vh;
 }
 
 #site-nav a {
