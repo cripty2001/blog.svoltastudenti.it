@@ -5,7 +5,7 @@ page: rappresentanza
 align: right
 noBrand: "True"
 title: COS'È UN RAPPRESENTANTE
-bg_img: /assets/img/uploads/rappresentanza-2.png
+bg_img: /assets/img/uploads/rappresentanza-2.jpg
 order: 2
 published: true
 date: 2020-12-27T17:54:13.001Z
