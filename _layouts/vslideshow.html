@@ -92,6 +92,7 @@ layout: default
       align-items: flex-start;
       text-align: left;
     }
+
     .vslideshow > .content section.right .data {
       align-items: flex-end;
       text-align: right;
@@ -107,8 +108,14 @@ layout: default
       margin-left: 10vw;
     }
 
-    .vslideshow > .content section .data {
-      /* max-width: 400px; */
+    .vslideshow > .content section.right .btn {
+      justify-content: flex-end;
+    }
+    .vslideshow > .content section.center .btn {
+      justify-content: center;
+    }
+    .vslideshow > .content section.left .btn {
+      align-items: flex-start;
     }
     
     .vslideshow > .content section video {
@@ -149,6 +156,9 @@ layout: default
     .vslideshow > .content section .btn {
       margin-bottom: 10vh;
       z-index: 1;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
     
     .vslideshow > .content section .btn a {

@@ -323,6 +323,10 @@ body {
     transform: scale(1.1);
 }
 
+#site-nav-copyright {
+    color: white;
+}
+
 #div1, #div2, #div3 {
     height: 0;
     position: fixed;

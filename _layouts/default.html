@@ -140,7 +140,7 @@
         <li id="proj1">Archivio Elezioni</li>
         <div id="div1"></div>
       </a>
-      <a href="#" target="_blank">
+      <a href="{{site.url}}/{{ page.category }}/svoltabook" target="_blank">
         <li id="proj2">SvoltaBook</li>
         <div id="div2"></div>
       </a>
@@ -151,6 +151,9 @@
     </ul>
     <div id="site-nav-socials">
       {% include socialnav.html %}
+    </div>
+    <div id="site-nav-copyright">
+      &copy; Svoltastudenti {{ site.time | date: '%Y' }} · <a href="https://www.iubenda.com/privacy-policy/27818292/legal">Cookie</a> · <a href="https://www.iubenda.com/privacy-policy/27818292/cookie-policy">Privacy</a>
     </div>
   </div>
   </div>
