@@ -507,11 +507,12 @@ article .authors li img {
 
 .thList .th {
     position: relative;
-    width: 300px;
-    height: 375px;
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
     display: block;
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
     margin: 15px;
     transition: all .5s;
 }
@@ -522,6 +523,7 @@ article .authors li img {
 }
 
 .thList .th .button {
+    padding-top: 0;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -534,10 +536,14 @@ article .authors li img {
     left: 50%;
     transform: translate(-50%, 0%);
     transition: all .5s;
+    top: 0;
 }
 
 .thList .th .button:hover {
+    padding-top: 30%;
     background-color: var(--dark-half);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .vslideshow > .content section .data {
