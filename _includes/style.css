@@ -3,12 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-    --orange: rgb(255, 102, 0);
+    --orange: rgba(255, 102, 0, 1);
     --orange-half: rgba(255, 102, 0, .5);
     --orange-third: rgba(255, 102, 0, .85);
     --orange-off: rgba(255, 102, 0, 0);
     --light-off: rgba(255, 255, 255, 0);
     --light-half: rgba(255, 255, 255, .5);
+    --light-third: rgba(255, 255, 255, .85);
     --light-on: rgba(255, 255, 255, 1);
     --dark-off: rgba(0, 0, 0, 0);
     --dark-half: rgba(0, 0, 0, .5);
@@ -329,7 +330,9 @@ body {
     top: 60px;
     left: 50%;
     transform: translate(-50%, 0%);
-    background-color: var(--light-on);
+    background-color: var(--light-third);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 50vw;
     z-index: 30;
     transform-origin: bottom;
