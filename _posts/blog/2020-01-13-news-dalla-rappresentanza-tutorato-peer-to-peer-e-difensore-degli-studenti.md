@@ -9,7 +9,7 @@ desc: >-
   primo o del secondo anno e potrei decidere quali materie “impartire”.
 
   Nominato, inoltre, il nuovo difensore degli studenti!
-article_th: /assets/img/uploads/News-dalla-rappresentanza--tutorato-peer-to-peer-e-Difensore-degli-Studenti.jpg
+article_th: /assets/img/uploads/News_dalla_rappresentanza_tutorato_peer_to_peer_e_Difensore_degli.jpg
 authors:
   - Alessio Rocca
 published: true
