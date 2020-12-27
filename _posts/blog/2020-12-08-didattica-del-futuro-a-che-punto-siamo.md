@@ -9,7 +9,7 @@ desc: Gli ultimi due semestri hanno visto numerosi cambiamenti nella didattica
   hanno reso registrazioni e lezioni online parte della nostra quotidianità**,
   così come numerosi docenti sono stati costretti a sperimentare nuove forme di
   coinvolgimento degli studenti in uno scenario così diverso.
-article_th: /assets/img/uploads/Didattica del Futuro a che punto siamo.jpg
+article_th: /assets/img/uploads/Didattica_del_Futuro_a_che_punto_siamo.jpg
 authors:
   - Giada Chiametti
 published: true
