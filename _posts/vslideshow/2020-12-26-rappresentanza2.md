@@ -6,7 +6,7 @@ align: left
 noBrand: "True"
 title: RAPPRESENTANZA
 bg_img: /assets/img/uploads/rappresentanza-1.png
-order: 0
+order: 1
 published: true
 date: 2020-12-26T02:59:26.733Z
 ---
