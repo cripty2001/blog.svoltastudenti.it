@@ -5,7 +5,7 @@ noBrand: "false"
 title: Centro sportivo Giuriati – POLIMI SPORT
 tag: Rappresentanza
 desc: Centro sportivo Giuriati – POLIMI SPORT
-article_th: /assets/img/uploads/Centro sportivo Giuriati - POLIMI SPORT.jpg
+article_th: /assets/img/uploads/Centro_sportivo_Giuriati-POLIMI_SPORT.jpg
 authors:
   - Guido Sassaroli
 published: true
