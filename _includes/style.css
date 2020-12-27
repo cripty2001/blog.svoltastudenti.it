@@ -540,7 +540,7 @@ article .authors li img {
 }
 
 .thList .th .button:hover {
-    padding-top: 30%;
+    padding-top: 10%;
     background-color: var(--dark-half);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -611,4 +611,8 @@ article .authors li img {
     #site-nav-socials svg {
         width: 40px;
     }
+}
+
+.bar li:hover{
+    transform: scale(1.2);
 }
