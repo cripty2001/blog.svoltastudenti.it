@@ -1,13 +1,12 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: Novità dal corso di Ingegneria Civile
 tag: Rappresentanza
 desc: Precedenze, nuova triennale in inglese, PSPA Geotechnics e novità dal
   corso di Ingegneria Civile
-article_th: /assets/img/uploads/article_placeholder.jpg
+article_th: /assets/img/uploads/Precedenze,_nuova_triennale_in_inglese,_PSPA_Geotechnics_e_novità.jpg
 authors:
   - Antonino Sgroi
   - Butrint Haxhiu
@@ -18,6 +17,7 @@ authors:
   - Carlo Giovani
 published: true
 date: 2020-04-16T15:13:57.064Z
+isAmp: "true"
 ---
 Il Consiglio di Corso di Studi ha lavorato parecchio dal suo insediamento e vorremmo raccontarvi cosa è stato fatto.
 
