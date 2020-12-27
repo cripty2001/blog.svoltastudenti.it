@@ -5,7 +5,7 @@ noBrand: "false"
 title: La Bovisa del futuro
 tag: Rappresentanza
 desc: La Bovisa del futuro
-article_th: /assets/img/uploads/La Bovisa del futuro.jpg
+article_th: /assets/img/uploads/La_Bovisa_del_futuro.jpg
 authors:
   - Carlo Giovani
 published: true
