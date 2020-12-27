@@ -5,7 +5,7 @@ page: rappresentanza
 align: left
 noBrand: "True"
 title: RAPPRESENTANZA
-bg_img: /assets/img/uploads/foto-rappresentanza.png
+bg_img: /assets/img/uploads/rappresentanza-1.png
 order: 0
 published: true
 date: 2020-12-26T02:59:26.733Z
