@@ -10,6 +10,7 @@ desc: Il 4 maggio, con l’inizio della fase 2, sono ricominciati a pieno regime
 article_th: /assets/img/uploads/Padel-e-calisthenics-al-Polimi.jpg
 authors:
   - Giada Chiametti
+  - Guido Sassaroli
 published: true
 date: 2020-12-08T02:21:24.369Z
 isAmp: "true"
