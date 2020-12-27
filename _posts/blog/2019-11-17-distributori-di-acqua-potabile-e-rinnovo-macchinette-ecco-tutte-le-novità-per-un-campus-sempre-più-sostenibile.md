@@ -2,7 +2,7 @@
 layout: blog
 category: it
 noBrand: "false"
-title: Distributori d'acqua potabile, rinnovo macchinette e sostenibilità
+title: "Distributori d'acqua potabile, rinnovo macchinette e sostenibilità"
 tag: Rappresentanza
 desc: >-
   Il PoliMi diventa ancora più sostenibile:
