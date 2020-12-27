@@ -7,7 +7,7 @@ tag: Rappresentanza
 desc: "\"Siamo un’Università e il nostro primo compito è quello di ampliare i
   confini della conoscenza e di superare i limiti.\" Queste le parole del
   rettore nel giorno dell'inaugurazione e molto altro."
-article_th: /assets/img/uploads/Inaugurazione-157°-anno-accademico-Politecnico-di-Milano.jpg
+article_th: /assets/img/uploads/Inaugurazione_157_anno_accademico_Politecnico_di_Milano.jpg
 authors:
   - Francesca Marra
 published: true
