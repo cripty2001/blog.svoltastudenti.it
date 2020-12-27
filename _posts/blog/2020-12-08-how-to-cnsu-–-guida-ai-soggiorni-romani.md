@@ -1,7 +1,6 @@
 ---
 layout: blog
 category: it
-isAmp: "true"
 noBrand: "false"
 title: HOW TO CNSU? – Guida ai soggiorni romani
 tag: Consiglio Nazionale degli Studenti Universitari
@@ -11,11 +10,12 @@ desc: >-
 
 
   Il CNSU è un organo consultivo del Ministero dell’Università e Ricerca, pertanto a stretto contatto con il Ministero (dove si riunisce, nel quartiere Trastevere a Roma) e con gli ambienti della politica.
-article_th: /assets/img/uploads/cnsu.jpg
+article_th: /assets/img/uploads/How to Cnsu.jpg
 authors:
   - Giada Chiametti
 published: true
 date: 2020-12-08T02:07:45.434Z
+isAmp: "true"
 ---
 Eh già, a maggio del 2019 sono stato eletto come rappresentante degli studenti in Consiglio Nazionale degli Studenti Universitari (CNSU), grazie a molti studenti che hanno deciso di riporre in me la loro fiducia.
 
