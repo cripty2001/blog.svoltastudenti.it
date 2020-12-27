@@ -577,16 +577,18 @@ article .authors li img {
     }
 
     #site-nav-pages {
-        margin-top: 10px;
+        margin-top: 5vh;
         margin-bottom: 0px;
     }
 
     #site-nav-pages li {
         font-size: 4vw;
+        margin: 20px 0px;
     }
 
     #site-nav-pages li a {
         font-size: 3vh;
+        padding: .5vh 1.4vh;
     }
 
     #site-nav-pages li a:hover {
@@ -605,6 +607,7 @@ article .authors li img {
     }
 
     #site-nav-projects li {
+        padding: 15px;
         margin: 10px;
     }
 
@@ -613,6 +616,41 @@ article .authors li img {
     }
 }
 
-.bar li:hover{
-    transform: scale(1.2);
-}
+@media screen and (max-width: 350px) {
+    #logo-svolta {
+        height: 20px;
+    }
+
+    #site-nav-pages {
+        margin-top: 7vh;
+    }
+
+    #site-nav-projects li {
+        min-width:175px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    #site-nav-socials svg {
+        width: 30px;
+    }
+  }
+
+
+  @media screen and (max-height: 600px) and (orientation: landscape) {
+    #site-nav-pages {
+        margin-top: 60px;
+    }
+
+    #site-nav-pages li {
+        margin: 12px 0px;
+    }
+
+    #site-nav-projects li {
+        min-width:150px;
+        padding: 10px;
+        font-size: 12px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+  }
