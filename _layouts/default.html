@@ -57,7 +57,6 @@
     }
     </script>
   {% endif %}
-  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf8a0f143f8c4f70b599dceedbd088b0"}'></script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme-color" content="#FF6600">
   <meta name="msapplication-navbutton-color" content="#FF6600">
@@ -84,6 +83,8 @@
       }
     {% endif %}
   </style>
+  <script>{% include functions.js %}</script>
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf8a0f143f8c4f70b599dceedbd088b0"}'></script>
 </head>
 <!-- TODO BEFORE -->
 <body>
@@ -188,12 +189,13 @@
   <div id="site-title" class="backgroundImage">
     <h1>{{ page.header_title }}</h1>
   </div>
-  <div id="site-cookies">
+  <!-- <div id="site-cookies">
     <h1>Informativa</h1>
     Questo sito utilizza cookies tecnici per fornire i suoi servizi. <br />
     Trattandosi di servizi strettamente necessari per la fornitura del servizio, non e' necessario il tuo consenso <br />
 
     Maggiori informazioni nella nostra <a href="https://www.iubenda.com/privacy-policy/27818292/cookie-policy" target="_blank">cookie policy</a>
-  </div>
+  </div> -->
+  <div id="site-scroll"></div>
 </body>
 </html>

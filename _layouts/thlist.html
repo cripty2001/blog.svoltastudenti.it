@@ -12,27 +12,12 @@ layout: default
 
 <div class="thList">
   <script>
-    let options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: [0, 0.1, 0.5, 0.99, 1]
-    };
-
-    window.currentScreen = '';
-    observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        let img = entry.target.dataset.th;
-        if (img && entry.intersectionRatio > 0.1) {
-          entry.target.style.backgroundImage = `url('${img}')`;
-        }
-      });
-    }, options);
-
-    document.addEventListener('DOMContentLoaded', _ => {
-      document.querySelectorAll('.thList .data .th').forEach(item => {
-        observer.observe(item);
-      })
-    });
+    subscribeIntersection('.thList .data .th', entry => {
+      let img = entry.target.dataset.th;
+      if (img && entry.intersectionRatio > 0.1) {
+        entry.target.style.backgroundImage = `url('${img}')`;
+      }
+    })
   </script>
   <script>
     function closeThListCategory(){
@@ -78,10 +63,53 @@ layout: default
       word-wrap: break-word;
     }
 
+    #arrow {
+      color: var(--orange);
+      width: 13px;
+      height: 13px;
+      display: inline-block;
+      position: relative;
+      bottom: -5px;
+      left: -10px;
+      transition: 0.4s ease;
+      margin-top: 2px;
+      text-align: left;
+      transform: rotate(45deg);
+      /* float: right; */
+      z-index: 50;
+    }
+
+    #arrow::before,
+    #arrow::after {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 3px;
+      background-color: green;
+      transition: 0.4s ease;
+    }
+
+    #arrow::after {
+        position: absolute;
+        transform: rotate(90deg);
+        top: -5px;
+        left: 5px;
+    }
+
+    #thList-checkbox:checked ~ label #arrow{
+      transform: rotate(45deg) translate(-5px,-5px);
+    }
+
+    #thList-checkbox:checked ~ label #arrow::before{
+      transform: translate(10px,0);
+    }
+
+    #thList-checkbox:checked ~ label #arrow::after{
+      transform: rotate(90deg) translate(10px,0);
+    }
+
     {% for tag in tags %}
-      /* .thList #thList-catFilter-{{ tag | slugify }}:checked {
-        height: 500px;
-      } */
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) {
         opacity: 0;
         width: 0;
@@ -91,10 +119,6 @@ layout: default
         flex-grow: 0;
         flex-shrink: 0;
       }
-/* 
-      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) * {
-        display: none;
-      } */
 
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .list label[for="thList-catFilter-{{ tag | slugify }}"] {
         color: var(--light-on);
@@ -102,53 +126,6 @@ layout: default
         font-size: 20px;
         background-color: var(--orange);
       }
-
-
-#arrow {
-    color: var(--orange);
-    width: 13px;
-  height: 13px;
-  display: inline-block;
-  position: relative;
-  bottom: -5px;
-  left: -10px;
-  transition: 0.4s ease;
-  margin-top: 2px;
-  text-align: left;
-  transform: rotate(45deg);
-  /* float: right; */
-  z-index: 50;
-}
-
-#arrow::before,
-#arrow::after {
-    position: absolute;
-    content: '';
-    display: inline-block;
-    width: 12px;
-    height: 3px;
-    background-color: green;
-    transition: 0.4s ease;
-}
-
-#arrow::after {
-    position: absolute;
-    transform: rotate(90deg);
-    top: -5px;
-    left: 5px;
-}
-
-      .thList #thList-catFilter-{{ tag | slugify }}:checked ~ #arrow{
-    transform: rotate(45deg) translate(-5px,-5px);
-}
-
-.thList #thList-catFilter-{{ tag | slugify }}:checked ~ #arrow::before{
-    transform: translate(10px,0);
-}
-
-.thList #thList-catFilter-{{ tag | slugify }}:checked ~ #arrow::after{
-    transform: rotate(90deg) translate(10px,0);
-}
     {% endfor %}
   </style>
     {% for tag in tags %}
@@ -156,8 +133,7 @@ layout: default
     {% endfor %}
   <div class="list">
     <input type="checkbox" id="thList-checkbox"/>
-    <label for="thList-checkbox">Categorie    <span id="arrow"></span>
-    </label>
+    <label for="thList-checkbox">Categorie <span id="arrow"></span></label>
     <ul>
       {% for tag in tags %}
         <li>

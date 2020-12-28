@@ -165,3 +165,27 @@ collections:
       - {label: "Ordine", name: "order", widget: "number", value_type: "int", min: 0, step: 1, required: True}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
+  - name: "dropdown" # Used in routes, e.g., /admin/collections/blog
+    label: "Dropdown" # Used in the UI
+    folder: "_posts/dropdown" # The path to the folder where the documents are stored
+    create: True # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    view_filters:
+      - label: Italiano
+        field: category
+        pattern: 'it'
+      - label: Inglese
+        field: category
+        pattern: 'en'
+    view_groups:
+      - label: Pagina
+        field: page
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_dropdown"}
+      - {label: "Lingua", name: "category", widget: "select", options: ["en", "it"]}
+      - {label: "Pagina", name: "page", widget: "select", options: ["contatti-it", "contatti-en", "faq-it", "faq-en"]}
+      - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string", required: True}
+      - {label: "Testo", name: "body", widget: "markdown"}
+      - {label: "Ordine", name: "order", widget: "number", value_type: "int", min: 0, step: 1, required: True}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
+      - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}

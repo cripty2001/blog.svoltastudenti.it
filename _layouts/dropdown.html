@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% assign posts = site.posts | where: "layout", "_dropdown" | where: "page", page.dropdown_page | sort: "order" %}
+
+<div class="dropdown_page">
+    {% for post in posts %}
+        <section>
+            <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
+            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }}</label>
+            <div class="content">
+                {{ post.content | markdownify }}
+            </div>
+        </section>
+    {% endfor %}
+</div>
