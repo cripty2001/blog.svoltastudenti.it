@@ -15,4 +15,4 @@ isAmp: "true"
 category: it
 article_th: /assets/img/uploads/marco-airoldi.jpg
 ---
-TODO
+Fantacalcista di professione, senatore per finta
