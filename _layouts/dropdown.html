@@ -17,14 +17,25 @@ layout: default
             display: none;
         }
         
-        .dropdown input[id*='dropdown-radio-']:checked + .content {
+        .dropdown input[id*='dropdown-radio-']:checked ~ .content {
             display: initial;
+        }
+        .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
+            transform: rotate(45deg) translate(-5px,-5px);
+        }
+
+        .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow::before{
+            transform: translate(10px,0);
+        }
+
+        .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow::after{
+            transform: rotate(90deg) translate(10px,0);
         }
     </style>
     {% for post in posts %}
         <section>
-            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }}</label>
             <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
+            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }} <span id="arrow"></span></label>
             <div class="content">
                 {{ post.content | markdownify }}
             </div>
