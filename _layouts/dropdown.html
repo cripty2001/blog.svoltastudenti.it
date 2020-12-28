@@ -3,11 +3,28 @@ layout: default
 ---
 {% assign posts = site.posts | where: "layout", "_dropdown" | where: "page", page.dropdown_page | sort: "order" %}
 
-<div class="dropdown_page">
+<div class="dropdown">
+    <style>
+        .dropdown {
+            margin-top: 100px;
+        }
+
+        .dropdown input[id*='dropdown-radio-']{
+            display: none;
+        }
+
+        .dropdown section .content {
+            display: none;
+        }
+        
+        .dropdown input[id*='dropdown-radio-']:checked + .content {
+            display: initial;
+        }
+    </style>
     {% for post in posts %}
         <section>
-            <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
             <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }}</label>
+            <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
             <div class="content">
                 {{ post.content | markdownify }}
             </div>
