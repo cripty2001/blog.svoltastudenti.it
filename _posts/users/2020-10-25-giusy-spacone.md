@@ -9,7 +9,7 @@ status:
   active: true
 socials:
   mail: giusy.spacone
-  in: Giusy_spacone
+  in: https://www.instagram.com/giusy_spacone/
 published: true
 date: 2020-10-25T15:53:17.174Z
 isAmp: "true"
