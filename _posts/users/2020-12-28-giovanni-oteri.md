@@ -10,6 +10,8 @@ status:
   end_date: 2020-12-28T01:24:15.356Z
 socials:
   mail: giovanni.oteri
+  fb: giovanni.oteri.7
+  in: "gioteri "
 published: true
 date: 2020-12-28T01:24:15.379Z
 ---
