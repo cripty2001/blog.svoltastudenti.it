@@ -232,7 +232,7 @@ body {
 }
 
 #site-nav-pages li {
-    margin: 30px 0px;
+    margin: 2.8vh 0px;
 }
 
 #site-nav-pages li a {
@@ -329,7 +329,7 @@ body {
 }
 
 #site-nav-copyright {
-    margin-top: 5px;
+    margin-top: 2vh;
     font-size: 12px;
     color: white;
 }
@@ -676,14 +676,14 @@ article .authors li img {
   }
 
 
-  @media screen and (max-height: 800px) and (orientation: landscape) {
+  @media screen and (max-height: 767px) and (orientation: landscape) {
 
     .thList .data {
         margin-top: 20vh;
     }
 
     #site-nav-pages li {
-        margin: 8px 0px;
+        margin: 2vh 0px;
     }
 
     #site-nav-projects {
