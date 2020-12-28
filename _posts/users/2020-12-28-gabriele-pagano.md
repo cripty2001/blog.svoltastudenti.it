@@ -10,6 +10,7 @@ status:
   end_date: 2020-12-28T00:34:32.209Z
 socials:
   mail: gabriele.pagano
+  in: https://www.instagram.com/_gabriele.pagano_/
 published: true
 date: 2020-12-28T00:34:32.236Z
 ---
