@@ -9,7 +9,7 @@ status:
   start_date: 2020-12-28T01:12:16.124Z
   end_date: 2020-12-28T01:12:16.151Z
 socials:
-  mail: antonio.mariagalli
+  mail: antonio.galli
 published: true
 date: 2020-12-28T01:12:16.174Z
 ---
