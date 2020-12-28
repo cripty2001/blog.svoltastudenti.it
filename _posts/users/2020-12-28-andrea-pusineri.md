@@ -10,6 +10,8 @@ status:
   end_date: 2020-12-28T01:16:32.024Z
 socials:
   mail: andrea.pusineri
+  fb: https://www.facebook.com/andrea.pusineri94
+  in: https://www.instagram.com/andrepusi
 published: true
 date: 2020-12-28T01:16:32.043Z
 ---
