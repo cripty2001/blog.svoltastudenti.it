@@ -9,7 +9,7 @@ status:
   start_date: 2020-12-28T00:44:37.527Z
   end_date: 2020-12-28T00:44:37.561Z
 socials:
-  mail: maria.abagnale
+  mail: mariagiovanna.abagnale
 published: true
 date: 2020-12-28T00:44:37.582Z
 ---
