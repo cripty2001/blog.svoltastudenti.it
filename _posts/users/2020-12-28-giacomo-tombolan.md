@@ -11,6 +11,7 @@ status:
 socials:
   mail: giacomo.tombolan
   fb: https://www.facebook.com/tombolangiacomo
+  in: "https://www.instagram.com/giacomotombolan/ "
 published: true
 date: 2020-12-28T00:36:53.380Z
 ---
