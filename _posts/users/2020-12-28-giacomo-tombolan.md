@@ -10,6 +10,7 @@ status:
   end_date: 2020-12-28T00:36:53.352Z
 socials:
   mail: giacomo.tombolan
+  fb: https://www.facebook.com/tombolangiacomo
 published: true
 date: 2020-12-28T00:36:53.380Z
 ---
