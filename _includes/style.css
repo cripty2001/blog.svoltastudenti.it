@@ -172,6 +172,7 @@ body {
 }
 
 #site-nav-wrapper {
+    padding-top: 20px;
     width: 100%;
 }
 
@@ -675,28 +676,49 @@ article .authors li img {
   }
 
 
-  @media screen and (max-height: 600px) and (orientation: landscape) {
+  @media screen and (max-height: 800px) and (orientation: landscape) {
+
+    .thList .data {
+        margin-top: 20vh;
+    }
 
     #site-nav-pages li {
-        margin: 12px 0px;
+        margin: 8px 0px;
+    }
+
+    #site-nav-projects {
+        margin: 0;
     }
 
     #site-nav-projects li {
-        margin: 10px;
-        min-width:150px;
+        margin: 0 5px; 
+        min-width:120px;
         padding: 10px;
-        font-size: 12px;
+        font-size: 10px;
         flex-grow: 0;
         flex-shrink: 0;
     }
 
-    #site-nav-socials svg {
-        width: 30px;
+    #site-nav-pages li a {
+        color: #FFFFFF;
+        font-weight: bold;
+        transition: all .5s;
+        font-size: 4vh;
+        transform: scale(1);
+        padding: .2vh .6vh;
     }
-  }
 
-  @media screen and (max-height: 900px) and (orientation: landscape) {
-    .thList .data {
-        margin-top: 20vh;
+    #site-nav-copyright {
+        margin-top: 0;
+        font-size: 9px;
+    }
+
+    #site-nav-socials svg {
+        width: 25px;
+    }
+
+    #site-nav-socials svg {
+        width: 25px;
+        margin: 8px;
     }
   }
