@@ -10,6 +10,8 @@ status:
   end_date: 2020-12-28T01:29:30.840Z
 socials:
   mail: francesca.palladino
+  in: "https://www.instagram.com/francesca.palladino.99/ "
+  fb: "https://www.facebook.com/francesca.palladino.35 "
 published: true
 date: 2020-12-28T01:29:30.869Z
 ---
