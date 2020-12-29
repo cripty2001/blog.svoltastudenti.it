@@ -1,6 +1,6 @@
 ---
 layout: events
-category: en
+category: it
 noBrand: "False"
 title: barcellona
 date: 2020-12-29T23:51:53.759Z
