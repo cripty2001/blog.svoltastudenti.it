@@ -1,11 +1,8 @@
 ---
 layout: blog
-category: it
 noBrand: "false"
 title: Il semestre che verrà
-tag: Rappresentanza
 desc: Il semestre che verrà
-article_th: /assets/img/uploads/Il_semestre_che_verra.jpg
 authors:
   - Alessio Rocca
   - Tecla Trifilo
@@ -14,6 +11,9 @@ authors:
 published: true
 date: 2020-08-27T16:02:46.862Z
 isAmp: "true"
+category: it
+tag: Rappresentanza
+article_th: /assets/img/uploads/Il_semestre_che_verra.jpg
 ---
 Si avvicina l’inizio del primo semestre del nuovo anno accademico e, dopo mesi di incertezza legata alla situazione emergenziale desideriamo in questo breve testo fare il punto della situazione su quanto definito fino ad ora.
 
@@ -45,9 +45,9 @@ Verranno riposizionati i distributori di acqua microfiltrata, per facilitare il
 
 Le attività sportive riprenderanno, come vi avevamo già raccontato [qui](https://svoltastudenti.it/it/centro-sportivo-giuriati-polimi-sport/) per Leonardo mentre per Bovisa docce e spogliatoi nel campus saranno disponibili dal 21 settembre. L’ultima settimana di Settembre si terrà un edizione speciale della PolimiRun (i PolimiRun Days) che includerà il distanziamento sociale, dove i rummer competeranno in autonomia sullo stesso percorso. Vi condividiamo anche una chicca, se ve la siete persa, riguardo lo stato dei lavori di rinnovo del Centro Sportivo Giuriati, dove tutte le attività dovrebbero partire per gennaio 2021.
 
-![](/assets/img/uploads/118349909_3320279744697393_3491887774344523427_o-300x225.jpg)
+![](/assets/img/uploads/il-semestre-che-verrà-1.jpg)
 
-![](/assets/img/uploads/118391410_3320279748030726_6241186735463805075_o-225x300.jpg)
+![](/assets/img/uploads/il-semestre-che-verrà-2.jpg)
 
 Stanno ripartendo i corsi di lingua, che per questo semestre saranno online.
 
