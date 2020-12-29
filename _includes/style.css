@@ -55,7 +55,7 @@ body {
     /* background: linear-gradient(to right,rgb(0, 143, 105) var(--scroll),transparent 0); */
     background-color: red;
     position: fixed;
-    width: 100%;
+    width: 0%;
     height: 5px;
     bottom: 0px;
     z-index: 100;
