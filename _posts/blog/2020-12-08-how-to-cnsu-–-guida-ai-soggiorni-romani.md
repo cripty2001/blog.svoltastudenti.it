@@ -1,21 +1,21 @@
 ---
 layout: blog
-category: it
 noBrand: "false"
 title: HOW TO CNSU? – Guida ai soggiorni romani
-tag: Consiglio Nazionale degli Studenti Universitari
 desc: >-
   Ma ora, a più di un anno di distanza: come funziona il CNSU? Che cosa è stato
   fatto in questo periodo?
 
 
   Il CNSU è un organo consultivo del Ministero dell’Università e Ricerca, pertanto a stretto contatto con il Ministero (dove si riunisce, nel quartiere Trastevere a Roma) e con gli ambienti della politica.
-article_th: /assets/img/uploads/How_to_Cnsu.jpg
 authors:
   - Giada Chiametti
 published: true
 date: 2020-12-08T02:07:45.434Z
 isAmp: "true"
+category: it
+tag: Consiglio Nazionale degli Studenti Universitari
+article_th: /assets/img/uploads/How_to_Cnsu.jpg
 ---
 Eh già, a maggio del 2019 sono stato eletto come rappresentante degli studenti in Consiglio Nazionale degli Studenti Universitari (CNSU), grazie a molti studenti che hanno deciso di riporre in me la loro fiducia.
 
@@ -23,11 +23,11 @@ Eh già, a maggio del 2019 sono stato eletto come rappresentante degli studenti 
 
 Il CNSU è un organo consultivo del Ministero dell’Università e Ricerca, pertanto a stretto contatto con il Ministero (dove si riunisce, nel quartiere Trastevere a Roma) e con gli ambienti della politica. Mi è infatti capitato di essere ricevuto in uffici governativi, al Senato della Repubblica ed alla Camera dei Deputati, dove ho avuto anche l’onore di [intervenire](https://www.instagram.com/tv/B9TzxCVq80D/?utm_source=ig_web_copy_link) in sala stampa.
 
-![](/assets/img/uploads/how-to-cnsu.jpg)
+![](/assets/img/uploads/cnsu-1.jpg)
 
-![](/assets/img/uploads/how-to-cnsu-2.jpg)
+![](/assets/img/uploads/cnsu-2.jpg)
 
-![](/assets/img/uploads/how-to-cnsu-3.jpg)
+![](/assets/img/uploads/cnsu-3.jpg)
 
 Il Consiglio è composto da 30 membri e finora si è riunito 3 volte, a cui sono poi succedute 3 sedute telematiche:
 
@@ -42,13 +42,9 @@ Inoltre abbiamo riportato le criticità che ci sono state segnalate in questi me
 
 Abbiamo inoltre sostenuto, con il [CNSU](http://www.cnsu.miur.it/media/37536/co_2020_03_16.pdf), la raccolta fondi a favore della Croce Rossa Italiana.
 
- 
-
 > Un ultimo dato: da quando è avvenuta la nostra elezione si sono alternati 3 Ministri (Dott. Bussetti, On. Fioramonti e ora Prof. Manfredi) elemento che sicuramente dimostra come questo sia un ruolo complicato e che rischia di dover affrontare attriti durante il proprio mandato.
 
 Va registrata una nuova tendenza ed un rinnovato interesse verso il tema della formazione universitaria e della Ricerca, la speranza è che il Prof. Manfredi, forte della sua esperienza come Rettore dell’Università Federico II fino a quest’anno e del suo ruolo di Presidente uscente della Conferenza dei Rettori delle Università Italiane (CRUI), possa risultare incisivo per il mondo dell’Università e Ricerca italiana.
-
- 
 
 Entro il mese di dicembre il parlamento approverà la legge di bilancio e immagino ci saranno varie novità, pertanto vi invito a seguire la nostra [pagina](https://www.instagram.com/unilab.svoltastudenti/) per restare aggiornati con le ultime notizie.
 
