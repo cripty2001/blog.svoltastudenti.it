@@ -37,4 +37,3 @@ function _initScrollProgress(){
     };
     document.addEventListener('DOMContentLoaded', f);
 }
-_initScrollProgress();
