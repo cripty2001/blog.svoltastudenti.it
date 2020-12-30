@@ -334,7 +334,7 @@ body {
     display: inline-block;
 }
 
-#site-nav-socials svg {
+#site-nav-socials img {
     height: auto;
     width: 50px;
     overflow: hidden;
@@ -343,7 +343,7 @@ body {
     transition: all .5s;
 }
 
-#site-nav-socials svg:hover {
+#site-nav-socials img:hover {
     transform: scale(1.2);
 }
 

@@ -2,6 +2,9 @@
 layout: article
 ---
 <article>
+	<script>
+		_initScrollProgress();
+	</script>
 	<header class="article-header">
 		<div style="background-image: url('{{ page.article_th }}');" class="thumb"></div>
 		<div class="info">
@@ -10,6 +13,7 @@ layout: article
 		<h1 class="title">
 			{{page.title}}
 		</h1>
+		<img src="{{ page.article_th }}" />
 	</header>
 	<link rel="stylesheet" type="text/css"
 		href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix_id }}/widget/v1.css">
@@ -27,4 +31,18 @@ layout: article
 	<footer class="article-footer footer">
 		Evento realizzato con il contributo del Politecnico di Milano
 	</footer>
+	<ul>
+		<li>{{page.days.day1}}</li>
+		<li>{{page.days.day2}}</li>
+		<li>{{page.days.day3}}</li>
+		<li>{{page.days.day4}}</li>
+		<li>{{page.days.day5}}</li>
+		<li>{{page.info.where}}</li>
+		<li>{{page.info.when}}</li>
+		<li>{{page.info.cost}}</li>
+		<li>{{page.info.reservation}}</li>
+		<li>{{page.info.info}}</li>
+		<li>{{page.price}}</li>
+		<li><a href="https://eventi.svoltastudenti.it/svoltastudenti/{{page.pretix}}/">Link</a></li>
+	</ul>
 </article>
