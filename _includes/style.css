@@ -42,6 +42,21 @@ body {
     box-sizing: border-box;
 }
 
+header h1,
+.authors {
+    z-index: 5;
+}
+
+header img{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
 #logo-svolta {
     height: 30px;
 }
@@ -443,6 +458,9 @@ body {
 
 #content {
     margin-top: 30px;
+    z-index: 2;
+    color: rgba(0, 0, 0, .9);
+    hyphens: auto;
 }
 
 #content img {
