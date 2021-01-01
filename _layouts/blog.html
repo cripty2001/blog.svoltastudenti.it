@@ -5,9 +5,9 @@ layout: article
 	<script>
 		_initScrollProgress();
 	</script>
-	<h1 id="articoli">
-		<span>{{ page.title }}</span>
-	</h1>
+	<div id="articoli">
+		<h1>{{ page.title }}</h1>
+	</div>
 	<ul class="authors">
 		{% for author_name in page.authors %}
 		{% assign author = site.posts | where: "category", page.category | where: "layout", "users" | where: "title", author_name %}

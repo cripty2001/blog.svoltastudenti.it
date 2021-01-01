@@ -535,7 +535,7 @@ body {
     margin-bottom: 20px;
 }
 
-#articoli span {
+#articoli h1 {
     z-index: 1;
     position: relative;
 }
@@ -544,13 +544,14 @@ body {
     top: 0;
     left: 0;
     margin: 0;
-    content: url('{{ page.article_th }}');
+    content: '';
+    background-image: url('{{ page.article_th }}');
     filter: brightness(50%);
-    width: 100vw;
+    background-size: cover;
+    width: 100%;
     height: 30vh;
     position: absolute;
-    overflow: hidden; 
-    object-fit: cover;   
+    z-index: 0;
 }
 
 article {
@@ -560,10 +561,13 @@ article {
     justify-content: center;
     flex-direction: column;
 }
-
 article #content {
     padding-bottom: 10vh;
 }
+
+article h1 {
+    font-size: xx-large;
+margin-bottom: 20px;}
 
 article h2 {
     font-size: x-large;
