@@ -469,7 +469,7 @@ body {
 }
 
 .user {
-    width: 500px;
+    top: 0;
 }
 
 .user header {
@@ -486,10 +486,18 @@ body {
 }
 
 .user img {
+    margin-top: 10vh;
     height: 30vh;
     width: 30vh;
     overflow: hidden;
     object-fit: cover;
+    transition: all .75s;
+}
+
+.user img:hover {
+    margin-top: 0;
+    height: 50vh;
+    width: 100vw;
 }
 
 .user #content {
@@ -527,7 +535,7 @@ body {
 
 article {
     max-width: 600px;
-    margin: 10vh auto;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
