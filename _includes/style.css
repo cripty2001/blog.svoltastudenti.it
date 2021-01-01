@@ -443,32 +443,6 @@ body {
     font-weight: bolder;
 }
 
-#content {
-    margin-top: 30px;
-    z-index: 2;
-    color: rgba(0, 0, 0, .9);
-    hyphens: auto;
-}
-
-#content img {
-    padding: 2vw;
-    width: 100%;
-    transition: all .4s;
-}
-
-#content img:hover {
-    transform: scale(1.025);
-}
-
-#content img:active {
-    transform: scale(2);
-}
-
-#content p {
-    text-align: justify;
-    hyphens: auto;
-}
-
 .user {
     top: 0;
 }
@@ -566,6 +540,25 @@ article #content {
     padding: 25px 50px;
     background-color: var(--light-on);
     border-radius: 25px;
+    margin-top: 30px;
+    z-index: 2;
+    color: rgba(0, 0, 0, .9);
+    hyphens: auto;
+}
+
+article #content img {
+    padding: 2vw;
+    width: 100%;
+    transition: all .4s;
+}
+
+article #content img:hover {
+    transform: scale(1.025);
+}
+
+article #content p {
+    text-align: justify;
+    hyphens: auto;
 }
 
 article h1 {
@@ -741,9 +734,31 @@ article .authors li img {
     scroll-behavior: smooth;
 }
 
+
+.contacts {
+    color: red;
+    margin-top: 60px;
+}
+
+.contacts .socials,
+.contacts .socials li {
+    list-style-type: none;
+}
+
+.contacts .socials li {
+    display: inline-block;
+}
+
+.contacts .socials img {
+    height: 50px;
+    width: 50px;
+}
+
 @media (orientation: portrait) {
-    #content {
-      width: 90%;
+    article #content {
+      width: 100%;
+      padding: 10px 30px;
+      border-radius: 20px;
     }
     
     .ham,
