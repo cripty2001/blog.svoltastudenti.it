@@ -52,13 +52,14 @@ body {
 
 #site-scroll {
     --scroll: 0%;
-    /* background: linear-gradient(to right,rgb(0, 143, 105) var(--scroll),transparent 0); */
-    background-color: red;
+    background: linear-gradient(to right, var(--orange) 0%, rgb(255, 85, 23));
+    /* background-color: red; */
     position: fixed;
+    top: 60px;
     width: 0%;
-    height: 5px;
-    bottom: 0px;
+    height: 10px;
     z-index: 100;
+    transition: all .1s;
 }
 
 #menu-icon {
@@ -531,13 +532,12 @@ body {
     height: 30vh;
 }
 
-
-
 article {
     max-width: 600px;
     margin: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 article h1 {
