@@ -30,10 +30,10 @@ function subscribeIntersection(el, f){
 }
 
 function _initScrollProgress(){
-    const f = _ => {
-        const percentage = ((document.body.scrollTop / (document.body.scrollHeight - document.body.clientHeight)) * 100);
-        document.getElementById('site-scroll').style.width = `${Math.round(percentage)}%`;
-        window.requestAnimationFrame(f);
-    };
-    document.addEventListener('DOMContentLoaded', f);
+    document.addEventListener('DOMContentLoaded', _ => {
+        setInterval(_ => {
+            const percentage = ((document.body.scrollTop / (document.body.scrollHeight - document.body.clientHeight)) * 100);
+            document.getElementById('site-scroll').style.width = `${Math.round(percentage)}%`;
+        }, 1000);
+    });
 }
