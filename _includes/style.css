@@ -533,6 +533,8 @@ body {
     /* color: var(--light-on); */
     text-align: center;
     overflow: hidden;
+    font-size: xx-large;
+    margin-bottom: 20px;
 }
 
 #articoli::before {
@@ -554,9 +556,9 @@ article {
     flex-direction: column;
 }
 
-article h1 {
-    font-size: xx-large;
-margin-bottom: 20px;}
+article #content {
+    padding-bottom: 10vh;
+}
 
 article h2 {
     font-size: x-large;
