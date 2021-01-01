@@ -52,8 +52,8 @@ body {
 
 #site-scroll {
     --scroll: 0%;
-    background: linear-gradient(to right, var(--orange) 0%, rgb(255, 85, 23));
-    /* background-color: red; */
+    /* background: linear-gradient(to right, var(--orange) 0%, rgb(0, 85, 23) var(--scroll)); */
+    background-color: var(--orange);
     position: fixed;
     top: 60px;
     width: 0%;
@@ -527,9 +527,23 @@ body {
 }
 
 #articoli {
+    width: 100%;
+    height: 35vh;
+    padding-top: 80px;
+    /* color: var(--light-on); */
+    text-align: center;
+    overflow: hidden;
+}
+
+#articoli::before {
     top: 0;
-    width: 100vw;
-    height: 30vh;
+    left: 0;
+    margin: 0;
+    content: url('{{ page.article_th }}');
+    filter: brightness(50%);
+    object-fit: cover;
+    width: 100%;
+    height: 35vh;
 }
 
 article {

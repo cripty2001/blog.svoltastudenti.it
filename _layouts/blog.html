@@ -5,7 +5,7 @@ layout: article
 	<script>
 		_initScrollProgress();
 	</script>
-	<h1>
+	<h1 id="articoli">
 		{{ page.title }}
 	</h1>
 	<ul class="authors">
@@ -14,9 +14,7 @@ layout: article
 			<li>
 				{% if author[0] %}
 					<a href="/{{ page.category }}/{{ author[0].title | slugify }}">
-						<div id="articoli">
-							<img src="{{ author[0].img }}" alt="{{ author_name }}"></img>
-						</div>
+						<img src="{{ author[0].img }}" alt="{{ author_name }}"></img>
 					</a>
 				{% else %}
 					<span>{{ author_name }}</span>
@@ -24,7 +22,6 @@ layout: article
 			</li>
 		{% endfor %}
 	</ul>
-	<img src="{{ page.article_th }}" />
 	<!-- <time pubdate datetime="{{ page.date }}" id="pubdate">{{ page.date | date: "%-d %B %Y" }}</time> -->
 </header>
 <div id="content">
