@@ -539,7 +539,7 @@ body {
     position: relative;
 }
 
-#site-content::before {
+#articoli::before {
     top: 0;
     left: 0;
     margin: 0;
@@ -551,7 +551,8 @@ body {
     height: 400px;
     position: fixed;
     z-index: 0;
-    -webkit-mask-image: -webkit-gradient(linear, top 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+    /* -webkit-mask-image: linear-gradient(to top, transparent 0%, black 50%);
+     mask-image: linear-gradient(to top, transparent 0%, black 50%); */
 }
 
 article {
@@ -606,7 +607,7 @@ article .authors li:hover {
 }
 
 article .authors li img {
-    border-radius: 25px;
+    border-radius: 10px;
     height: 50px;
     overflow: hidden;
     object-fit: cover;
