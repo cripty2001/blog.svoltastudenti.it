@@ -37,11 +37,12 @@ layout: default
         }
 
         .dropdown section .content {
-            display: none;
+            transition: height 1s;
+            height: calc(0%);
         }
         
         .dropdown input[id*='dropdown-radio-']:checked ~ .content {
-            display: initial;
+            height: calc(auto);
         }
         .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
             transform: rotate(45deg) translate(-5px,-5px);
