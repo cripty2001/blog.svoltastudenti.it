@@ -128,6 +128,11 @@ layout: default
       object-fit: cover;
     }
 
+    .vslideshow > .content section .text {
+      background-color: rgba(255, 102, 0, 0.5);
+      padding: 16px;
+      border-radius: 16px;
+    }
     .vslideshow > .content section .title {
       font-size: 3vmax;
       font-weight: bold;
@@ -176,8 +181,10 @@ layout: default
       <section class="vslideshow-animTrigger {{ post.align }}" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
         <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
         <div class="data">
-          <div class="title">{{ post.title }}</div>
-          <div class="subtitle">{{ post.content | markdownify }}</div>
+	  <div class="text">
+            <div class="title">{{ post.title }}</div>
+            <div class="subtitle">{{ post.content | markdownify }}</div>
+	  </div>
           <div class="btn">
             {% if post.btn1.txt %}
               <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
