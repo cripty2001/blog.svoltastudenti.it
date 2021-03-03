@@ -39,12 +39,12 @@ layout: default
 
         .dropdown section .content {
             transition: height 1s;
-            height: 0%;
+            height: calc(0px);
             overflow: hidden;
         }
         
         .dropdown input[id*='dropdown-radio-']:checked ~ .content {
-            height: 100%;
+            height: calc(100%);
         }
         .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
             transform: rotate(45deg) translate(-5px,-5px);
