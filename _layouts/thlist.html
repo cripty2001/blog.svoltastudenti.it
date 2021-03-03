@@ -75,6 +75,7 @@ layout: default
       transform: rotate(90deg) translate(10px,0);
     }
 
+    {% if page.enableCategory == "true" %}
     {% for tag in tags %}
       .thList #thList-catFilter-{{ tag | slugify }}:checked ~ .data > .th:not([data-cat*="{{ tag | slugify }}"]) {
         opacity: 0;
@@ -93,10 +94,14 @@ layout: default
         background-color: var(--orange);
       }
     {% endfor %}
+    {% endif %}
   </style>
+    {% if page.enableCategory == "true" %}
     {% for tag in tags %}
       <input type="radio" onchange="closeThListCategory()" name="thList-tags" id="thList-catFilter-{{ tag | slugify }}" {% if tag == all_txt[0] %} checked {% endif %} />
     {% endfor %}
+    {% endif %}
+    {% if page.enableCategory == "true" %}
   <div class="list">
     <input type="checkbox" id="thList-checkbox"/>
     <label for="thList-checkbox">Categorie <span id="arrow"></span></label>
@@ -108,6 +113,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+    {% endif %}
   <div class="data">
     {% for post in posts %}
       <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}">
