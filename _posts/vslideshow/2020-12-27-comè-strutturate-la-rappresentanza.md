@@ -7,7 +7,7 @@ noBrand: "True"
 title: COM'È STRUTTURATA LA RAPPRESENTANZA
 bg_img: /assets/img/uploads/rappresentanza-3.jpg
 btn1:
-  link: https://blog.svoltastudenti.it/it/organi-di-rappresentanza
+  link: https://new.svoltastudenti.it/it/organi-di-rappresentanza
   txt: Organi di Rappresentanza
 order: 3
 published: true

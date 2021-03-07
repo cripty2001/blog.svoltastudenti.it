@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: cripty2001/blog.svoltastudenti.it
+  repo: cripty2001/new.svoltastudenti.it
 publish_mode: editorial_workflow
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
