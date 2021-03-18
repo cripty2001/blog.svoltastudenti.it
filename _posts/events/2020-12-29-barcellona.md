@@ -7,6 +7,7 @@ date: 2020-12-29T23:51:53.759Z
 tag: Viaggio
 article_th: /assets/img/uploads/1-768x289.png
 days:
+  generic: 'Descrizione Generica del programma'
   day1: |-
     - partenza da Milano ore 8
     - arrivo a Barcellona ore 17
