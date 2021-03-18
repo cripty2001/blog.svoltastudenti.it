@@ -52,28 +52,28 @@ layout: article
 			<h2>ISCRIZIONE</h2>
 			<p>{{ page.info.reservation}}</p>
 		{% endif %}
-		{% if page.info.days.generic %}
+		{% if page.days.generic %}
 			<h2>PROGRAMMA</h2>
-			<p>{{ page.info.days.generic}}</p>
-			{% if page.info.days.day1 %}
+			<p>{{ page.days.generic}}</p>
+			{% if page.days.day1 %}
 				<h3>GIORNO 1</h3>
-				<p>{{ page.info.days.day1}}</p>
+				<p>{{ page.days.day1}}</p>
 			{% endif %}
-			{% if page.info.days.day2 %}
+			{% if page.days.day2 %}
 				<h3>GIORNO 2</h3>
-				<p>{{ page.info.days.day2}}</p>
+				<p>{{ page.days.day2}}</p>
 			{% endif %}
-			{% if page.info.days.day3 %}
+			{% if page.days.day3 %}
 				<h3>GIORNO 3</h3>
-				<p>{{ page.info.days.day3}}</p>
+				<p>{{ page.days.day3}}</p>
 			{% endif %}
-			{% if page.info.days.day4 %}
+			{% if page.days.day4 %}
 				<h3>GIORNO 4</h3>
-				<p>{{ page.info.days.day4}}</p>
+				<p>{{ page.days.day4}}</p>
 			{% endif %}
-			{% if page.info.days.day5 %}
+			{% if page.days.day5 %}
 				<h3>GIORNO 5</h3>
-				<p>{{ page.info.days.day5}}</p>
+				<p>{{ page.days.day5}}</p>
 			{% endif %}
 		{% endif %}
 		{% if page.info.requirements %}
