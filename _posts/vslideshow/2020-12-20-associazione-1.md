@@ -2,7 +2,7 @@
 layout: _vslideshow
 category: it
 page: associazione
-align: left
+align: right
 noBrand: "True"
 title: SVOLTASTUDENTI
 bg_img: /assets/img/uploads/Associazione_1.jpg
