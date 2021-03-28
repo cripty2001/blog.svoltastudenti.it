@@ -991,3 +991,62 @@ article .authors li img {
     z-index: 1;
     opacity: .5;
 }
+
+
+#info-rappresentanza {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#info-rappresentanza section {
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#info1::before,
+#info2::before,
+#info3::before {
+    content: "";
+    filter: brightness(50%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+#info1::before {
+    content: "";
+    background-image: url(/assets/rappr1.jpg);
+}
+
+#info2::before {
+    content: '';
+    background-image: url(/assets/rappr2.jpg);
+}
+
+#info3::before {
+    content: '';
+    background-image: url(/assets/rappr3.jpg);
+}
+
+
+#info-rappresentanza div {
+    z-index: 1;
+    font-size: 20px;
+    color: var(--light-on);
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+#info-rappresentanza div::before {
+    background-color: var(--dark-on);
+    z-index: 1;
+    opacity: .5;
+}
