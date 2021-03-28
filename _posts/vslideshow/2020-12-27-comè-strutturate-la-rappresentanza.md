@@ -14,6 +14,12 @@ published: true
 date: 2020-12-27T19:06:14.399Z
 ---
 Tramite i nostri rappresentanti negli organi,
+
+
 lavoriamo al fine di assicurarci che il Politecnico
+
+
 offra un ambiente stimolante e sereno 
+
+
 ai propri studenti.
