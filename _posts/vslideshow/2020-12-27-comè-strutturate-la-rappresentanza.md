@@ -5,7 +5,7 @@ page: rappresentanza
 align: left
 noBrand: "True"
 title: COM'È STRUTTURATA LA RAPPRESENTANZA
-bg_img: /assets/img/uploads/rappresentanza-3.jpg
+bg_img: /assets/img/uploads/Rappresentanza_3.jpg
 btn1:
   link: https://new.svoltastudenti.it/it/organi-di-rappresentanza
   txt: Organi di Rappresentanza
@@ -13,4 +13,7 @@ order: 3
 published: true
 date: 2020-12-27T19:06:14.399Z
 ---
-Qui ti raccontiamo quali siano i principali organi in cui la rappresentanza studentesca ha un ruolo e le loro caratteristiche!
+Tramite i nostri rappresentanti negli organi,
+lavoriamo al fine di assicurarci che il Politecnico
+offra un ambiente stimolante e sereno 
+ai propri studenti.
