@@ -6,6 +6,43 @@ layout: default
 <div class="dropdown">
     <style>
         .dropdown {
+            background-origin: padding-box;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: gray;
+            background-image: url('/assets/img/faq-background.jpg');
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .dropdown > .dropdown-content {
+            width: 90%;
+            height: calc(90% - 150px);
+            margin-top: 150px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            background-color: #FF6600;
+            position: relative;
+            border-radius: 10px;
+        }
+        .dropdown > .dropdown-content > .dropdown-title {
+            font-weight: bold;
+            color: #FFFFFF;
+            font-size: x-large;
+            font-size: xx-large;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+            background-color: #FF6600;
+        }
+/*         
+        .dropdown {
             margin-top: 100px;
             width: 80%;
             margin-left: auto;
@@ -19,35 +56,55 @@ layout: default
             // background-image: url('/assets/img/uploads/img-20190523-wa0022.jpg');
             text-align: center;
             column-count: 1;
-        }
+        } */
 
-        @media all and (min-width:1200px){
+        /* @media all and (min-width:1200px){
             .dropdown {
                 column-count: 2;
             }
-        }
-        .dropdown section {
+        } */
+        /* .dropdown section {
             background-color: white;
             max-width: 500px;
             margin: 10px;
             padding: 10px;
             break-inside: avoid;
-        }
+        } */
         .dropdown input[id*='dropdown-radio-']{
             display: none;
         }
-
-        .dropdown section .content {
-            height: calc(0px);
-            overflow: hidden;
+        .dropdown section {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: stretch;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
-        .dropdown .label {
+
+        .dropdown section > * {
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .dropdown label {
             font-weight: bold;
+            background-color: #FFFFFF;
+            color: #FF6600;
         }
         .dropdown input[id*='dropdown-radio-']:checked ~ .content {
             height: calc(100%);
+            border: 5px solid #FFFFFF;
         }
-        .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
+
+        .dropdown section .content {
+            margin-top: 10px;
+            height: calc(0px);
+            overflow: hidden;
+            color: #FFFFFF;
+        }
+        /* .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
             transform: rotate(45deg) translate(-5px,-5px);
         }
 
@@ -57,15 +114,19 @@ layout: default
 
         .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow::after{
             transform: rotate(90deg) translate(10px,0);
-        }
+        } */
     </style>
-    {% for post in posts %}
+    <div class="dropdown-content">
+        <div class="dropdown-title">F.A.Q</div>
+        {% for post in posts %}
         <section>
             <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
-            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }} <span id="arrow"></span></label>
+            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }} <!--<span id="arrow"></span>--></label>
             <div class="content">
                 {{ post.content | markdownify }}
             </div>
         </section>
     {% endfor %}
+    </div>
+    
 </div>
