@@ -893,9 +893,11 @@ article .authors li img {
 
     .parallax .section {
         flex-direction: column;
-        padding-top: 10vh;
-        position: relative;
         height: max-content;
+    }
+
+    .parallax .section:first-child {
+        padding-top: 10vh;
     }
 
     .parallax .section h1,
