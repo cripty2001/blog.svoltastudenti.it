@@ -948,11 +948,18 @@ article .authors li img {
     margin: 0;
 }
 
-.eventsHeader .date {
-    margin-bottom: 20px;
+.eventsHeader .category {
+    padding-top: 10px;
+    color: var(--dark-on);
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .eventsHeader .buy {
+    margin: 20px;
     background-color: #FF6600;
     padding: 10px;
     color: #FFFFFF;
@@ -969,6 +976,7 @@ article .authors li img {
 
 .eventsImage img {
     width: 90%;
+    margin-top: 30px;
 }
 
 .eventsDescription {
@@ -976,6 +984,8 @@ article .authors li img {
 }
 
 .eventsDescription h2 {
+    color: var(--orange);
+    font-style: italic;
     margin: 0;
 }
 

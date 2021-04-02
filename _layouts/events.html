@@ -9,12 +9,12 @@ layout: article
 </script>
 <header class="eventsHeader">
 	<div class="eventsImage">
-		<img src="{{ page.article_th }}">
 		<div class="category">{{ page.tag }}</div>
+		<img src="{{ page.article_th }}">
 		<a class="buy" href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix }}">EUR {{ page.price }}</a>
-		<div class="date">
+		<!-- <div class="date">
 			{{ page.date | date: "%-d %B %Y" }}
-		</div>
+		</div> -->
 	</div>
 
 	<div class="eventsInfo">
@@ -33,10 +33,10 @@ layout: article
 			<p>{{ page.info.when}}</p>
 			{% endif %}
 			{% if page.info.cost %}
-			<h2>COSTO</h2>
+			<!-- <h2>COSTO</h2>
 			<p>{{ page.info.cost}}</p>
 			{% endif %}
-			{% if page.info.reservation %}
+			{% if page.info.reservation %} -->
 			<h2>ISCRIZIONE</h2>
 			<p>{{ page.info.reservation}}</p>
 			{% endif %}
