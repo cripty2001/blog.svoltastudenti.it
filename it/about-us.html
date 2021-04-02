@@ -27,7 +27,7 @@ layout: default
             </div>
 
         </div>
-        <div class="section sectionRight">
+        <div class="section anim sectionRight" data-delay=".5s">
             <aside>
                 <h1>BEYOND THE LESSONS</h1>
                 <h2>VIAGGI ED EVENTI</h2>
@@ -54,23 +54,44 @@ layout: default
             <div class="imageHalf">
                 <img src="../assets/img/about-us-background.jpg" alt="">
             </div>
-
         </div>
-        <div class="section sectionLeft">
-                <aside>
-                    <h1>VUOI ARRICCHIRE LA TUA ESERIENZA UNIVERSITARIA? </h1>
-                <p>
-                    Svoltastudenti fa per te! 
-                    Partecipa intensamente alla realtà del Politecnico di Milano, mettiti in gioco
-                    per realizzare i tuoi progetti, migliora la vita dello studente o partecipa attivamente
-                    alla rappresentanza studentesca.
-                </p>
-                </aside>
 
-                <div class="imageHalf">
-                    <img src="../assets/img/about-us-background.jpg" alt="">
-                </div>
+        <div class="section anim sectionLeft" data-delay=".5s">
+            <aside>
+                <h1>VUOI ARRICCHIRE LA TUA ESERIENZA UNIVERSITARIA? </h1>
+            <p>
+                Svoltastudenti fa per te! 
+                Partecipa intensamente alla realtà del Politecnico di Milano, mettiti in gioco
+                per realizzare i tuoi progetti, migliora la vita dello studente o partecipa attivamente
+                alla rappresentanza studentesca.
+            </p>
+            </aside>
 
+            <div class="imageHalf">
+                <img src="../assets/img/about-us-background.jpg" alt="">
             </div>
+        </div>
+
     </div>
 </div>
+
+<script>
+        const images = document.querySelectorAll('.anim');
+
+        observer = new IntersectionObserver((entries) => {
+
+            entries.forEach(entry => {
+                if(entry.intersectionRatio > 0) {
+                    entry.target.style.animation = `anim1 2s ${entry.target.dataset.delay} forwards ease-out`;
+                }
+                else {
+                    entry.target.style.animation = 'none';
+                }
+            })
+        })
+
+        images.forEach(image => {
+            observer.observe(image)
+        })
+    
+</script>
