@@ -6,31 +6,23 @@ layout: default
 <div class="dropdown">
     <style>
         .dropdown {
-            background-origin: padding-box;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-color: gray;
-            background-image: url('/assets/img/faq-background.jpg');
             height: 100vh;
             width: 100vw;
             display: flex;
             flex-direction: row;
-            align-items: center;
             justify-content: center;
         }
+        
         .dropdown > .dropdown-content {
-            width: 90%;
-            max-width: 500px;
-            height: calc(90% - 150px);
-            margin-top: 150px;
-            overflow-x: hidden;
-            overflow-y: auto;
-            background-color: #FF6600;
+            margin-top: 10vh;
+            width: 40vw;
             position: relative;
-            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
         .dropdown > .dropdown-content > .dropdown-title {
+            width: 100%;
             font-weight: bold;
             color: #FFFFFF;
             font-size: x-large;
@@ -38,9 +30,10 @@ layout: default
             margin-top: 40px;
             margin-bottom: 40px;
             text-align: center;
-            position: sticky;
             top: 0px;
             background-color: #FF6600;
+            padding: 20px;
+            border-radius: 10px;
         }
 /*         
         .dropdown {
@@ -74,36 +67,50 @@ layout: default
         .dropdown input[id*='dropdown-radio-']{
             display: none;
         }
+
         .dropdown section {
             display: flex;
             flex-direction: column;
             align-items: stretch;
             justify-content: stretch;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
 
         .dropdown section > * {
-            margin: 10px;
             padding: 10px;
-            border-radius: 10px;
             text-align: center;
         }
         .dropdown label {
+            width: 35vw;
             font-weight: bold;
-            background-color: #FFFFFF;
-            color: #FF6600;
+            background-color: var(--light-on);
+            color: var(--orange);
+            filter: drop-shadow(4px 4px 4px rgba(0,0,0,.1));
+            border-radius: 8px;
+            transition: all .5s;
         }
+
+        .dropdown label:hover {
+            filter: drop-shadow(0px 0px 0px rgba(0,0,0,.1));
+            border-radius: 10px;
+            background-color: var(--orange);
+            color: var(--light-on);
+            transform: scale(1.1);
+        }
+
         .dropdown input[id*='dropdown-radio-']:checked ~ .content {
             height: calc(100%);
-            border: 5px solid #FFFFFF;
+            background-color: var(--light-on);
+            filter: drop-shadow(4px 4px 4px rgba(0,0,0,.1));
+            opacity: 1;
         }
 
         .dropdown section .content {
             margin-top: 10px;
             height: calc(0px);
-            overflow: hidden;
-            color: #FFFFFF;
+            opacity: 0;
+            color: var(--dark-on);
+            text-align: left;
+            transition: all .5s ease-in-out;
         }
         /* .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
             transform: rotate(45deg) translate(-5px,-5px);
@@ -121,7 +128,7 @@ layout: default
         <div class="dropdown-title">F.A.Q</div>
         {% for post in posts %}
         <section>
-            <input id="dropdown-radio-{{ forloop.index }}" type="radio" name="dropdown">
+            <input id="dropdown-radio-{{ forloop.index }}" type="checkbox" name="dropdown">
             <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }} <!--<span id="arrow"></span>--></label>
             <div class="content">
                 {{ post.content | markdownify }}
