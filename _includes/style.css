@@ -961,6 +961,10 @@ article .authors li img {
     text-decoration: none;
 }
 
+.eventsDescription {
+    margin-bottom: 5vh;
+}
+
 .eventsDescription h2{
     margin: 0;
 }
@@ -969,14 +973,15 @@ article .authors li img {
     margin-top: 20px;
 }
 
-@media all and (max-width: 720px) {
-    .events-header {
+@media all and (max-width: 720px), (orientation: portrait){
+    .eventsHeader {
         flex-direction: column;
     }
 
-    .events-header>* {
-        width: 100%;
-    }
+    .eventImage,
+.eventsInfo{
+    width: 80vw;
+}
 }
 
 @media (orientation: portrait) {
