@@ -931,7 +931,7 @@ article .authors li img {
 
 /* Events */
 .eventImage,
-.eventsInfo{
+.eventsInfo {
     width: 40vw;
 }
 
@@ -965,23 +965,25 @@ article .authors li img {
     margin-bottom: 5vh;
 }
 
-.eventsDescription h2{
+.eventsDescription h2 {
     margin: 0;
 }
 
-.eventsDescription h2:first-child{
+.eventsDescription h2:first-child {
     margin-top: 20px;
 }
 
-@media all and (max-width: 720px), (orientation: portrait){
+@media all and (max-width: 720px),
+(orientation: portrait) {
     .eventsHeader {
         flex-direction: column;
+        align-items: center;
     }
 
     .eventImage,
-.eventsInfo{
-    width: 80vw;
-}
+    .eventsInfo {
+        width: 80vw;
+    }
 }
 
 @media (orientation: portrait) {
