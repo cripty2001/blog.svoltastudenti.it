@@ -1,31 +1,89 @@
 ---
 layout: article
 ---
-	<style>
-		
-	</style>
-	<script>
-		_initScrollProgress();
-	</script>
-	<header class="events-header">
+<style>
+
+</style>
+<script>
+	_initScrollProgress();
+</script>
+<header class="eventsHeader">
+	<div class="eventsImage">
 		<img src="{{ page.article_th }}">
-		<div class="info">
-			<div class="category">{{ page.tag }}</div>
-			<h1 class="title">
-				{{page.title}}
-			</h1>
-			<div class="excerpt">{{ content }}</div>
-			<div class="date">
-				{{ page.date | date: "%-d %B %Y" }}
-			</div>
-			<a class="buy" href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix }}">EUR {{ page.price }}</a>
+		<div class="category">{{ page.tag }}</div>
+		<a class="buy" href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix }}">EUR {{ page.price }}</a>
+		<div class="date">
+			{{ page.date | date: "%-d %B %Y" }}
 		</div>
-	</header>
-	<!-- <link rel="stylesheet" type="text/css"
+	</div>
+
+	<div class="eventsInfo">
+		<h1 class="title">
+			{{page.title}}
+		</h1>
+		<div class="excerpt">{{ content }}</div>
+		<article class="eventsDescription">
+			<!-- <h1>{{ page.title }}</h1> -->
+			{% if page.info.where %}
+			<h2>DOVE</h2>
+			<p>{{ page.info.where}}</p>
+			{% endif %}
+			{% if page.info.when %}
+			<h2>QUANDO</h2>
+			<p>{{ page.info.when}}</p>
+			{% endif %}
+			{% if page.info.cost %}
+			<h2>COSTO</h2>
+			<p>{{ page.info.cost}}</p>
+			{% endif %}
+			{% if page.info.reservation %}
+			<h2>ISCRIZIONE</h2>
+			<p>{{ page.info.reservation}}</p>
+			{% endif %}
+			{% if page.days.generic %}
+			<h2>PROGRAMMA</h2>
+			<p>{{ page.days.generic}}</p>
+			{% if page.days.day1 %}
+			<h3>GIORNO 1</h3>
+			<p>{{ page.days.day1}}</p>
+			{% endif %}
+			{% if page.days.day2 %}
+			<h3>GIORNO 2</h3>
+			<p>{{ page.days.day2}}</p>
+			{% endif %}
+			{% if page.days.day3 %}
+			<h3>GIORNO 3</h3>
+			<p>{{ page.days.day3}}</p>
+			{% endif %}
+			{% if page.days.day4 %}
+			<h3>GIORNO 4</h3>
+			<p>{{ page.days.day4}}</p>
+			{% endif %}
+			{% if page.days.day5 %}
+			<h3>GIORNO 5</h3>
+			<p>{{ page.days.day5}}</p>
+			{% endif %}
+			{% endif %}
+			{% if page.info.requirements %}
+			<h2>COSA PORTARE</h2>
+			<p>{{ page.info.requirements}}</p>
+			{% endif %}
+			{% if page.info.info %}
+			<h2>INFORMAZIONI</h2>
+			<p>{{ page.info.info}}</p>
+			{% endif %}
+			{% if page.info.notes %}
+			<h2>NOTE</h2>
+			<p>{{ page.info.notes}}</p>
+			{% endif %}
+		</article>
+	</div>
+</header>
+<!-- <link rel="stylesheet" type="text/css"
 		href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix_id }}/widget/v1.css">
 	<script type="text/javascript" src="https://store.svoltastudenti.it/widget/v1.en.js" async></script>
 	<pretix-widget event="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix_id }}/"></pretix-widget> -->
-	<!-- <noscript>
+<!-- <noscript>
 		<div class="pretix-widget">
 			<div class="pretix-widget-info-message">
 				JavaScript is disabled in your browser. To access our ticket shop without JavaScript, please <a
@@ -34,59 +92,5 @@ layout: article
 			</div>
 		</div>
 	</noscript> -->
-	<article class="events-description">
-		<h1>{{ page.title }}</h1>
-		{% if page.info.where %}
-			<h2>DOVE</h2>
-			<p>{{ page.info.where}}</p>
-		{% endif %}
-		{% if page.info.when %}
-			<h2>QUANDO</h2>
-			<p>{{ page.info.when}}</p>
-		{% endif %}
-		{% if page.info.cost %}
-			<h2>COSTO</h2>
-			<p>{{ page.info.cost}}</p>
-		{% endif %}
-		{% if page.info.reservation %}
-			<h2>ISCRIZIONE</h2>
-			<p>{{ page.info.reservation}}</p>
-		{% endif %}
-		{% if page.days.generic %}
-			<h2>PROGRAMMA</h2>
-			<p>{{ page.days.generic}}</p>
-			{% if page.days.day1 %}
-				<h3>GIORNO 1</h3>
-				<p>{{ page.days.day1}}</p>
-			{% endif %}
-			{% if page.days.day2 %}
-				<h3>GIORNO 2</h3>
-				<p>{{ page.days.day2}}</p>
-			{% endif %}
-			{% if page.days.day3 %}
-				<h3>GIORNO 3</h3>
-				<p>{{ page.days.day3}}</p>
-			{% endif %}
-			{% if page.days.day4 %}
-				<h3>GIORNO 4</h3>
-				<p>{{ page.days.day4}}</p>
-			{% endif %}
-			{% if page.days.day5 %}
-				<h3>GIORNO 5</h3>
-				<p>{{ page.days.day5}}</p>
-			{% endif %}
-		{% endif %}
-		{% if page.info.requirements %}
-			<h2>COSA PORTARE</h2>
-			<p>{{ page.info.requirements}}</p>
-		{% endif %}
-		{% if page.info.info %}
-			<h2>INFORMAZIONI</h2>
-			<p>{{ page.info.info}}</p>
-		{% endif %}
-		{% if page.info.notes %}
-			<h2>NOTE</h2>
-			<p>{{ page.info.notes}}</p>
-		{% endif %}
-	</article>
+
 </article>
