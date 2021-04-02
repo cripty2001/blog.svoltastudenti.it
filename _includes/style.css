@@ -852,6 +852,7 @@ article .authors li img {
 
 .parallax .section h2{
     font-size: 20px;
+    margin: 0;
 }
 
 .sectionLeft {
@@ -875,6 +876,34 @@ article .authors li img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+
+@media screen and (max-height: 767px) , (orientation: portrait) {
+    .sectionLeft {
+        flex-direction: column;
+    }
+    
+    .sectionRight {
+        flex-direction: column-reverse;
+    }
+
+    .parallax .section {
+        flex-direction: column;
+        padding-top: 10vh;
+        position: relative;
+        height: max-content;
+    }
+
+    .parallax .section h1,
+.parallax .section h2,
+.parallax .section p {
+    width: 80vw;
+}
+
+.parallax .section img {
+margin: 5vh;
+}
+
 }
 
 /* ANIMAZIONI */
