@@ -12,16 +12,16 @@ layout: default
             flex-direction: row;
             justify-content: center;
         }
-        
+
         .dropdown > .dropdown-content {
             margin-top: 10vh;
             width: 40vw;
-            position: relative;
             display: flex;
             align-items: center;
             flex-direction: column;
         }
         .dropdown > .dropdown-content > .dropdown-title {
+            position: sticky;
             width: 100%;
             font-weight: bold;
             color: #FFFFFF;
@@ -30,10 +30,11 @@ layout: default
             margin-top: 40px;
             margin-bottom: 40px;
             text-align: center;
-            top: 0px;
+            top: 70px;
             background-color: #FF6600;
             padding: 20px;
             border-radius: 10px;
+            z-index: 5;
         }
 /*         
         .dropdown {
@@ -125,7 +126,7 @@ layout: default
         } */
     </style>
     <div class="dropdown-content">
-        <div class="dropdown-title">F.A.Q</div>
+        <div class="dropdown-title">F.A.Q.</div>
         {% for post in posts %}
         <section>
             <input id="dropdown-radio-{{ forloop.index }}" type="checkbox" name="dropdown">

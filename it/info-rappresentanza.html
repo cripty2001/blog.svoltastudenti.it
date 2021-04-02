@@ -2,33 +2,77 @@
 layout: default
 ---
 
-<main id="info-rappresentanza">
+    <div class="parallax">
+        <div class="content">
+            <div class="section sectionLeft">
+                <aside>
+                    <h2>MERITO E DSU</h2>
+                    <p>Ci battiamo costantemente per merito e pari possibilità.</p>
+                    <h2>APARTITICITÀ E ACONFESSIONALITÀ</h2>
+                    <p>Slegati da ogni tipo di partito, movimento o gruppo religioso.</p>
+                    <h2>INTERNAZZIONALIZZAZIONE</h2>
+                    <p>Vediamo le esperienze internazionali come un’occasione di confronto e crescita.</p>
+                    <h2>PARTECIPAZIONE</h2>
+                    <p>Applichiamo la formula del coinvolgimento dello studente, a 360°.</p>
+                </aside>
 
-    <section id="info1">
-        <div style="text-align: left; margin-left: 10vw; margin-right: 70vw;">
-            <h5>MERITO E DSU</h5>
-            <p>Ci battiamo costantemente per merito e pari possibilità.</p>
-            <h5>APARTITICITÀ E ACONFESSIONALITÀ</h5>
-            <p>Slegati da ogni tipo di partito, movimento o gruppo religioso.</p>
-            <h5>INTERNAZZIONALIZZAZIONE</h5>
-            <p>Vediamo le esperienze internazionali come un’occasione di confronto e crescita.</p>
-            <h5>PARTECIPAZIONE</h5>
-            <p>Applichiamo la formula del coinvolgimento dello studente, a 360°.</p>
+                <div class="imageHalf">
+                    <img src="../assets/rappr1.jpg" alt="">
+                </div>
+
+            </div>
+            <div class="section anim sectionRight" data-delay=".5s">
+                <aside>
+                    <aside>
+                        <h1>APARTITICITÀ E ACONFESSIONALITÀ</h1>
+                        <p>
+                            Tramite i nostri rappresentanti negli organi,
+                            lavoriamo al fine di assicurarci che il Politecnico
+                            offra un ambiente stimolante e sereno
+                            ai propri studenti.
+                        </p>
+                    </aside>
+
+                <div class="imageHalf">
+                    <img src="../assets/rappr2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="section anim sectionLeft" data-delay=".5s">
+                <aside>
+                    <h1>APARTITICITÀ E ACONFESSIONALITÀ</h1>
+                    <p>
+                        Tramite i nostri rappresentanti negli organi,
+                        lavoriamo al fine di assicurarci che il Politecnico
+                        offra un ambiente stimolante e sereno
+                        ai propri studenti.
+                    </p>
+                </aside>
+
+                <div class="imageHalf">
+                    <img src="../assets/rappr3.jpg" alt="">
+                </div>
+            </div>
+
         </div>
-    </section>
-    
-    <section id="info2">
-        <div style="text-align: right;margin-left: 70vw; margin-right: 10vw;">
-            <h5>APARTITICITÀ E ACONFESSIONALITÀ</h5>
-        </div>
-    </section>
-    
-    <section id="info3">
-        <p style="text-align: left; margin-left: 10vw; margin-right: 70vw;">
-            Tramite i nostri rappresentanti negli organi,
-            lavoriamo al fine di assicurarci che il Politecnico
-            offra un ambiente stimolante e sereno 
-            ai propri studenti.</p>
-    </section>
-    
-    </main>
+    </div>
+
+    <script>
+        const images = document.querySelectorAll('.anim');
+
+        observer = new IntersectionObserver((entries) => {
+
+            entries.forEach(entry => {
+                if (entry.intersectionRatio > 0) {
+                    entry.target.style.animation =
+                        `anim1 2s ${entry.target.dataset.delay} forwards ease-out`;
+                } else {
+                    entry.target.style.animation = 'none';
+                }
+            })
+        })
+
+        images.forEach(image => {
+            observer.observe(image)
+        })
+    </script>
