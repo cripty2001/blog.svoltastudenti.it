@@ -784,13 +784,16 @@ article .authors li img {
 }
 
 .contacts aside {
+    display: flex;
+    flex-direction: column;
     width: 60%;
     padding: 0 5vw 0 15vw;
 }
 
-.contacts .socials,
-.contacts .socials li {
+.contacts aside .socials,
+.contacts aside .socials li {
     list-style-type: none;
+    padding: 0;
 }
 
 .contacts .socials li {
@@ -800,6 +803,18 @@ article .authors li img {
 .contacts .socials img {
     height: 50px;
     width: 50px;
+}
+
+@media screen and (max-height: 767px),
+(orientation: portrait) {
+    .contacts {
+        flex-direction: column-reverse;
+    }
+
+    .contacts aside {
+        width: 100vw;
+        padding: 5vw;
+    }
 }
 
 /* Parallax */

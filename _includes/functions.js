@@ -49,3 +49,4 @@ function _initScrollProgress() {
 //     }
 //     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 // }, false);
+
