@@ -25,7 +25,8 @@ info:
   reservation: Iscriviti alla Mailing-list dell'evento per poter ricevere un
     reminder il giorno della diretta!!!
   info: >-
-    Per maggiori informazioni contattare: 
+    Per maggiori informazioni contattare: \
+
 
     [giuseppe.costagliola@svoltastudenti.it](mailto:giuseppe.costagliola@svoltastudenti.it)
 
