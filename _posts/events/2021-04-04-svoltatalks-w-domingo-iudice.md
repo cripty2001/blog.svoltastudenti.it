@@ -7,13 +7,13 @@ date: 2021-03-31T16:30:28.252Z
 tag: Conferenza
 article_th: /assets/img/uploads/svoltatalks-with-domingo-iudice.png
 days:
-  generic: >
-    
-    Pescaria, dall’idea alla citazione nella trimestrale di Facebook, storia di un successo tutto made in Italy
+  generic: >-
+    * Pescaria, dall’idea alla citazione nella trimestrale di Facebook, storia
+    di un successo tutto made in Italy
 
-    Come Pescaria ha reagito alle restrizioni poste dalla pandemia in atto e come il settore della ristorazione è cambiato e cambierà dopo il covid
+    * Come Pescaria ha reagito alle restrizioni poste dalla pandemia in atto e come il settore della ristorazione è cambiato e cambierà dopo il covid
 
-    Q&A session con i partecipanti all’evento
+    * Q&A session con i partecipanti all’evento
 info:
   where: L’evento verrà trasmesso sul nostro canale Twitch di Svoltastudenti, con
     la possibilità di intervenire in diretta per porre direttamente all’ospite
