@@ -229,15 +229,24 @@ body {
 }
 
 #site-header .lang {
+    color: var(--orange);
     top: 50px;
     position: absolute;
     right: 5vw;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 16px;
     transition: all .5s;
+    transform-origin: center;
 }
 
-#site-header .lang::before {
+#site-header .lang:hover {
+    color: var(--light-on);
+    background-color: var(--orange);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* #site-header .lang::before {
     content: '';
     position: absolute;
     width: 0;
@@ -246,12 +255,12 @@ body {
     right: 0;
     background-color: var(--light-on);
     transition: inherit;
-}
-
+} */
+/* 
 #site-header .lang:hover::before {
     left: 0;
     width: 100%;
-}
+} */
 
 #site-nav-wrapper {
     padding-top: 20px;
