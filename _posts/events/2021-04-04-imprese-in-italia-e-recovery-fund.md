@@ -3,7 +3,7 @@ layout: events
 category: it
 noBrand: "False"
 title: Imprese in Italia e Recovery Fund
-date: 2021-04-04T23:12:50.018Z
+date: 2020-12-15T17:00:50.018Z
 tag: Conferenza
 article_th: /assets/img/uploads/hackaton.png
 days:
