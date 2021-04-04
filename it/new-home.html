@@ -41,34 +41,60 @@ category: it
     <h1>SVOLTASTUDENTI</h1>
 </div>
 <script>
-    var images = [
-        '../assets/rappr1.jpg',
-        '../assets/rappr2.jpg',
-        '../assets/rappr3.jpg'
+    const images = [
+        {
+            src: '../assets/rappr1.jpg',
+            speed: 10,
+            scale: 50
+        },
+        {
+            src: '../assets/rappr2.jpg',
+            speed: 15,
+            scale: 55
+        },
+        {
+            src: '../assets/rappr3.jpg',
+            speed: 20,
+            scale: 60
+        }
     ];
 
-    function loadImages(imgArr, targetId) {
-        for (var i = 0; i < imgArr.length; i++) {
-            console.log(imgArr[i]);
-            var img = new Image();
-            img.src = imgArr[i];
-            document.getElementById('output').appendChild(img);
-            var posX = Math.floor(Math.random() * 80);
-            var posY = Math.floor(Math.random() * 80);
-            img.style.left = `${posX}vw`;
-            img.style.top = `${posY}vh`;
-            img.animate([{
-                    transform: 'translateX(0px)'
-                },
-                {
-                    transform: 'translateX(-120vw)'
-                }
-            ], {
-                duration: 15000,
-                iterations: Infinity
-            });
+        function randomIn(min, max){
+            return Math.floor(Math.random() * (max-min) + min);
         }
+    function loadImages(imgArr) {
+        imgArr
+            .map(item => {
+                let img = new Image();
+
+                img.setAttribute("src", item.src);
+                img.style.left = `${randomIn(0, 80)}vw`;
+                img.style.top = `${randomIn(0, 80)}vh`;
+
+                img.dataset.speed = item.speed;
+                img.dataset.scale = item.scale;
+                
+                img.animate(
+                    [
+                        {
+                            transform: 'translateX(0px)'
+                        },
+                        {
+                            transform: 'translateX(-120vw)'
+                        }
+                    ],
+                    {
+                        duration: 15000,
+                        iterations: Infinity
+                    }
+                );
+
+                return img;
+            })
+            .forEach(item => document.getElementById('output').appendChild(item));
     }
 
-    window.onload = loadImages(images);
+    document.addEventListener('DOMContentLoaded', _ => {
+        loadImages(images);
+    });
 </script>
