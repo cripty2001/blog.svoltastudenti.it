@@ -1006,7 +1006,7 @@ article .authors li img {
 }
 
 /* Events */
-.eventImage,
+.eventsImage,
 .eventsInfo {
     width: 40%;
 }
@@ -1043,6 +1043,8 @@ article .authors li img {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2.3vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .eventsImage {
@@ -1079,7 +1081,7 @@ article .authors li img {
         align-items: center;
     }
 
-    .eventImage,
+    .eventsImage,
     .eventsInfo {
         width: 80%;
     }
