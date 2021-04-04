@@ -81,7 +81,7 @@ body {
     /* background: linear-gradient(to right, var(--orange) 0%, rgb(0, 85, 23) var(--scroll)); */
     background-color: var(--orange);
     position: fixed;
-    top: 60px;
+    top: 0;
     width: 0%;
     height: 10px;
     z-index: 100;
