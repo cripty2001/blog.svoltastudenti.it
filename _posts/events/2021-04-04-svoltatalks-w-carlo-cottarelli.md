@@ -27,7 +27,7 @@ info:
     giuseppe.costagliola@svoltastudenti.it
 price: 0
 published: true
-pretix: /SVtlk-Cottarelli/
+pretix: SVtlk-Cottarelli
 ---
 Svoltastudenti organizza una chiacchierata con Carlo Cottarelli, economista italiano e direttore dell’Osservatorio sui conti pubblici italiani.
 
