@@ -19,15 +19,17 @@ info:
     la possibilità di intervenire in diretta per porre direttamente all’ospite
     le proprie domande.
   when: |-
-    Mercoledì 31 Marzo 2021.
-    Dalle ore 18.30.
+    Mercoledì 31 Marzo 2021
+    Dalle ore 18.30
   cost: "0"
-  reservation: Iscrivitevi alla Mailing-list dell'evento per poter ricevere un
+  reservation: Iscriviti alla Mailing-list dell'evento per poter ricevere un
     reminder il giorno della diretta!!!
-  info: |-
+  info: >-
     Per maggiori informazioni contattare: 
-    giuseppe.costagliola@svoltastudenti.it
-    emilia.farina@mail.polimi.it
+
+    [giuseppe.costagliola@svoltastudenti.it](mailto:giuseppe.costagliola@svoltastudenti.it)
+
+    [emilia.farina@mail.polimi.it](mailto:emilia.farina@mail.polimi.it)
 price: 0
 published: true
 pretix: SVtlk-Iudice
