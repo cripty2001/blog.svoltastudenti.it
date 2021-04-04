@@ -7,6 +7,9 @@ noBrand: "True"
 title: SVOLTASTUDENTI
 bg_img: /assets/img/uploads/Associazione_1.jpg
 bg_video: ""
+btn1:
+  link: https://new.svoltastudenti.it/it/about-us
+  txt: ABOUT US
 order: 1
 published: true
 date: 2020-12-20T23:12:32.316Z
