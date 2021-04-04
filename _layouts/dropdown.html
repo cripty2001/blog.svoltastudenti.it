@@ -112,6 +112,7 @@ layout: default
         }
 
         .dropdown section .content {
+            width: 35vw;
             border-radius: 10px;
             margin-top: 10px;
             height: 0px;
@@ -119,6 +120,18 @@ layout: default
             color: var(--dark-on);
             text-align: left;
             transition: all .5s ease-in-out;
+        }
+
+        @media screen and (max-width: 800px),
+        (orientation: portrait) {
+            .dropdown-content {
+                width: 80vw;
+            }
+
+            .dropdown label,
+            .dropdown section .content {
+            width: 75vw;
+        }
         }
 
         /* .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{

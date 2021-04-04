@@ -7,72 +7,97 @@ layout: default
 category: it
 ---
 <style>
+    #output {
+        margin: 0;
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+
+    #output img {
+        border-radius: 5px;
+        position: absolute;
+        transition: all .5s ease-in-out;
+    }
+
+    #output img:hover {
+        width: 25vw;
+    }
+
     .homeSect {
         height: 120vh;
     }
 
-    #output h1 {
+    .homeSect h1 {
+        text-transform: uppercase;
         position: sticky;
-        font-size: 100px;
+        font-size: 5vw;
         top: 40vh;
-        margin-left: 5vw;
+        margin-left: 12vw;
         color: #0099ff;
         mix-blend-mode: difference;
         z-index: 5;
     }
-
-    img {
-        border-radius: 5px;
-        width: 20vw;
-        position: absolute;
-        left: 100vw;
-        transition: all .5s ease-in-out;
-    }
-
-    img:hover {
-        width: 25vw;
-    }
 </style>
-<div id="output" class="homeSect">7777777777777777
-    <h1>SVOLTASTUDENTI</h1>
-</div>
+<main id="output">
+    <div class="homeSect">
+        <h1>SVOLTASTUDENTI</h1>
+    </div>
+    
+    <div class="homeSect">
+        <h1>rappresentanza</h1>
+    </div>
+    
+    <div class="homeSect">
+        <h1>associazione</h1>
+    </div>
+</main>
 
-<div class="homeSect">
-    <h1>SVOLTASTUDENTI</h1>
-</div>
 <script>
     const images = [
         {
             src: '../assets/rappr1.jpg',
+            top: 10,
+            left:30,
             speed: 10,
-            scale: 50
+            width: 15
         },
         {
             src: '../assets/rappr2.jpg',
+            top: 30,
+            left:10,
             speed: 15,
-            scale: 55
+            width: 20
         },
         {
             src: '../assets/rappr3.jpg',
+            top: 100,
+            left:50,
             speed: 20,
-            scale: 60
+            width: 50
         }
     ];
 
-        function randomIn(min, max){
-            return Math.floor(Math.random() * (max-min) + min);
-        }
+        // function randomIn(min, max){
+        //     return Math.floor(Math.random() * (max-min) + min);
+        // }
     function loadImages(imgArr) {
         imgArr
             .map(item => {
                 let img = new Image();
 
                 img.setAttribute("src", item.src);
-                img.style.left = `${randomIn(0, 80)}vw`;
-                img.style.top = `${randomIn(0, 80)}vh`;
+                // img.style.left = `${randomIn(0, 100)}vw`;
+                // img.style.top = `${randomIn(0, 80)}vh`;
 
+                img.dataset.speed = item.top;
+                img.dataset.scale = item.left;
                 img.dataset.speed = item.speed;
-                img.dataset.scale = item.scale;
+                img.dataset.width = item.width;
+
+                img.style.top = `${item.top}vh`;
+                img.style.left = `${item.left+100}vw`;
+                img.style.width= `${item.width}vw`;
                 
                 img.animate(
                     [
