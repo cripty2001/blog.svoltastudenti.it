@@ -173,16 +173,17 @@
     </a>
     {% if page.translations_it  %}
       <a href="{{site.url}}/it/{{page.translations_it | slugify}}">
-        <span class="lang">ITA</span>
+        <span for="site-nav-checkbox" class="lang">ITA</span>
       </a>
     {% elsif page.translations_en  %}
       <a href="{{site.url}}/en/{{page.translations_en | slugify}}">
-        <span class="lang">ENG</span>
+        <span for="site-nav-checkbox" class="lang">ENG</span>
       </a>
     {% else %}
       <div><!-- Act as a dummy for the flex --></div>
     {% endif %}
   </div>
+  <div id="header-filter" for="site-nav-checkbox"></div>
   <div id="site-title" class="backgroundImage">
     <h1>{{ page.header_title }}</h1>
   </div>
