@@ -116,7 +116,7 @@ collections:
         name: "info"
         widget: "object"
         fields:
-          - {label: "Dove", name: "where", widget: "text", required: False}
+          - {label: "Dove", name: "where", widget: "text", required: True}
           - {label: "Quando", name: "when", widget: "text" }
           - {label: "Costo", name: "cost", widget: "text" }
           - {label: "Iscrizione", name: "reservation", widget: "text" }
