@@ -96,23 +96,34 @@ category: it
                 img.dataset.width = item.width;
 
                 img.style.top = `${item.top}vh`;
-                img.style.left = `${item.left+100}vw`;
+                // img.style.left = `${item.left+100}vw`;
                 img.style.width= `${item.width}vw`;
                 
-                img.animate(
-                    [
-                        {
-                            transform: 'translateX(0px)'
-                        },
-                        {
-                            transform: 'translateX(-120vw)'
-                        }
-                    ],
-                    {
-                        duration: 15000,
-                        iterations: Infinity
-                    }
-                );
+                img.animate({
+                    left: [ `${item.left}vw`, `${100 + item.width}vw`, `${100 + item.width}vw`, `${-1 * item.width}vw`, `${-1 * item.width}vw`, `${item.left}vw` ],
+                    opacity: [1, 1, 0,  0, 1, 1],
+                    offset: [ 0, 0.58, 0.59, 0.60, 0.61, 1 ]
+                },
+                {
+                    duration: 5000,
+                    iterations: Infinity
+                });
+
+                // img.animate(
+                    
+                //     [
+                //         {
+                //             transform: 'translateX(40vww)'
+                //         },
+                //         {
+                //             transform: 'translateX(-120vw)'
+                //         }
+                //     ],
+                //     {
+                //         duration: 15000,
+                //         iterations: Infinity
+                //     }
+                // );
 
                 return img;
             })
