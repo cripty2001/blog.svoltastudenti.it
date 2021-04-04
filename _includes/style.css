@@ -1008,7 +1008,7 @@ article .authors li img {
 /* Events */
 .eventImage,
 .eventsInfo {
-    width: 40vw;
+    width: 40%;
 }
 
 .eventsHeader {
@@ -1042,6 +1042,7 @@ article .authors li img {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 2.3vw;
 }
 
 .eventsImage {
@@ -1080,7 +1081,7 @@ article .authors li img {
 
     .eventImage,
     .eventsInfo {
-        width: 80vw;
+        width: 80%;
     }
 }
 
