@@ -229,10 +229,9 @@ body {
 }
 
 #site-header .lang {
-    top: 30px;
+    top: 50px;
     position: absolute;
-    right: 15vw;
-    transform: translate(50%, -50%);
+    right: 5vw;
     font-weight: normal;
     font-size: 16px;
     transition: all .5s;
