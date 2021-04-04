@@ -1050,6 +1050,17 @@ article .authors li img {
     width: 40vw;
 }
 
+.eventsInfo {
+    margin-top: 60px;
+}
+
+.eventsSeparator {
+    font-size: x-large;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
 .eventsHeader {
     margin-top: 15vh;
     display: flex;
@@ -1107,7 +1118,19 @@ article .authors li img {
 .eventsDescription h2:first-child {
     margin-top: 20px;
 }
+.eventsRelated {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
 
+.eventsRelated > * {
+    width: 20vw;
+    height: 20vw;
+}
 @media all and (max-width: 720px),
 (orientation: portrait) {
 

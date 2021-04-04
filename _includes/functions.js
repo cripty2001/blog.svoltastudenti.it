@@ -28,6 +28,14 @@ function subscribeIntersection(el, f) {
     }
 }
 
+
+subscribeIntersection('.th', entry => {
+    let img = entry.target.dataset.th;
+    if (img && entry.intersectionRatio > 0.1) {
+      entry.target.style.backgroundImage = `url('${img}')`;
+    }
+})
+
 function _initScrollProgress() {
     const f = _ => {
         const percentage = ((document.body.scrollTop / (document.body.scrollHeight - document.body.clientHeight)) * 100);

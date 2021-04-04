@@ -12,14 +12,6 @@ layout: default
 
 <div class="thList">
   <script>
-    subscribeIntersection('.thList .data .th', entry => {
-      let img = entry.target.dataset.th;
-      if (img && entry.intersectionRatio > 0.1) {
-        entry.target.style.backgroundImage = `url('${img}')`;
-      }
-    })
-  </script>
-  <script>
     function closeThListCategory(){
       document.getElementById('thList-checkbox').checked = false;
     }

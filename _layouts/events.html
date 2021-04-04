@@ -74,6 +74,15 @@ layout: article
 		</article>
 	</div>
 </header>
+<div class="eventsSeparator">
+	Eventi Correlati
+</div>
+<div class="eventsRelated">
+	{% assign related = site.posts | where: "category", page.category | where: "layout", "events" | where: "tag", page.tag | limit 4 %}
+	{% for item in related %}
+		<a class="th backgroundImage" data-th="{{ item.article_th }}" href="{{ item.url | prepend: site.baseurl }}"></a>
+	{% endfor %}
+</div>
 <!-- <link rel="stylesheet" type="text/css"
 		href="https://store.svoltastudenti.it/svoltastudenti/{{ page.pretix_id }}/widget/v1.css">
 	<script type="text/javascript" src="https://store.svoltastudenti.it/widget/v1.en.js" async></script>
