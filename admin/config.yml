@@ -106,23 +106,23 @@ collections:
         name: "days"
         widget: "object"
         fields:
-          - {label: "Globale", name: "generic", widget: "text", required: True}
-          - {label: "Giorno 1", name: "day1", widget: "text", required: False}
-          - {label: "Giorno 2", name: "day2", widget: "text", required: False }
-          - {label: "Giorno 3", name: "day3", widget: "text", required: False }
-          - {label: "Giorno 4", name: "day4", widget: "text", required: False }
-          - {label: "Giorno 5", name: "day5", widget: "text", required: False }
+          - {label: "Globale", name: "generic", widget: "markdown", required: True}
+          - {label: "Giorno 1", name: "day1", widget: "markdown", required: False}
+          - {label: "Giorno 2", name: "day2", widget: "markdown", required: False }
+          - {label: "Giorno 3", name: "day3", widget: "markdown", required: False }
+          - {label: "Giorno 4", name: "day4", widget: "markdown", required: False }
+          - {label: "Giorno 5", name: "day5", widget: "markdown", required: False }
       - label: "Descrizione"
         name: "info"
         widget: "object"
         fields:
-          - {label: "Dove", name: "where", widget: "text", required: False}
-          - {label: "Quando", name: "when", widget: "text" }
-          - {label: "Costo", name: "cost", widget: "text" }
-          - {label: "Iscrizione", name: "reservation", widget: "text" }
-          - {label: "Cosa Portare", name: "requirements", widget: "text", required: False }
-          - {label: "Informazioni", name: "info", widget: "text" }
-          - {label: "Note", name: "notes", widget: "text", required: False }
+          - {label: "Dove", name: "where", widget: "markdown", required: True}
+          - {label: "Quando", name: "when", widget: "markdown" }
+          - {label: "Costo", name: "cost", widget: "markdown" }
+          - {label: "Iscrizione", name: "reservation", widget: "markdown" }
+          - {label: "Cosa Portare", name: "requirements", widget: "markdown", required: False }
+          - {label: "Informazioni", name: "info", widget: "markdown" }
+          - {label: "Note", name: "notes", widget: "markdown", required: False }
       - {label: "Prezzo", name: "price", widget: "number", valueType: "int", min: 0, step: 1}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Pretix ID", name: "pretix", widget: "string"}
