@@ -1,0 +1,74 @@
+---
+title: About Us
+desc: About Us
+article_th: About Us
+translations_en: about-us
+layout: default
+category: it
+---
+<style>
+    .homeSect {
+        height: 120vh;
+    }
+
+    #output h1 {
+        position: sticky;
+        font-size: 100px;
+        top: 40vh;
+        margin-left: 5vw;
+        color: #0099ff;
+        mix-blend-mode: difference;
+        z-index: 5;
+    }
+
+    img {
+        border-radius: 5px;
+        width: 20vw;
+        position: absolute;
+        left: 100vw;
+        transition: all .5s ease-in-out;
+    }
+
+    img:hover {
+        width: 25vw;
+    }
+</style>
+<div id="output" class="homeSect">7777777777777777
+    <h1>SVOLTASTUDENTI</h1>
+</div>
+
+<div class="homeSect">
+    <h1>SVOLTASTUDENTI</h1>
+</div>
+<script>
+    var images = [
+        '../assets/rappr1.jpg',
+        '../assets/rappr2.jpg',
+        '../assets/rappr3.jpg'
+    ];
+
+    function loadImages(imgArr, targetId) {
+        for (var i = 0; i < imgArr.length; i++) {
+            console.log(imgArr[i]);
+            var img = new Image();
+            img.src = imgArr[i];
+            document.getElementById('output').appendChild(img);
+            var posX = Math.floor(Math.random() * 80);
+            var posY = Math.floor(Math.random() * 80);
+            img.style.left = `${posX}vw`;
+            img.style.top = `${posY}vh`;
+            img.animate([{
+                    transform: 'translateX(0px)'
+                },
+                {
+                    transform: 'translateX(-120vw)'
+                }
+            ], {
+                duration: 15000,
+                iterations: Infinity
+            });
+        }
+    }
+
+    window.onload = loadImages(images);
+</script>

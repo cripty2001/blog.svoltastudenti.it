@@ -90,6 +90,11 @@ layout: default
             transition: all .5s;
         }
 
+        .dropdown input[id*='dropdown-radio-']:checked~.label {
+            background-color: var(--orange);
+            color: var(--light-on);
+        }
+
         .dropdown label:hover {
             filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, .1));
             border-radius: 10px;
@@ -99,7 +104,7 @@ layout: default
         }
 
         .dropdown input[id*='dropdown-radio-']:checked~.content {
-            height: calc(100%);
+            height: 100%;
             background-color: var(--light-on);
             filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, .1));
             opacity: 1;
@@ -109,7 +114,7 @@ layout: default
         .dropdown section .content {
             border-radius: 10px;
             margin-top: 10px;
-            height: calc(0px);
+            height: 0px;
             opacity: 0;
             color: var(--dark-on);
             text-align: left;
@@ -133,7 +138,7 @@ layout: default
         {% for post in posts %}
         <section>
             <input id="dropdown-radio-{{ forloop.index }}" type="checkbox" name="dropdown">
-            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }}
+            <label class='label' for="dropdown-radio-{{ forloop.index }}">{{ post.title }}
                 <!--<span id="arrow"></span>--></label>
             <div class="content">
                 {{ post.content | markdownify }}
