@@ -21,55 +21,55 @@ layout: article
 			<!-- <h1>{{ page.title }}</h1> -->
 			{% if page.info.where %}
 			<h2>DOVE</h2>
-			<p>{{ page.info.where | markdownify }}</p>
+			{{ page.info.where | markdownify }}
 			{% endif %}
 			{% if page.info.when %}
 			<h2>QUANDO</h2>
-			<p>{{ page.info.when | markdownify }}</p>
+			{{ page.info.when | markdownify }}
 			{% endif %}
 			{% if page.info.cost %}
 			<!-- <h2>COSTO</h2>
-			<p>{{ page.info.cost}}</p>
+			{{ page.info.cost}}
 			{% endif %}
 			{% if page.info.reservation %} -->
 			<h2>ISCRIZIONE</h2>
-			<p>{{ page.info.reservation | markdownify }}</p>
+			{{ page.info.reservation | markdownify }}
 			{% endif %}
 			{% if page.days.generic %}
 			<h2>PROGRAMMA</h2>
-			<p>{{ page.days.generic | markdownify }}</p>
+			{{ page.days.generic | markdownify }}
 			{% if page.days.day1 %}
 			<h3>GIORNO 1</h3>
-			<p>{{ page.days.day1 | markdownify }}</p>
+			{{ page.days.day1 | markdownify }}
 			{% endif %}
 			{% if page.days.day2 %}
 			<h3>GIORNO 2</h3>
-			<p>{{ page.days.day2 | markdownify }}</p>
+			{{ page.days.day2 | markdownify }}
 			{% endif %}
 			{% if page.days.day3 %}
 			<h3>GIORNO 3</h3>
-			<p>{{ page.days.day3 | markdownify }}</p>
+			{{ page.days.day3 | markdownify }}
 			{% endif %}
 			{% if page.days.day4 %}
 			<h3>GIORNO 4</h3>
-			<p>{{ page.days.day4 | markdownify }}</p>
+			{{ page.days.day4 | markdownify }}
 			{% endif %}
 			{% if page.days.day5 %}
 			<h3>GIORNO 5</h3>
-			<p>{{ page.days.day5 | markdownify }}</p>
+			{{ page.days.day5 | markdownify }}
 			{% endif %}
 			{% endif %}
 			{% if page.info.requirements %}
 			<h2>COSA PORTARE</h2>
-			<p>{{ page.info.requirements | markdownify }}</p>
+			{{ page.info.requirements | markdownify }}
 			{% endif %}
 			{% if page.info.info %}
 			<h2>INFORMAZIONI</h2>
-			<p>{{ page.info.info | markdownify }}</p>
+			{{ page.info.info | markdownify }}
 			{% endif %}
 			{% if page.info.notes %}
 			<h2>NOTE</h2>
-			<p>{{ page.info.notes | markdownify }}</p>
+			{{ page.info.notes | markdownify }}
 			{% endif %}
 		</article>
 	</div>

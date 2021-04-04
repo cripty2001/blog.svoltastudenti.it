@@ -117,7 +117,9 @@ layout: default
   <div class="data">
     {% for post in posts %}
       <a class="th backgroundImage" data-cat="{{ all_txt[0] | slugify }} {{ post.tag | slugify }}" data-th="{{ post.article_th }}" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="button">{{ post.title }}</div>
+        {% if page.enableOverlay == "true" %}
+          <div class="button">{{ post.title }}</div>
+        {% endif %}
       </a>
     {% endfor %}
   </div>
