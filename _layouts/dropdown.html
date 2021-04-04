@@ -6,21 +6,19 @@ layout: default
 <div class="dropdown">
     <style>
         .dropdown {
-            height: 100vh;
+            height: 100%;
             width: 100vw;
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
 
-        .dropdown > .dropdown-content {
+        .dropdown>.dropdown-content {
             margin-top: 10vh;
             width: 40vw;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
         }
-        .dropdown > .dropdown-content > .dropdown-title {
+
+        .dropdown>.dropdown-content>.dropdown-title {
             position: sticky;
             width: 100%;
             font-weight: bold;
@@ -36,7 +34,8 @@ layout: default
             border-radius: 10px;
             z-index: 5;
         }
-/*         
+
+        /*         
         .dropdown {
             margin-top: 100px;
             width: 80%;
@@ -65,47 +64,50 @@ layout: default
             padding: 10px;
             break-inside: avoid;
         } */
-        .dropdown input[id*='dropdown-radio-']{
+        .dropdown input[id*='dropdown-radio-'] {
             display: none;
         }
 
         .dropdown section {
             display: flex;
             flex-direction: column;
-            align-items: stretch;
+            align-items: center;
             justify-content: stretch;
         }
 
-        .dropdown section > * {
+        .dropdown section>* {
             padding: 10px;
             text-align: center;
         }
+
         .dropdown label {
             width: 35vw;
             font-weight: bold;
             background-color: var(--light-on);
             color: var(--orange);
-            filter: drop-shadow(4px 4px 4px rgba(0,0,0,.1));
+            filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, .1));
             border-radius: 8px;
             transition: all .5s;
         }
 
         .dropdown label:hover {
-            filter: drop-shadow(0px 0px 0px rgba(0,0,0,.1));
+            filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, .1));
             border-radius: 10px;
             background-color: var(--orange);
             color: var(--light-on);
             transform: scale(1.1);
         }
 
-        .dropdown input[id*='dropdown-radio-']:checked ~ .content {
+        .dropdown input[id*='dropdown-radio-']:checked~.content {
             height: calc(100%);
             background-color: var(--light-on);
-            filter: drop-shadow(4px 4px 4px rgba(0,0,0,.1));
+            filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, .1));
             opacity: 1;
+            margin-bottom: 20px;
         }
 
         .dropdown section .content {
+            border-radius: 10px;
             margin-top: 10px;
             height: calc(0px);
             opacity: 0;
@@ -113,6 +115,7 @@ layout: default
             text-align: left;
             transition: all .5s ease-in-out;
         }
+
         /* .dropdown input[id*='dropdown-radio-']:checked ~ label #arrow{
             transform: rotate(45deg) translate(-5px,-5px);
         }
@@ -130,12 +133,13 @@ layout: default
         {% for post in posts %}
         <section>
             <input id="dropdown-radio-{{ forloop.index }}" type="checkbox" name="dropdown">
-            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }} <!--<span id="arrow"></span>--></label>
+            <label for="dropdown-radio-{{ forloop.index }}">{{ post.title }}
+                <!--<span id="arrow"></span>--></label>
             <div class="content">
                 {{ post.content | markdownify }}
             </div>
         </section>
-    {% endfor %}
+        {% endfor %}
     </div>
-    
+
 </div>
