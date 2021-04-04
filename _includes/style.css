@@ -187,22 +187,32 @@ body {
     transition: stroke-dasharray 1s, stroke-dashoffset 1s, stroke 0s 0s;
 }
 
-#header-filter {
+#header-filter,
+#header-white {
+    opacity: 1;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 120px;
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
-    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 100%);
-    mask-image: linear-gradient(to top, transparent 0%, black 100%);
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 80%);
+    mask-image: linear-gradient(to top, transparent 0%, black 80%);
     z-index: 19;
 }
-#site-nav-checkbox:checked~#site-header {
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
+
+#header-filter {
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+#site-nav-checkbox:checked~#header-filter,
+#site-nav-checkbox:checked~#header-white {
+    opacity: 0;
     transition: all .2s;
+}
+
+#header-white {
+    background-color: var(--light-on);
 }
 
 #site-header {
@@ -1186,16 +1196,22 @@ article .authors li img {
         border-radius: 20px;
     }
 
-    .ham,
     .vslideshow>.content section .data {
         margin-left: calc(10vw - 25px);
     }
 
-    #logo-svolta {
+    #site-header .lang {
+        top: 30px;
+    }
+
+    #logo-svolta-pos,
+    #logo-svolta-neg {
+        top: 30px;
         height: 25px;
     }
 
     #menu-icon {
+        top: 18px;
         /* margin-left: calc(12vw - 25px); */
         margin-left: 5vw;
     }
