@@ -56,7 +56,7 @@ body {
     opacity: 0;
 }
 
-#site-nav-checkbox:checked~#logo-svolta-neg {
+#site-nav-checkbox:checked~#site-header #logo-svolta-neg {
     opacity: 1;
 }
 
@@ -1061,7 +1061,7 @@ article .authors li img {
 }
 
 /* Events */
-.eventImage,
+.eventsImage,
 .eventsInfo {
     width: 40vw;
 }

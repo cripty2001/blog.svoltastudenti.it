@@ -78,8 +78,8 @@ layout: article
 	Eventi Correlati
 </div>
 <div class="eventsRelated">
-	{% assign related = site.posts | where: "category", page.category | where: "layout", "events" | where: "tag", page.tag | limit 4 %}
-	{% for item in related %}
+	{% assign related = site.posts | where: "category", page.category | where: "layout", "events" | where: "tag", page.tag %}
+	{% for item in related limit:4 %}
 		<a class="th backgroundImage" data-th="{{ item.article_th }}" href="{{ item.url | prepend: site.baseurl }}"></a>
 	{% endfor %}
 </div>
