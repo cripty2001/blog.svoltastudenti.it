@@ -32,7 +32,7 @@ function subscribeIntersection(el, f) {
 subscribeIntersection('.th', entry => {
     let img = entry.target.dataset.th;
     if (img && entry.intersectionRatio > 0.1) {
-      entry.target.style.backgroundImage = `url('${img}')`;
+        entry.target.style.backgroundImage = `url('${img}')`;
     }
 })
 
@@ -45,7 +45,19 @@ function _initScrollProgress() {
     document.addEventListener('DOMContentLoaded', f);
 }
 
-// var logo = document.getElementById('logo-svolta');
+var logo = document.getElementById('logo-svolta');
+// var oldValue = 0;
+
+// window.addEventListener('wheel', function(e){
+//     newValue = window.pageYOffset;
+
+//     if (oldValue - newValue < 0) { 
+//         console.log('coa');
+//     } else if(oldValue - newValue > 0) {
+//         console.log('cccc');
+//     }
+//     oldValue = newValue;
+// });
 
 // var lastScrollTop = 0;
 // window.addEventListener("scroll", function () { // or window.addEventListener("scroll"....
@@ -57,4 +69,3 @@ function _initScrollProgress() {
 //     }
 //     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 // }, false);
-

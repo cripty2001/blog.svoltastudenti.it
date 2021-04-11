@@ -966,7 +966,8 @@ article .authors li img {
 .parallax .section h1,
 .parallax .section h2,
 .parallax .section h3,
-.parallax .section p {
+.parallax .section p,
+#faq-rappr {
     width: 30vw;
     margin: 0 5vw 0 5vw;
 }
@@ -983,6 +984,7 @@ article .authors li img {
 .parallax .section h2 {
     font-size: 20px;
     margin: 0;
+    margin-top: 10px;
 }
 
 .parallax .section h3 {
@@ -1076,6 +1078,49 @@ article .authors li img {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* INFO-RAPPRESENTANZA */
+
+#faq-rappr {
+    margin-top: 20px;
+}
+
+summary {
+    font-size: 1.25rem;
+    color: var(--orange);
+    padding: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    position: relative;
+}
+
+#faq-rappr details p {
+    margin-left: 25px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+details[open] summary~* {
+    animation: sweep .5s ease-in-out both;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-top: -10px
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0px
     }
 }
 
