@@ -1,9 +1,11 @@
 ---
 layout: default
+disable: "true"
 ---
 {% assign posts = site.posts | where: "layout", "_dropdown" | where: "page", page.dropdown_page | sort: "order" %}
 
 <div class="dropdown">
+    <!-- {{ page.disable }} -->
     <style>
         .dropdown {
             height: 100%;
@@ -28,7 +30,7 @@ layout: default
             margin-top: 40px;
             margin-bottom: 40px;
             text-align: center;
-            top: 25px;
+            top: 0px;
             background-color: #FF6600;
             padding: 20px;
             border-radius: 10px;

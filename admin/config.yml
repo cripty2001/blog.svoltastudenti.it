@@ -190,3 +190,19 @@ collections:
       - {label: "Ordine", name: "order", widget: "number", value_type: "int", min: 0, step: 1, required: True}
       - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
       - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
+  - name: "home" # Used in routes, e.g., /admin/collections/blog
+    label: "Home" # Used in the UI
+    folder: "_posts/home" # The path to the folder where the documents are stored
+    create: True # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "_home"}
+      - {label: "Titolo (max 66 caratteri)", name: "title", widget: "string", required: True}
+      - {label: "Testo", name: "body", widget: "markdown"}
+      - {label: "Immagine", name: "img", widget: "image", required: True}
+      - {label: "Top", name: "top", widget: "number", value_type: "int", min: 0, step: 100, required: True}
+      - {label: "Left", name: "left", widget: "number", value_type: "int", min: 0, step: 100, required: True}
+      - {label: "Width", name: "width", widget: "number", value_type: "int", min: 0, step: 100, required: True}
+      - {label: "Speed", name: "speed", widget: "number", value_type: "int", min: 0, step: 100, required: True}
+      - {label: "Pubblicato", name: "published", widget: "hidden", default: True}
+      - {label: "Data di Pubblicazione (la programmazione NON e' supportata)", name: "date", widget: "datetime"}
