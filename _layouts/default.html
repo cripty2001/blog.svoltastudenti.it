@@ -66,7 +66,34 @@
   <meta name="apple-mobile-web-app-title" content="Svoltastudenti">
   <meta name="description" content="{{ page.desc }}">
   <meta name="author" content="{{ page.authors }}">
-
+  <script>
+    var headerOpen = false;
+    var lastScroll = 0;
+    document.addEventListener("DOMContentLoaded", _ => {
+      document.body.addEventListener("scroll", _ => {
+        var st = document.body.scrollTop;
+        if (st > lastScroll){
+            // downscroll code
+            console.log("down");
+            if (!headerOpen){
+              console.log("Open Header");
+              document.getElementById("site-header").classList.remove('close');
+              headerOpen = true;
+            }
+        } else {
+            // upscroll code
+            console.log("up");
+            if (headerOpen){
+              console.log("Close Header");
+              document.getElementById("site-header").classList.add('background');
+              document.getElementById("site-header").classList.add('close');
+              headerOpen = false;
+            }
+        }
+        lastScroll = st <= 0 ? 0 : st;
+      }, false);
+    });
+  </script>
   <title>
     {{ page.title }} | Svoltastudenti
   </title>
@@ -100,7 +127,7 @@
           <a data-text="Home" href="{{site.url}}/it/">Home</a>
         </li>
         <li>
-          <a data-text="Rappresentanza" href="{{site.url}}/it/rappresentanza">Rappresentanza</a>
+          <a data-text="Rappresentanza" href="{{site.url}}/it/rappresentanza">Rappresentanzaaaaa</a>
         </li>
         <li>
           <a data-text="Associazione" href="{{site.url}}/it/associazione">Associazione</a>
