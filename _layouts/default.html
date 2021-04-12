@@ -74,21 +74,21 @@
         var st = document.body.scrollTop;
         if (st > lastScroll){
             // downscroll code
-            console.log("down");
-            if (!headerOpen){
-              console.log("Open Header");
-              document.getElementById("site-header").classList.remove('close');
-              headerOpen = true;
-            }
-        } else {
-            // upscroll code
-            console.log("up");
-            if (headerOpen){
+            console.log("down");if (headerOpen){
               console.log("Close Header");
               document.getElementById("site-header").classList.add('background');
               document.getElementById("site-header").classList.add('close');
               headerOpen = false;
             }
+        } else {
+            // upscroll code
+            console.log("up");
+            if (!headerOpen){
+              console.log("Open Header");
+              document.getElementById("site-header").classList.remove('close');
+              headerOpen = true;
+            }
+            
         }
         lastScroll = st <= 0 ? 0 : st;
       }, false);
@@ -127,7 +127,7 @@
           <a data-text="Home" href="{{site.url}}/it/">Home</a>
         </li>
         <li>
-          <a data-text="Rappresentanza" href="{{site.url}}/it/rappresentanza">Rappresentanzaaaaa</a>
+          <a data-text="Rappresentanza" href="{{site.url}}/it/rappresentanza">Rappresentanza</a>
         </li>
         <li>
           <a data-text="Associazione" href="{{site.url}}/it/associazione">Associazione</a>
