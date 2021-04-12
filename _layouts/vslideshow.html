@@ -4,218 +4,124 @@ layout: default
 {% assign posts = site.posts | where: "layout", "_vslideshow" | where: "page", page.vslideshow_page | sort: "order" %}
 <div class="vslideshow">
   <style>
-    .vslideshow {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-    }
-
-    .vslideshow a {
-      text-decoration: none;
-    }
-
-    .vslideshow > .bar {
-      position: fixed;
-      right: 10px;
-      top: 300px;
-      {% unless page.vslideshow_type == "snap" %}
-        display: none
-      {% endunless %}
-    }
-
-    .vslideshow > .bar ul,
-    .vslideshow > .bar li {
-      padding: 0;
+    .vslideshow,
+    .vslideshow .section {
       margin: 0;
-      list-style-type: none;
-    }
-
-    .vslideshow > .bar li {
-      height: 4vmin;
-      width: 4vmin;
-      border-radius: 2vmin;
-      background-color: #FF6600;
-      border: 0.25vmin solid #FFFFFF;
-      margin-bottom: 1vmin;
-    }
-    
-    .vslideshow > .bar li.vslideshow-animActive {
-      background-color: #FFFFFF;
-      border: 0.25vmin solid #FF6600;
-    }
-
-    .vslideshow > .bar li a {
-      height: 4vmin;
-      width: 4vmin;
-      display: block;
-    }
-
-    .vslideshow > .content {
-      width: 100%;
-      height: 100%;
-      overflow-x: hidden;
-      overflow-y: auto;
-      scroll-snap-type: y mandatory;
-    }
-    
-		.vslideshow > .content section {
-      height: 100vh;
-      width: 100vw;
-      background-origin: padding-box;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-color: black;
-      background-image: "url('" attr(src) "')";
-      box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-      color: white;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      position: relative;
-      scroll-snap-align: start;
-      /* {% if page.vslideshow_type == "sticky" %}
-        position: sticky;
-        top: 0;
-      {% endif %} */
-    }
-
-    .vslideshow > .content section.right {
-      align-items: flex-end;
-      text-align: right;
-    }
-    .vslideshow > .content section.center {
-      align-items: center;
-      text-align: center;
-    }
-    .vslideshow > .content section.left {
-      align-items: flex-start;
-      text-align: left;
-    }
-
-    .vslideshow > .content section.right .data {
-      align-items: flex-end;
-      text-align: right;
-      margin-right: 10vw;
-    }
-    .vslideshow > .content section.center .data {
-      align-items: center;
-      text-align: center;
-    }
-    .vslideshow > .content section.left .data {
-      align-items: flex-start;
-      text-align: left;
-      margin-left: 10vw;
-    }
-
-    .vslideshow > .content section.right .btn {
-      justify-content: flex-end;
-    }
-    .vslideshow > .content section.center .btn {
-      justify-content: center;
-    }
-    .vslideshow > .content section.left .btn {
-      align-items: flex-start;
-    }
-    
-    .vslideshow > .content section video {
-      position: absolute;
       top: 0;
       left: 0;
-      height: 100%;
-      width: 100%;
-      z-index: 0;
-      object-fit: cover;
     }
 
-    .vslideshow > .content section .text {
-      background-color: rgba(255, 102, 0, 0.5);
-      padding: 16px;
-      border-radius: 16px;
-    }
-    .vslideshow > .content section .title {
-      font-size: 3vmax;
-      font-weight: bold;
-      text-transform: uppercase;
-      margin-bottom: 1vh;
-      z-index: 1;
-    }
-
-    .vslideshow > .content section .subtitle {
-      font-size: x-large;
-      margin-bottom: 3vh;
-      z-index: 1;
-    }
-
-    .vslideshow > .content section .subtitle p {
-      margin: 0;
-      padding: 0;
-      z-index: 1;
-      font-size: medium;
-    }
-
-    .vslideshow > .content section > * {
-      flex-grow: 0;
-      flex-shrink: 0;
-    }
-
-    .vslideshow > .content section .btn {
-      margin-bottom: 10vh;
-      z-index: 1;
+    .vslideshow .section {
+      height: 101vh;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      align-items: center;
     }
-    
-    .vslideshow > .content section .btn a {
-      background-color: #FF6600;
-      text-align: center;
-      color: white;
-      font-size: large;
-      text-transform: uppercase;
-      padding: 15px;
-      margin: 15px;
+
+    .vslideshow .section h1,
+    .vslideshow .section h2,
+    .vslideshow .section h3,
+    .vslideshow .section p {
+      width: 30vw;
+      margin: 5px 5vw 5px 5vw;
+    }
+
+    .vslideshow .section h1,
+    .vslideshow .section h2 {
+      color: var(--orange);
+    }
+
+    .vslideshow .section h1 {
+      font-size: 28px;
+    }
+
+    .vslideshow .section h2 {
+      font-size: 20px;
+      margin: 0;
+      margin-top: 10px;
+    }
+
+    .vslideshow .section h3 {
+      font-size: 18px;
+      margin: 0;
+    }
+
+    .vslideshow .section a {
+      margin: 30px 5vw;
+      text-align: left;
+      text-decoration: none;
+      color: var(--light-on);
+      background-color: var(--orange);
+      padding: 10px 15px;
+      font-weight: bold;
+      align-self: flex-start;
+    }
+
+    .vslideshow .section img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .vslideshow aside,
+    .vslideshow .section .imageHalf {
+      max-height: 80vh;
+      max-width: 50vw;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      object-fit: contain;
+      padding: 5vw;
+    }
+
+    @media screen and (max-height: 767px), (orientation: portrait) {
+      .vslideshow .section {
+        flex-direction: column;
+        height: max-content;
+      }
+
+      .vslideshow .section:first-child {
+        padding-top: 10vh;
+      }
+
+      .vslideshow .section h1,
+      .vslideshow .section h2,
+      .vslideshow .section h3,
+      .vslideshow .section p {
+        width: 80vw;
+      }
+
+      .vslideshow .section img {
+        margin: 5vh;
+      }
+
+      .vslideshow aside,
+      .vslideshow .section .imageHalf {
+        max-width: 90%;
+      }
     }
   </style>
   <div class="content">
     {% for post in posts %}
-      <section class="vslideshow-animTrigger {{ post.align }}" id="vslideshow-{{ post.title | slugify }}" data-animid="{{ post.title | slugify }}">
-        <video src="{{ post.bg_video }}" muted autoplay loop poster="{{ post.bg_img }}" class="bg"></video>
-        <div class="data">
-	  <div class="text">
-            <div class="title">{{ post.title }}</div>
-            <div class="subtitle">{{ post.content | markdownify }}</div>
-	  </div>
-          <div class="btn">
-            {% if post.btn1.txt %}
-              <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
-            {% endif %}
-            {% if post.btn2.txt %}
-              <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a>
-            {% endif %}
-          </div>
-        </div>
-      </section>
+    <section class="anim section sectionLeft" data-delay=".5s">
+      <aside>
+        <h1>{{ post.title }}</h1>
+        <p>
+          {{ post.content | markdownify }}
+        </p>
+        {% if post.btn1.txt %}
+        <a href="{{ post.btn1.link }}">{{ post.btn1.txt }}</a>
+        {% endif %} {% if post.btn2.txt %}
+        <a href="{{ post.btn2.link }}">{{ post.btn2.txt }}</a>
+        {% endif %}
+      </aside>
+
+      <div class="imageHalf">
+        <img src="{{ post.bg_img }}" alt="" />
+      </div>
+    </section>
     {% endfor %}
+
+    <script src="/assets/js/intersection.js"></script>
   </div>
-  <ul class="bar">
-    {% for post in posts %}
-      <li data-animtarget="{{ post.title | slugify }}"><a href="#vslideshow-{{ post.title | slugify }}"></a></li>
-    {% endfor %}
-  </ul>
-	<script>
-    subscribeIntersection('.vslideshow-animTrigger', entry => {
-      if (entry.target.dataset.animid) {
-        let targets = document.querySelectorAll(
-          `*[data-animtarget="${entry.target.dataset.animid}"]`);
-        targets.forEach(item => {
-          if (entry.intersectionRatio > 0.5) {
-            item.classList.add('vslideshow-animActive');
-          } else if (entry.intersectionRatio < 0.95) {
-            item.classList.remove('vslideshow-animActive');
-          }
-        })
-      }
-    });
-  </script>
 </div>
+
