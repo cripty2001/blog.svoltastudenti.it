@@ -6,6 +6,9 @@ align: left
 noBrand: "True"
 title: RAPPRESENTANZA
 bg_img: /assets/img/uploads/Rappresentaza_1.jpg
+btn1:
+  link: https://new.svoltastudenti.it/it/info-rappresentanza
+  txt: Scopri di più
 order: 1
 published: true
 date: 2020-12-26T02:59:26.733Z
