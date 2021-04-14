@@ -10,7 +10,7 @@ status:
   end_date: 2020-12-28T01:01:34.161Z
 socials:
   mail: gabriele.tosi
-  in: https://www.instagram.com/gabbotosssi/?hl=it
+  in: gabbotosssi
 published: true
 date: 2020-12-28T01:01:34.187Z
 ---
