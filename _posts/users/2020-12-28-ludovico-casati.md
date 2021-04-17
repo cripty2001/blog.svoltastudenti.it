@@ -13,4 +13,4 @@ socials:
 published: true
 date: 2020-12-28T01:20:08.333Z
 ---
-Ex membro del direttivo. Mi piace viaggiare e percorrere lunghe distanze, fisicamente e con la mente.
+Ex membro del direttivo. Mi piace viaggiare e percorrere lunghe distanze.
